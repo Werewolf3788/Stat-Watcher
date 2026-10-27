@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<!-- ============================================================================
+ * Project: Universal Multi-Game Resistance Companion & Field Ledger
+ * File: index.html
+ * Location: /game/index.html
+ * Build Version: v10.0.0-UNIVERSAL-PILL-ENGINE
+ * Deployment Timestamp: 2026-10-27 01:05:00 EDT (America/New_York)
+ * Primary Backend: entertainment-71888
+ * Script Engine: ./fc5.js
+ * ============================================================================ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Hope County & Resistance Companion Ledger</title>
+
+    <!-- Dynamic Favicon & Apple Touch Icon -->
+    <link rel="icon" id="dynamicFavicon" type="image/png" href="//werewolf3788.github.io/Website/favicon.ico">
+    <link rel="apple-touch-icon" id="dynamicAppleIcon" href="//werewolf3788.github.io/Website/favicon.png">
+
+    <!-- Google Tag Manager (G-CTYHDF4MSD) -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','G-CTYHDF4MSD');
+    </script>
+
+    <!-- Google Analytics 4 (G-CTYHDF4MSD) -->
+    <script async src="//www.googletagmanager.com/gtag/js?id=G-CTYHDF4MSD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CTYHDF4MSD', {
+        'send_page_view': true,
+        'allow_google_signals': true,
+        'cookie_flags': 'SameSite=None;Secure'
+      });
+    </script>
+
+    <!-- Font Awesome & Master Styles -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --user-theme-accent: #ff5500;
+            --user-theme-glow: rgba(255, 85, 0, 0.45);
+            --user-theme-border: rgba(255, 85, 0, 0.35);
+            --user-theme-secondary: #0a0a0c;
+            --user-theme-badge-bg: #ff5500;
+            --user-theme-badge-text: #ffffff;
+            --bg-dark: #080c14;
+            --card-bg: rgba(15, 23, 42, 0.92);
+            --card-surface: #0f172a;
+            --card-subtle: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-gold: #f5a623;
+            --tap-target: 48px;
+            --tap-target-min: 44px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            background-image: radial-gradient(circle at top, rgba(30, 41, 59, 0.7) 0%, rgba(8, 12, 20, 1) 100%);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            min-height: 100vh;
+            padding: 75px 16px 85px 16px;
+            overflow-x: hidden;
+        }
+
+        .background-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(8, 12, 20, 0.98));
+            z-index: -1;
+            pointer-events: none !important;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hidden { display: none !important; }
+        .outlined-text { text-shadow: 1px 1px 2px #000, -1px -1px 2px #000; }
+
+        h1, h2, h3 { text-transform: uppercase; letter-spacing: 0.05em; font-weight: 900; }
+        h1 { font-size: clamp(1.4rem, 3.5vw, 1.8rem); }
+        h2 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
+        h3 { font-size: 1.05rem; }
+
+        /* Fixed Dynamic Top Navigation Bar */
+        .top-nav-bar {
+            position: fixed;
+            top: 0; left: 0; width: 100%;
+            height: 60px;
+            background: rgba(10, 14, 26, 0.96);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 2px solid var(--user-theme-border);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-inner {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .nav-brand-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-logo-img {
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 1px solid var(--user-theme-accent);
+        }
+
+        .nav-links-desktop {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: var(--text-main);
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 6px 12px;
+            border-radius: 8px;
+            min-height: 40px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 85, 0, 0.2);
+            border-color: var(--user-theme-accent);
+            color: #fff;
+        }
+
+        .nav-icon { width: 20px; height: 20px; object-fit: contain; border-radius: 4px; }
+
+        .nav-folder { position: relative; display: inline-block; }
+        .folder-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 240px;
+            background: #0b1120;
+            border: 1px solid var(--user-theme-border);
+            border-radius: 10px;
+            padding: 6px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.9);
+            z-index: 10001;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .nav-folder:hover .folder-menu, .nav-folder.active .folder-menu { display: flex; }
+
+        .header-auth-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sandwich-btn {
+            display: none;
+            background: #1e293b;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            min-height: 40px;
+        }
+
+        @media (max-width: 1023px) {
+            .sandwich-btn { display: flex; align-items: center; justify-content: center; }
+            .nav-links-desktop {
+                display: none;
+                position: fixed;
+                top: 60px; left: 0; width: 100%;
+                background: #0b1120;
+                border-bottom: 2px solid var(--user-theme-border);
+                padding: 16px;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+                max-height: calc(100vh - 60px);
+                overflow-y: auto;
+            }
+            .nav-links-desktop.is-open { display: flex; }
+            .folder-menu { position: static; box-shadow: none; border-color: rgba(255, 255, 255, 0.1); }
+        }
+
+        /* Dynamic Game Selector Pill Bar */
+        .game-pills-wrapper {
+            margin-bottom: 16px;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding-bottom: 4px;
+        }
+
+        .game-pills-bar {
+            display: inline-flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .game-pill {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            min-height: 38px;
+        }
+
+        .game-pill:hover {
+            color: #fff;
+            border-color: var(--user-theme-accent);
+            background: rgba(255, 85, 0, 0.15);
+        }
+
+        .game-pill.active {
+            background: var(--user-theme-accent);
+            color: #fff;
+            border-color: var(--user-theme-accent);
+            box-shadow: 0 0 15px var(--user-theme-glow);
+        }
+
+        /* Console & Master Card */
+        .console-card {
+            background: var(--card-bg);
+            border: 2px solid var(--user-theme-border);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px var(--user-theme-glow);
+        }
+
+        .console-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+        }
+
+        .rank-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .rank-badge {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 12px 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .rank-ctrls { display: flex; align-items: center; gap: 8px; }
+        .rank-ctrls button {
+            background: #0f172a;
+            color: #f8fafc;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .rank-ctrls .val { font-size: 1.1rem; font-weight: 900; color: var(--user-theme-accent); }
+
+        /* Tactical Accordion Sections */
+        .category-section {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-left: 6px solid var(--user-theme-accent);
+            border-radius: 12px;
+            margin-bottom: 14px;
+            overflow: hidden;
+        }
+
+        .category-header {
+            padding: 14px 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            background: rgba(30, 41, 59, 0.5);
+            min-height: var(--tap-target);
+            user-select: none;
+        }
+
+        .section-content { padding: 16px; }
+        .section-collapsed .section-content { display: none !important; }
+
+        .trophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 14px;
+        }
+
+        @media (max-width: 767px) {
+            .trophy-grid { grid-template-columns: 1fr; }
+        }
+
+        .trophy-card {
+            background: #0f172a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .trophy-card.completed {
+            border-color: var(--user-theme-accent) !important;
+            box-shadow: 0 0 15px var(--user-theme-glow) !important;
+            background: rgba(255, 85, 0, 0.05);
+        }
+
+        .check-btn {
+            width: 44px;
+            height: 44px;
+            background: #1e293b;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+        .check-btn.is-done {
+            background: #10b981;
+            border-color: #10b981;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+        }
+
+        .trophy-rank {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            font-weight: 900;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .rank-platinum { background: #0284c7; color: #fff; }
+        .rank-gold { background: #d97706; color: #fff; }
+        .rank-silver { background: #64748b; color: #fff; }
+        .rank-bronze { background: #b45309; color: #fff; }
+
+        .auth-btn {
+            background: #0088ff;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 800;
+            cursor: pointer;
+            min-height: 40px;
+        }
+
+        .auth-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #1e293b;
+            border: 1px solid var(--user-theme-border);
+            padding: 4px 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .auth-avatar { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; }
+
+        .friend-deck-card {
+            background: #0b1120;
+            border: 1px solid var(--user-theme-border);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        .friend-code-badge {
+            background: #1e293b;
+            border: 1px dashed var(--user-theme-accent);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-weight: 900;
+            font-size: 1.1rem;
+            color: var(--user-theme-accent);
+            display: inline-block;
+        }
+
+        footer.tracker-footer {
+            position: fixed;
+            bottom: 0; left: 0; width: 100%;
+            padding: 8px 16px;
+            background: rgba(8, 12, 20, 0.98);
+            border-top: 2px solid var(--user-theme-border);
+            z-index: 9999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <!-- Header Navigation with Auth Controls -->
+    <header class="top-nav-bar">
+        <div class="nav-inner">
+            <div class="nav-brand-group">
+                <button type="button" id="mobileMenuBtn" class="sandwich-btn" aria-label="Toggle Navigation">☰</button>
+                <img id="navHeaderLogo" src="//werewolf3788.github.io/Website/favicon.png" alt="" class="nav-logo-img">
+                <a href="//werewolf3788.github.io/Website/" style="color:#fff; text-decoration:none; font-weight:900; font-size:1rem; text-transform:uppercase;">Game Hub</a>
+            </div>
+
+            <nav id="dynamicNavLinks" class="nav-links-desktop"></nav>
+
+            <div class="header-auth-controls">
+                <button id="authModalBtn" class="auth-btn outlined-text">🔑 Log In</button>
+                <div id="userProfileBadge" class="auth-badge hidden">
+                    <img id="headerUserAvatar" src="" alt="" class="auth-avatar">
+                    <span id="userDisplayName" style="color:#fff; font-size:12px; font-weight:800;"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container tracker-container">
+
+        <!-- Dynamic Game Pill Bar (Only shows games whose JSON exists) -->
+        <div class="game-pills-wrapper">
+            <div id="gamePillsBar" class="game-pills-bar"></div>
+        </div>
+
+        <!-- Master Console & Telemetry Card -->
+        <section class="console-card" aria-labelledby="resistance-name">
+            <div class="console-header">
+                <div>
+                    <div id="gameSubtitle" style="font-size:0.75rem; color:#94a3b8; font-weight:800;">Hope County Telemetry & Resistance Ledger</div>
+                    <h1 id="resistance-name" style="color:var(--user-theme-accent);">WEREWOLF [FAR CRY 5]</h1>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:8px;">
+                    <select id="platformSelect" class="nav-btn" style="min-height:38px; background:#0f172a; color:#fff;" onchange="appState.switchPlatform(this.value)">
+                        <option value="ps" selected>🎮 PlayStation (PSN)</option>
+                        <option value="xbox">❎ Xbox Network</option>
+                        <option value="pc">💻 PC (Ubisoft / Windows)</option>
+                        <option value="steam">🚂 Steam Client</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Dynamic Tactical Metrics Counters -->
+            <div style="font-size:0.8rem; font-weight:900; color:var(--text-muted); text-transform:uppercase; margin-bottom:8px;">
+                Resistance Metrics (Firebase RTDB, Firestore & Offline LocalStorage)
+            </div>
+            <div class="rank-grid">
+                <div class="rank-badge">
+                    <span>⭐</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Resistance Pts</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('rp', -100)">-</button>
+                        <span id="rank-val-rp" class="val">0</span>
+                        <button type="button" onclick="adjRank('rp', 100)">+</button>
+                    </div>
+                </div>
+
+                <div class="rank-badge">
+                    <span>🏴</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Outposts</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('outposts', -1)">-</button>
+                        <span id="rank-val-outposts" class="val">0</span>
+                        <button type="button" onclick="adjRank('outposts', 1)">+</button>
+                    </div>
+                </div>
+
+                <div class="rank-badge">
+                    <span>🔥</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Cult Property</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('cultProperty', -1)">-</button>
+                        <span id="rank-val-cultProperty" class="val">0</span>
+                        <button type="button" onclick="adjRank('cultProperty', 1)">+</button>
+                    </div>
+                </div>
+
+                <div class="rank-badge">
+                    <span>📦</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Prepper Stashes</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('stashes', -1)">-</button>
+                        <span id="rank-val-stashes" class="val">0</span>
+                        <button type="button" onclick="adjRank('stashes', 1)">+</button>
+                    </div>
+                </div>
+
+                <div class="rank-badge">
+                    <span>🐾</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Roster / Fangs</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('roster', -1)">-</button>
+                        <span id="rank-val-roster" class="val">0</span>
+                        <button type="button" onclick="adjRank('roster', 1)">+</button>
+                    </div>
+                </div>
+
+                <div class="rank-badge">
+                    <span>🎖️</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Perk Magazines</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('perks', -1)">-</button>
+                        <span id="rank-val-perks" class="val">0</span>
+                        <button type="button" onclick="adjRank('perks', 1)">+</button>
+                    </div>
+                </div>
+
+                <!-- Collectibles Tactical Counter -->
+                <div class="rank-badge">
+                    <span>🗂️</span>
+                    <span style="font-size:0.75rem; font-weight:800;">Collectibles</span>
+                    <div class="rank-ctrls">
+                        <button type="button" onclick="adjRank('collectibles', -1)">-</button>
+                        <span id="rank-val-collectibles" class="val">0</span>
+                        <button type="button" onclick="adjRank('collectibles', 1)">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="stat-line" style="font-size:0.75rem; color:#94a3b8; font-family:monospace; margin-top:12px;">
+                Connecting to Telemetry Database...
+            </div>
+        </section>
+
+        <!-- Squad & Friends Progress Deck -->
+        <section class="friend-deck-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+                <div>
+                    <h3 style="color:#fff;">🤝 Resistance Squad & Friend Sharing</h3>
+                    <div style="font-size:0.75rem; color:#94a3b8;">Cross-platform progress synchronized via Cloud Firestore</div>
+                </div>
+                <div>
+                    <span style="font-size:0.75rem; color:#cbd5e1; margin-right:6px;">Your Friend Code:</span>
+                    <span id="myFriendCodeDisplay" class="friend-code-badge">--</span>
+                </div>
+            </div>
+            <div id="friendsRosterContainer" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:12px;">
+                <div style="font-size:0.8rem; color:#94a3b8;">Log in to view authorized friend progress...</div>
+            </div>
+        </section>
+
+        <!-- Dynamic Accordion Content Containers -->
+        <main id="section-container"></main>
+
+        <!-- Persistent Footer with NY Timestamp -->
+        <footer class="tracker-footer">
+            <div id="build-meta-footer" style="color:#94a3b8; font-size:0.8rem; font-family:monospace;">
+                Werewolf Multi-Game Engine • v10.0.0 • Build: 2026-10-27 01:05 EDT
+            </div>
+            <div id="nyBuildTimestamp" style="font-size:11px; color:#aaa; font-family:monospace;" class="outlined-text">
+                New York Time (24h): --:--:--
+            </div>
+        </footer>
+    </div>
+
+    <!-- Google Auth Modal -->
+    <div id="authModal" class="hidden" style="position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:center; z-index:50000;">
+        <div style="background:#0f172a; border:1px solid var(--user-theme-border); border-radius:12px; padding:24px; max-width:380px; width:90%; text-align:center;">
+            <h3 style="color:#fff; margin-bottom:10px;">Player Verification</h3>
+            <p style="font-size:13px; color:#aaa; margin-bottom:20px;">Sign in with Google to synchronize game progress, metrics, and squad co-op milestones across all devices.</p>
+            <button id="googleSignInBtn" class="auth-btn" style="width:100%; font-size:13px; margin-bottom:12px;">Sign in with Google</button>
+            <button id="authModalClose" style="background:transparent; border:none; color:#888; cursor:pointer; font-size:12px;">Dismiss</button>
+        </div>
+    </div>
+
+    <!-- Live NY Clock & Domain Routing Guard -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const updateNYClock = () => {
+                const el = document.getElementById('nyBuildTimestamp');
+                if (!el) return;
+                const now = new Date();
+                const nyStr = now.toLocaleTimeString('en-US', {
+                    timeZone: 'America/New_York',
+                    hour12: false,
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit'
+                });
+                el.innerText = `New York Time (24h): ${nyStr}`;
+            };
+            updateNYClock();
+            setInterval(updateNYClock, 1000);
+
+            const enforceDomainRouting = () => {
+                document.querySelectorAll('a[href]').forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (!href || href.startsWith('#') || href.startsWith('javascript:')) return;
+                    try {
+                        const parsed = new URL(href, window.location.href);
+                        if (parsed.origin === window.location.origin) {
+                            link.removeAttribute('target');
+                            link.removeAttribute('rel');
+                        } else {
+                            link.setAttribute('target', '_blank');
+                            link.setAttribute('rel', 'noopener noreferrer');
+                        }
+                    } catch (e) {}
+                });
+            };
+            enforceDomainRouting();
+            new MutationObserver(() => enforceDomainRouting()).observe(document.body, { childList: true, subtree: true });
+        });
+    </script>
+
+    <!-- Firebase Compat SDKs (Relative Protocol) -->
+    <script src="//www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="//www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="//www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+    <script src="//www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+    <!-- Unified Project Engine -->
+    <script type="module" src="./fc5.js?v=10.0.0"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+{
+  "game": "Ghost of Tsushima",
+  "gameId": "GhostOfTsushima",
+  "psn_communication_id": "CUSA11456_00",
+  "activeMission": "The Tale of Lord Shimura",
+  "collectibles": {
+    "inari_shrines": {
+      "quest_name": "Fox Dens & Inari Shrines",
+      "total_count": 49,
+      "region": "Tsushima Island",
+      "items": [
+        { "id": "inari_01", "name": "Golden Forest Fox Den", "location": "Near Golden Temple, Izuhara", "guide": "Follow the fox from the golden tree shrine through the bamboo path to honor the Inari shrine." },
+        { "id": "inari_02", "name": "Hiyoshi Springs Fox Den", "location": "Hiyoshi Springs cliffside", "guide": "Follow the fox down the rock stepped incline to uncover the hidden shrine." },
+        { "id": "inari_03", "name": "Kashine Fox Den", "location": "North of Kashine Hills", "guide": "Follow the spirit fox across the wooden log crossing to honor the altar." },
+        { "id": "inari_04", "name": "Ariake Fox Den", "location": "Reed plains near Houren's Pasture", "guide": "Navigate the tranquil flower marsh following the fox to the shrine." }
+      ]
+    },
+    "bamboo_strikes": {
+      "quest_name": "Bamboo Strikes",
+      "total_count": 16,
+      "region": "Tsushima Island",
+      "items": [
+        { "id": "bamboo_01", "name": "Hiyoshi Bamboo Strike", "location": "Hiyoshi Springs outskirts", "guide": "Complete 3-hit, 5-hit, and 7-hit button combos to increase maximum resolve." },
+        { "id": "bamboo_02", "name": "Komatsu Bamboo Strike", "location": "Komatsu Forge perimeter", "guide": "Strike true with the katana sequence behind the blacksmith furnaces." },
+        { "id": "bamboo_03", "name": "Ariake Bamboo Strike", "location": "South of Golden Temple", "guide": "Perform rapid button sequences overlooking the river valley." }
+      ]
+    },
+    "hot_springs": {
+      "quest_name": "Hot Springs of Tsushima",
+      "total_count": 18,
+      "region": "Tsushima Island",
+      "items": [
+        { "id": "spring_01", "name": "Hiyoshi Hot Spring", "location": "Center of Hiyoshi Inn", "guide": "Rest and reflect on your path to increase Jin Sakai's maximum health." },
+        { "id": "spring_02", "name": "Quiet Basin Hot Spring", "location": "Quiet Basin, Izuhara", "guide": "Submerge into the spring water surrounded by pampas grass." },
+        { "id": "spring_03", "name": "Golden Leaf Hot Spring", "location": "East of Golden Forest", "guide": "Meditate beneath yellow ginkgo canopies for permanent health boost." }
+      ]
+    },
+    "haikus": {
+      "quest_name": "Haiku Meditation Spots",
+      "total_count": 19,
+      "region": "Tsushima Island",
+      "items": [
+        { "id": "haiku_01", "name": "Hiyoshi Haiku", "location": "Northern cliff above Hiyoshi", "guide": "Reflect on serenity and loss to compose a three-line verse and unlock the Headband of Peace." },
+        { "id": "haiku_02", "name": "Ariake Haiku", "location": "Lake Izuhara lakeside", "guide": "Compose poetry viewing blooming lanterns and acquire the Headband of Hope." }
+      ]
+    }
+  },
+  "prepper_stashes": {
+    "overview": {
+      "total_count": 16,
+      "base_rewards": "Major Charms & Wax Wood",
+      "url_references": []
+    },
+    "shrine_challenges": [
+      {
+        "id": "shinto_01",
+        "name": "Arrow Peak Shinto Shrine",
+        "location": "Izuhara central peak",
+        "required_gear": "Grappling Hook",
+        "guide": "Traverse broken rope bridges, jump across jagged rock spires, and honor the torii gate for the Charm of Inari."
+      },
+      {
+        "id": "shinto_02",
+        "name": "Winding Mountain Shrine",
+        "location": "Komatsu coastal ridge",
+        "required_gear": "Grappling Hook",
+        "guide": "Grapple tree cranes and scale sheer cliffs to claim the Charm of Izanami."
+      }
+    ]
+  },
+  "walkthrough_missions": [
+    {
+      "id": "got_prologue_01",
+      "mission_name": "The Warrior's Code",
+      "region": "Izuhara (Act 1)",
+      "objectives": ["Follow Yuna to Kechi Fishing Village", "Infiltrate the Mongol camp silently", "Assassinate the Mongol patrol", "Rescue the hostage blacksmith"],
+      "guide": "Embrace stealth assassination for the first time with Yuna, learning focused hearing and the way of the Ghost."
+    },
+    {
+      "id": "got_act1_02",
+      "mission_name": "The Tale of Sensei Ishikawa",
+      "region": "Izuhara (Act 1)",
+      "objectives": ["Travel to Sensei Ishikawa's dojo", "Investigate signs of struggle", "Track Ishikawa's footprints to the mountain", "Rescue ambushed travellers"],
+      "guide": "Master archery mechanics under the legendary Sensei and uncover Tomoe's rebellion."
+    },
+    {
+      "id": "got_act1_03",
+      "mission_name": "The Tale of Lady Masako",
+      "region": "Izuhara (Act 1)",
+      "objectives": ["Visit Adachi Estate", "Survive the ambush by masked rogues", "Track the conspirators to Golden Temple"],
+      "guide": "Help Lady Masako seek vengeance against the conspirators who slaughtered Clan Adachi."
+    },
+    {
+      "id": "got_act1_04",
+      "mission_name": "Shadow of the Samurai (Castle Kaneda)",
+      "region": "Izuhara / Toyotama Boundary",
+      "objectives": ["Scale Castle Kaneda cliffside", "Eliminate Mongol guards in the outer courtyard", "Rescue Lord Shimura", "Duel the Straw Hat Ronin traitor"],
+      "guide": "Infiltrate Castle Kaneda via grappling hook, breach the keep, defeat Ryuzo in the duel, and liberate Lord Shimura."
+    }
+  ],
+  "weapons": {
+    "blades_and_bows": [
+      { "name": "Sakai Katana", "type": "Katana", "description": "Ancestral blade forged from folded tamahagane steel." },
+      { "name": "Sakai Tanto", "type": "Dagger", "description": "Compact companion blade honed for lightning-fast assassinations." },
+      { "name": "Half Bow", "type": "Ranged", "description": "Quick-drawing bow favored by hunters and ronin for medium-range combat." },
+      { "name": "Longbow", "type": "Ranged (Heavy)", "description": "Powerful heavy bow capable of piercing Mongol steel armor and firing explosive arrows." }
+    ]
+  },
+  "guns_and_fangs_for_hire": [
+    { "id": "ally_01", "name": "Yuna", "title": "The Resourceful Thief", "type": "Allies", "location": "Kechi Village", "unlock_mission": "The Warrior's Code" },
+    { "id": "ally_02", "name": "Sensei Ishikawa", "title": "The Master Archer", "type": "Allies", "location": "Hiyoshi Dojo", "unlock_mission": "The Tale of Sensei Ishikawa" },
+    { "id": "ally_03", "name": "Lady Masako", "title": "The Vengeful Matriarch", "type": "Allies", "location": "Adachi Estate", "unlock_mission": "The Tale of Lady Masako" },
+    { "id": "ally_04", "name": "Norio", "title": "The Warrior Monk", "type": "Allies", "location": "Akashima Shrine", "unlock_mission": "The Last Warrior Monk" }
+  ],
+  "trophies_and_achievements": [
+    { "name": "Living Legend", "type": "Platinum", "description": "Obtain all Trophies." },
+    { "name": "Gathering Storm", "type": "Bronze / Silver", "description": "Recover the katana of clan Sakai." },
+    { "name": "Point of No Return", "type": "Bronze / Silver", "description": "Break the code to save a friend." },
+    { "name": "Company of Wolves", "type": "Bronze / Silver", "description": "Recruit the Straw Hat ronin." },
+    { "name": "Stoking the Flame", "type": "Bronze / Silver", "description": "Rescue Taka from Mongol captivity." },
+    { "name": "Leader of the People", "type": "Bronze / Silver", "description": "Rally the peasants of Yarikawa." },
+    { "name": "Birthright", "type": "Bronze / Silver", "description": "Recover your father's armor." },
+    { "name": "Dying Embers", "type": "Bronze / Silver", "description": "Eradicate the traitors in the name of a fallen friend." },
+    { "name": "The Ghost", "type": "Bronze / Silver", "description": "Embrace your new identity." },
+    { "name": "The Sovereign End", "type": "Gold", "description": "Confront the Khan." },
+    { "name": "Mono No Aware", "type": "Gold", "description": "Leave the past behind and accept the burden of your new mantle." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "game": "Elden Ring",
+  "gameId": "EldenRing",
+  "psn_communication_id": "CUSA28863_00",
+  "activeMission": "Become Elden Lord",
+  "collectibles": {
+    "sacred_tears": {
+      "quest_name": "Sacred Tears for Flasks",
+      "total_count": 12,
+      "region": "The Lands Between",
+      "items": [
+        { "id": "tear_01", "name": "Third Church of Marika", "location": "Mistwood, East Limgrave", "guide": "Loot from the altar at the base of the statue." },
+        { "id": "tear_02", "name": "Callu Baptismal Church", "location": "Weeping Peninsula ridge", "guide": "Defeat rats and collect from the altar." }
+      ]
+    }
+  },
+  "prepper_stashes": {
+    "overview": { "total_count": 4, "base_rewards": "Legendary Talismans" },
+    "catacombs": [
+      { "id": "catacomb_01", "name": "Stormfoot Catacombs", "location": "Limgrave cliffs", "required_gear": "Torch", "guide": "Navigate past flame thrower pillars and defeat Burial Watchdog." }
+    ]
+  },
+  "walkthrough_missions": [
+    {
+      "id": "er_m_01",
+      "mission_name": "Stormveil Castle Infiltration",
+      "region": "Limgrave / Stormveil",
+      "objectives": ["Defeat Margit the Fell Omen", "Choose main gate or cliffside path", "Defeat Godrick the Grafted"],
+      "guide": "Summon Rogier or spirit ashes for Margit, ascend through the rampart towers, and defeat Godrick."
+    }
+  ],
+  "trophies_and_achievements": [
+    { "trophyId": 0, "trophyName": "Elden Ring", "trophyType": "Platinum", "trophyDetail": "Acquire all trophies.", "earned": false },
+    { "trophyId": 1, "trophyName": "Margit the Fell Omen", "trophyType": "Bronze", "trophyDetail": "Defeat Margit the Fell Omen.", "earned": true, "earnedDateTime": "2026-08-10T12:00:00Z" }
+  ]
+}

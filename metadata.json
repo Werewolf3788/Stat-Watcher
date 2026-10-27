@@ -1,0 +1,6 @@
+{
+  "name": "Universal In-Game Companion & Resistance Ledger",
+  "description": "Multi-game companion ledger and progress tracker with PSN trophy synchronization, automated game guide extraction, and cross-platform squad co-op tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

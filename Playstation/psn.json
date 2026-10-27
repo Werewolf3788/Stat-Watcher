@@ -1,0 +1,105 @@
+{
+  "gamertag": "wildhorse_spirit",
+  "updatedAt": "2026-10-27T18:00:00.000Z",
+  "account": {
+    "onlineId": "wildhorse_spirit",
+    "avatarUrl": "https://static-resource.np.community.playstation.net/avatar_m/default_avatar.png",
+    "plus": 1,
+    "aboutMe": "Hope County & Tsushima Hunter"
+  },
+  "recentTrophies": [
+    {
+      "trophyId": 1,
+      "trophyName": "The Spark",
+      "trophyDetail": "Complete the game intro by liberating Dutch’s island (Solo Campaign only).",
+      "trophyType": "Bronze",
+      "earned": true,
+      "earnedDateTime": "2026-08-05T14:32:00.000Z",
+      "gameTitle": "Far Cry 5",
+      "commId": "NPWR12514_00"
+    },
+    {
+      "trophyId": 18,
+      "trophyName": "Pack Rat",
+      "trophyDetail": "Grab 1 of each collectible item (Solo Campaign only).",
+      "trophyType": "Bronze",
+      "earned": true,
+      "earnedDateTime": "2026-08-20T21:10:45.000Z",
+      "gameTitle": "Far Cry 5",
+      "commId": "NPWR12514_00"
+    },
+    {
+      "trophyId": 21,
+      "trophyName": "Sewer Rat",
+      "trophyDetail": "Destroy a cult water treatment pump (Solo Campaign only).",
+      "trophyType": "Bronze",
+      "earned": true,
+      "earnedDateTime": "2026-09-02T19:05:12.000Z",
+      "gameTitle": "Far Cry 5",
+      "commId": "NPWR12514_00"
+    },
+    {
+      "trophyId": 22,
+      "trophyName": "Peachy Keen",
+      "trophyDetail": "Bait Peaches into going back home (Solo Campaign only).",
+      "trophyType": "Bronze",
+      "earned": true,
+      "earnedDateTime": "2026-10-14T22:45:00.000Z",
+      "gameTitle": "Far Cry 5",
+      "commId": "NPWR12514_00"
+    },
+    {
+      "trophyId": 15,
+      "trophyName": "Scavenger",
+      "trophyDetail": "Follow the clues to the end of 3 treasure hunts (Solo Campaign only).",
+      "trophyType": "Silver",
+      "earned": true,
+      "earnedDateTime": "2026-10-25T16:15:30.000Z",
+      "gameTitle": "Far Cry 5",
+      "commId": "NPWR12514_00"
+    },
+    {
+      "trophyId": 8,
+      "trophyName": "The Ghost",
+      "trophyDetail": "Embrace your new identity.",
+      "trophyType": "Silver",
+      "earned": true,
+      "earnedDateTime": "2026-07-28T10:11:00.000Z",
+      "gameTitle": "Ghost of Tsushima",
+      "commId": "CUSA11456_00"
+    }
+  ],
+  "games": {
+    "NPWR12514_00": {
+      "gameTitle": "Far Cry 5",
+      "commId": "NPWR12514_00",
+      "platform": "PS4",
+      "progress": 58,
+      "lastUpdated": "2026-10-25T16:15:30.000Z",
+      "posterArt": "https://static-resource.np.community.playstation.net/image_b/FarCry5_banner.jpg",
+      "trophies": [
+        { "trophyId": 0, "trophyName": "We Always Had Faith In You", "trophyType": "Platinum", "trophyDetail": "Obtain all the Trophies.", "earned": false },
+        { "trophyId": 1, "trophyName": "The Spark", "trophyType": "Bronze", "trophyDetail": "Complete the game intro by liberating Dutch’s island (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-08-05T14:32:00.000Z" },
+        { "trophyId": 2, "trophyName": "You Are Wrath", "trophyType": "Bronze", "trophyDetail": "Be deemed the Sin of Wrath (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-08-11T17:20:00.000Z" },
+        { "trophyId": 3, "trophyName": "Special Delivery", "trophyType": "Bronze", "trophyDetail": "Ensure a baby's safe passage into this world (Solo Campaign only).", "earned": false },
+        { "trophyId": 4, "trophyName": "Only You", "trophyType": "Bronze", "trophyDetail": "Successfully complete the First Trial (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-08-18T12:00:00.000Z" },
+        { "trophyId": 5, "trophyName": "Walk The Path", "trophyType": "Bronze", "trophyDetail": "Discover the Bliss (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-08-25T15:10:00.000Z" },
+        { "trophyId": 15, "trophyName": "Scavenger", "trophyType": "Silver", "trophyDetail": "Follow the clues to the end of 3 treasure hunts (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-10-25T16:15:30.000Z" },
+        { "trophyId": 18, "trophyName": "Pack Rat", "trophyType": "Bronze", "trophyDetail": "Grab 1 of each collectible item (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-08-20T21:10:45.000Z" },
+        { "trophyId": 22, "trophyName": "Peachy Keen", "trophyType": "Bronze", "trophyDetail": "Bait Peaches into going back home (Solo Campaign only).", "earned": true, "earnedDateTime": "2026-10-14T22:45:00.000Z" }
+      ]
+    },
+    "CUSA11456_00": {
+      "gameTitle": "Ghost of Tsushima",
+      "commId": "CUSA11456_00",
+      "platform": "PS4",
+      "progress": 42,
+      "lastUpdated": "2026-07-28T10:11:00.000Z",
+      "posterArt": "https://static-resource.np.community.playstation.net/image_b/GhostOfTsushima_banner.jpg",
+      "trophies": [
+        { "trophyId": 0, "trophyName": "Living Legend", "trophyType": "Platinum", "trophyDetail": "Obtain all Trophies.", "earned": false },
+        { "trophyId": 8, "trophyName": "The Ghost", "trophyType": "Silver", "trophyDetail": "Embrace your new identity.", "earned": true, "earnedDateTime": "2026-07-28T10:11:00.000Z" }
+      ]
+    }
+  }
+}

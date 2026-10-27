@@ -1,0 +1,3256 @@
+{
+  "game": "Far Cry 5",
+  "gameId": "FarCry5",
+  "psn_communication_id": "NPWR12514_00",
+  "activeMission": "Hope County Resistance",
+  "collectibles": {
+    "baseball_cards": {
+      "quest_name": "Grand Slam",
+      "quest_giver": "George",
+      "quest_giver_location": "Oberlin Picnic Area, Whitetail Mountains",
+      "total_count": 9,
+      "region": "Whitetail Mountains",
+      "items": [
+        {
+          "id": "baseball_card_01",
+          "name": "Southwest of F.A.N.G Center",
+          "location": "House by a small body of water southwest of F.A.N.G Center",
+          "guide": "Eliminate enemies outside to the left of the house. Enter the house; the card is on a shelf above the couch."
+        },
+        {
+          "id": "baseball_card_02",
+          "name": "North West of Cedar Lake",
+          "location": "Lakeside house northwest of Cedar Lake",
+          "guide": "Clear the enemies on the lakeside of the building. Head inside to find the card on the chest of drawers next to the bed."
+        },
+        {
+          "id": "baseball_card_03",
+          "name": "West of Cedar Lake",
+          "location": "Mountain cabin west of Cedar Lake",
+          "guide": "Access via grapple or flying vehicle. Clear enemies and enter through the front door; the card is immediately behind the opening door on a desk."
+        },
+        {
+          "id": "baseball_card_04",
+          "name": "North of Whitetail Park Visitor Center",
+          "location": "Shack in the hills north of Whitetail Park Visitor Center",
+          "guide": "Enter the enemy-free shack and turn left. The card sits on a shelf."
+        },
+        {
+          "id": "baseball_card_05",
+          "name": "South West of Clagett Boathouse",
+          "location": "Petrol station on the road southwest of Clagett Boathouse",
+          "guide": "Enter the petrol station building. The card is on a shelf underneath the 'Clothing' sign."
+        },
+        {
+          "id": "baseball_card_06",
+          "name": "Cooper Cabin",
+          "location": "Cabin northeast of the Wolf's Den",
+          "guide": "Head inside to the room with a mattress propped up against the wall. The card is on the shelf straight ahead."
+        },
+        {
+          "id": "baseball_card_07",
+          "name": "F.A.N.G Center",
+          "location": "F.A.N.G Center gift shop",
+          "guide": "Liberate or clear the cultists. Enter the building to the right of the main entrance; the card is on a merchandise shelf in the center of the gift shop."
+        },
+        {
+          "id": "baseball_card_08",
+          "name": "McNeil Residence",
+          "location": "Northeast of F.A.N.G Center along the road",
+          "guide": "Clear the cultists and enter the white shed to the left. The card is on a shelf on the wall behind the door."
+        },
+        {
+          "id": "baseball_card_09",
+          "name": "North East of Baron Lumber Mill",
+          "location": "White shipping-container style house on race tracks behind Baron Lumber Mill",
+          "guide": "Clear nearby enemies, kick down the boarded-up door, and take the card off the wall as you enter."
+        }
+      ]
+    },
+    "comic_books": {
+      "quest_name": "Golden Age Nostalgia",
+      "quest_giver": "Nadine Abercrombie",
+      "quest_giver_location": "Dodd Residence (between Fall's End and Rae-Rae's Pumpkin Farm), Holland Valley",
+      "total_count": 12,
+      "items": [
+        {
+          "id": "comic_01",
+          "region": "Holland Valley",
+          "name": "Parker Laboratories",
+          "location": "West of Fall's End",
+          "guide": "Go up the stairs inside the house with the green roof. The comic book is directly ahead on the desk."
+        },
+        {
+          "id": "comic_02",
+          "region": "Holland Valley",
+          "name": "Boyd Residence",
+          "location": "Directly west of the Dodd Residence",
+          "guide": "Enter the house, turn left into the bedroom, and find the comic book on the bed next to a hunting bow."
+        },
+        {
+          "id": "comic_03",
+          "region": "Holland Valley",
+          "name": "Bradbury Farm",
+          "location": "South of Lamb of God Church, below crop circle",
+          "guide": "Enter the large barn to the right. Jump up to the second level via boxes in front of the blue tarp; the comic is on an old mattress."
+        },
+        {
+          "id": "comic_04",
+          "region": "Whitetail Mountains",
+          "name": "Jefferson Lookout Tower",
+          "location": "Mountain peak west of the Wolf's Den",
+          "guide": "Go to the cliffside entrance and ascend the stairs into the tower. The comic sits on a table right inside the entrance."
+        },
+        {
+          "id": "comic_05",
+          "region": "Whitetail Mountains",
+          "name": "McNeil Residence",
+          "location": "On the road between F.A.N.G Center and Fort Drubman",
+          "guide": "Break the boarded-up window around the back of the house. Enter into the second room, turn left into the bathroom, and grab the comic from the basin."
+        },
+        {
+          "id": "comic_06",
+          "region": "Whitetail Mountains",
+          "name": "Elliot Residence",
+          "location": "South of F.A.N.G Center",
+          "guide": "Climb onto the verandah where the barbed wire is broken and enter through the broken window. The comic is on cases next to a lamp."
+        },
+        {
+          "id": "comic_07",
+          "region": "Henbane River",
+          "name": "Peaches Taxidermy",
+          "location": "Peaches Taxidermy workshop grounds",
+          "guide": "Enter the grey house through the white door on the left side of the property. The comic is located right next to the television."
+        },
+        {
+          "id": "comic_08",
+          "region": "Henbane River",
+          "name": "Chan Residence",
+          "location": "Just south of Angel's Peak",
+          "guide": "Go around the back of the house, enter through the blue door, and find the comic on a bed directly behind the door."
+        },
+        {
+          "id": "comic_09",
+          "region": "Henbane River",
+          "name": "Vasquez Residence",
+          "location": "Waterfront between Faith's region and Dutch's Island",
+          "guide": "Dispatch the cultists outside, enter through the front door, and grab the comic from the living room couch."
+        },
+        {
+          "id": "comic_10",
+          "region": "Henbane River",
+          "name": "O'Hara's Haunted House",
+          "location": "Border of Faith and John's regions, northwest of Dead Man's River",
+          "guide": "Climb the crate with blue ropes behind the house onto the roof, drop to the scaffolding, and crouch through the second-floor window. The comic is on a mattress."
+        },
+        {
+          "id": "comic_11",
+          "region": "Henbane River",
+          "name": "Boshaw Manor",
+          "location": "Southwest of Moonflower Trailer Park",
+          "guide": "Walk up the ramp into the house marked with 'No Smoking' signs. Go to the rear bedroom; the comic is on the bedside table."
+        },
+        {
+          "id": "comic_12",
+          "region": "Henbane River",
+          "name": "Camp Cougars",
+          "location": "Campsite southeast of Peaches Taxidermy",
+          "guide": "Clear cultists/predators at the campsite. The comic is lying on the ground directly in front of one of the tents."
+        }
+      ]
+    },
+    "bobbleheads": {
+      "quest_name": "Mint Condition",
+      "quest_giver": "Dave Fowler",
+      "quest_giver_location": "Fowler's Retreat, Whitetail Mountains",
+      "total_count": 10,
+      "items": [
+        {
+          "id": "bobblehead_01",
+          "region": "Whitetail Mountains",
+          "name": "Baron Lumber Mill",
+          "location": "Baron Lumber Mill main building",
+          "guide": "Ascend the front stairs and enter through the window. The bobblehead is straight ahead in the kitchen."
+        },
+        {
+          "id": "bobblehead_02",
+          "region": "Whitetail Mountains",
+          "name": "Whitetail Park Ranger Station",
+          "location": "Southwest of F.A.N.G Center",
+          "guide": "Enter the main office, go behind the front desk into the adjacent room, and grab the bobblehead from the chest of drawers on the left wall."
+        },
+        {
+          "id": "bobblehead_03",
+          "region": "Whitetail Mountains",
+          "name": "Island North of Grand View Hotel",
+          "location": "Small island cabin north of Grand View Hotel",
+          "guide": "Swim north to the island log cabin. The bobblehead is located inside on a splash of blood on the bed."
+        },
+        {
+          "id": "bobblehead_04",
+          "region": "Whitetail Mountains",
+          "name": "Lansdowne Airstrip",
+          "location": "Hangar north of F.A.N.G Center (Inside 'Hangar Pains' Prepper Stash)",
+          "guide": "Grapple the nearby radio tower, wingsuit/parachute onto the hangar roof, drop through the open skylight, and find the bobblehead on a shelf."
+        },
+        {
+          "id": "bobblehead_05",
+          "region": "Whitetail Mountains",
+          "name": "Whitetail Park Visitor Center",
+          "location": "Visitor Center gift shop",
+          "guide": "Head up the stairs and turn left into the souvenir shop. The bobblehead sits directly in front on a merchandise display shelf."
+        },
+        {
+          "id": "bobblehead_06",
+          "region": "Whitetail Mountains",
+          "name": "South Park Entrance",
+          "location": "Border of Jacob's and John's regions, north of Rae-Rae's Pumpkin Farm",
+          "guide": "Ascend the wooden stairs behind the buildings. The bobblehead is on the floor mixed with discarded junk."
+        },
+        {
+          "id": "bobblehead_07",
+          "region": "Holland Valley",
+          "name": "St. Isidore School",
+          "location": "Abandoned school northeast of Fall's End",
+          "guide": "Climb onto the main school roof to retrieve the keys from the chimney. Zipline to the outbuilding, unlock it, and pick the bobblehead up from the shelf."
+        },
+        {
+          "id": "bobblehead_08",
+          "region": "Holland Valley",
+          "name": "Bradbury Tractor Shed",
+          "location": "North of the crop circle between Fall's End and Lamb of God Church",
+          "guide": "Approach the small building next to the shed, break the wooden slats covering the window, and retrieve the bobblehead inside the broken refrigerator."
+        },
+        {
+          "id": "bobblehead_09",
+          "region": "Henbane River",
+          "name": "8-Bit Pizza Bar",
+          "location": "West of Hope County Jail",
+          "guide": "Walk through the front door, pass behind the service counter into the kitchen, and grab the bobblehead off the shelf next to the dishware."
+        },
+        {
+          "id": "bobblehead_10",
+          "region": "Henbane River",
+          "name": "Feeney Residence",
+          "location": "Eastern outskirts of Henbane River",
+          "guide": "Clear the cultists in the field and enter the house. The bobblehead is on the kitchen counter against the wall."
+        }
+      ]
+    },
+    "vietnam_lighters": {
+      "quest_name": "What They Carried",
+      "quest_giver": "Wendell Redler",
+      "quest_giver_location": "Redler Residence, East of Fall's End",
+      "total_count": 12,
+      "items": [
+        {
+          "id": "lighter_01",
+          "region": "Whitetail Mountains",
+          "name": "West of Cedar Lake",
+          "location": "Underground bunker west of Cedar Lake",
+          "guide": "Climb down into the bunker and grab the lighter off the shelf next to two blue barrels."
+        },
+        {
+          "id": "lighter_02",
+          "region": "Whitetail Mountains",
+          "name": "North West of Widow's Creek",
+          "location": "Bunker off the main road northwest of Widow's Creek",
+          "guide": "Enter the roadside bunker and retrieve the lighter located in the back room next to the television."
+        },
+        {
+          "id": "lighter_03",
+          "region": "Whitetail Mountains",
+          "name": "Whitetail Park Visitor Center",
+          "location": "Visitor Center information building",
+          "guide": "Climb the stairs and turn left into the information center. The lighter is on a set of shelves in the second room to the left."
+        },
+        {
+          "id": "lighter_04",
+          "region": "Whitetail Mountains",
+          "name": "Elliot Residence",
+          "location": "Bunker at Elliot Residence (South of F.A.N.G Center)",
+          "guide": "Enter the upper story via the broken window, navigate down to the kitchen for the keycard, shoot the bunker lock in the shed outside, and find the lighter on the bench."
+        },
+        {
+          "id": "lighter_05",
+          "region": "Holland Valley",
+          "name": "Fillmore Residence",
+          "location": "East of Fall's End, west of Dead Man's River",
+          "guide": "Enter the antler-adorned shed and descend into the bunker. The lighter sits on shelves in the second room."
+        },
+        {
+          "id": "lighter_06",
+          "region": "Holland Valley",
+          "name": "Miller Residence",
+          "location": "Southwest of Fillmore Residence",
+          "guide": "Head to the white shed and drop down into the bunker hatch. The lighter is on the floor beside the nightstand."
+        },
+        {
+          "id": "lighter_07",
+          "region": "Holland Valley",
+          "name": "Harris Residence",
+          "location": "Northwest Holland Valley",
+          "guide": "Enter the bunker via the hatch inside the brown wooden shed. The lighter is on the shelves beside the bed."
+        },
+        {
+          "id": "lighter_08",
+          "region": "Holland Valley",
+          "name": "Rae-Rae's Pumpkin Farm",
+          "location": "North of Fall's End",
+          "guide": "Find the bunker hatch out in the open behind the farm buildings. The lighter is on a chair beside the bed."
+        },
+        {
+          "id": "lighter_09",
+          "region": "Henbane River",
+          "name": "McCoy Cabin",
+          "location": "West of Peaches Taxidermy",
+          "guide": "Locate the bunker hatch partially covered by green tarp. The lighter is on the shelving unit in the second room."
+        },
+        {
+          "id": "lighter_10",
+          "region": "Henbane River",
+          "name": "McClean Residence",
+          "location": "Border between Faith's region and Dutch's Island",
+          "guide": "Clear any hostile cultists and access the bunker near the rear of the property. The lighter is on the bed in the rear room."
+        },
+        {
+          "id": "lighter_11",
+          "region": "Henbane River",
+          "name": "Abercrombie Residence",
+          "location": "East of Hope County Jail",
+          "guide": "Go behind the main house to find the bunker entrance before the stairs. The lighter is on shelves in the second room."
+        },
+        {
+          "id": "lighter_12",
+          "region": "Henbane River",
+          "name": "Counselor's Cabin",
+          "location": "West and slightly south of Moonflower Trailer Park",
+          "guide": "Walk between the house and shed to reach the backyard bunker hatch. The lighter is in the second room on the shelf near the couch."
+        }
+      ]
+    },
+    "vinyl_crates": {
+      "quest_name": "Turn the Tables",
+      "quest_giver": "Wheaty",
+      "quest_giver_location": "Wolf's Den, Whitetail Mountains",
+      "quest_prerequisite": "Gearing Up",
+      "total_count": 10,
+      "region": "Whitetail Mountains",
+      "items": [
+        {
+          "id": "vinyl_01",
+          "name": "Osprey Cabin",
+          "location": "Directly south of Wolf's Den down the cliff",
+          "guide": "Enter through the side door of the log cabin. The crate sits on the coffee table between the sofa and television."
+        },
+        {
+          "id": "vinyl_02",
+          "name": "Dansky Cabin",
+          "location": "South of Wolf's Den between two roads",
+          "guide": "Approach the front door with the keypad lock; the vinyl crate is located outside under a table to the left of the door."
+        },
+        {
+          "id": "vinyl_03",
+          "name": "Hunter's Pass Shelter",
+          "location": "Northwest of Wolf's Den",
+          "guide": "Clear the area around the small brick cabin and head inside. The crate is on a table immediately past the door."
+        },
+        {
+          "id": "vinyl_04",
+          "name": "Red Tail Cabin",
+          "location": "Directly east of Wolf's Den",
+          "guide": "Enter the large wooden house and turn left into the kitchen. The crate rests on the counter beside the window."
+        },
+        {
+          "id": "vinyl_05",
+          "name": "Breakthrough Camp",
+          "location": "East of Red Tail Cabin",
+          "guide": "Pass through the main camp gate and turn right to the first lock house. The crate is on a shelf along the entryway wall."
+        },
+        {
+          "id": "vinyl_06",
+          "name": "North Park Entrance",
+          "location": "Road heading west from F.A.N.G Center",
+          "guide": "Go inside the southern building. The vinyl crate is sitting on top of a low bookshelf."
+        },
+        {
+          "id": "vinyl_07",
+          "name": "The Grill Steak",
+          "location": "Outdoor restaurant south of F.A.N.G Center",
+          "guide": "Walk past the barbecue grill and truck toward the gazebo shelter. The crate is in front of a tent underneath."
+        },
+        {
+          "id": "vinyl_08",
+          "name": "MCA Mobile Lab",
+          "location": "East of Baron Lumber Mill",
+          "guide": "Dispatch any wolves roaming the perimeter. The crate is sitting directly under the open grey canopy tent."
+        },
+        {
+          "id": "vinyl_09",
+          "name": "Linero Building Supplies",
+          "location": "North of Baron Lumber Mill, west of Fort Drubman",
+          "guide": "Proceed to the construction trailer at the back of the site, enter the blue door, and retrieve the crate on a desk behind a filing cabinet."
+        },
+        {
+          "id": "vinyl_10",
+          "name": "South Park Entrance",
+          "location": "Border road between Wolf's Den and Rae-Rae's Pumpkin Farm",
+          "guide": "Enter the roadside office next to the ACROD parking spot. The crate is on the floor in front of tipped filing cabinets."
+        }
+      ]
+    },
+    "whiskey_barrels": {
+      "quest_name": "Whiskey River",
+      "quest_giver": "Sherri",
+      "quest_giver_location": "Can of Worms Fishing Store, Silver Lake, Henbane River",
+      "required_perk": "Human Fish",
+      "total_count": 15,
+      "items": [
+        {
+          "id": "whiskey_01",
+          "region": "Henbane River",
+          "name": "East of Can of Worms Fishing Store",
+          "location": "Silver Lake shallows east of the fishing store",
+          "guide": "Swim out from the shore and dive into the lake bed; the barrel sits in reeds beside a submerged log."
+        },
+        {
+          "id": "whiskey_02",
+          "region": "Henbane River",
+          "name": "West of Drubman Marina",
+          "location": "Silver Lake waters west of Drubman Marina",
+          "guide": "Dive underwater between a large boulder and a fallen log to retrieve the barrel."
+        },
+        {
+          "id": "whiskey_03",
+          "region": "Henbane River",
+          "name": "Silver Lake Campgrounds",
+          "location": "Just north off the shoreline of Silver Lake Campgrounds",
+          "guide": "Dive down next to a large rock and a floating Bliss barrel."
+        },
+        {
+          "id": "whiskey_04",
+          "region": "Henbane River",
+          "name": "Tanami Residence",
+          "location": "Island offshore from Tanami Residence",
+          "guide": "Locate the metal shipping container suspended from a crane over the water; swim inside the open end to find the barrel at the bottom."
+        },
+        {
+          "id": "whiskey_05",
+          "region": "Whitetail Mountains",
+          "name": "West of Tanami Residence",
+          "location": "Lake inlet halfway toward the northern bridge",
+          "guide": "Dive into a small underwater rocky cavern along the lake bed to locate the barrel."
+        },
+        {
+          "id": "whiskey_06",
+          "region": "Whitetail Mountains",
+          "name": "East of Oberlin Picnic Area",
+          "location": "Silver Lake inlet south of two small islands",
+          "guide": "Submerge into another small rocky underwater alcove marked on the map."
+        },
+        {
+          "id": "whiskey_07",
+          "region": "Whitetail Mountains",
+          "name": "South of Oberlin Picnic Area",
+          "location": "Coastal rocky outcropping on an island south of Oberlin Picnic Area",
+          "guide": "The barrel is on top of tall rocks above water. Grapple to Adelaide's helicopter or fly up to drop onto the high rock ledge."
+        },
+        {
+          "id": "whiskey_08",
+          "region": "Whitetail Mountains",
+          "name": "Clagett Bay",
+          "location": "Under the lake surface below the large island in Clagett Bay",
+          "guide": "Dive down to locate a sunken helicopter; the barrel is resting inside the wreckage."
+        },
+        {
+          "id": "whiskey_09",
+          "region": "Dutch's Island",
+          "name": "Forest Research Station",
+          "location": "Off the coast of Dutch's Island near the Forest Research Station",
+          "guide": "Dive beneath the water surface and retrieve the barrel pinned under a pile of submerged timber."
+        },
+        {
+          "id": "whiskey_10",
+          "region": "Holland Valley",
+          "name": "West of Silver Lake Boathouse",
+          "location": "Open water halfway between Dutch's Island and Holland shore",
+          "guide": "Dive straight down roughly 150m southwest of the research station to find the barrel on the lake floor."
+        },
+        {
+          "id": "whiskey_11",
+          "region": "Henbane River",
+          "name": "South of Central Radio Tower",
+          "location": "Under the southern bridge near Dutch's Island border",
+          "guide": "Locate the submerged cage near a large rock formation; swim around the open side to collect the barrel."
+        },
+        {
+          "id": "whiskey_12",
+          "region": "Whitetail Mountains",
+          "name": "North of Dutch's Island",
+          "location": "Lake waters north of Dutch's Island above two islets",
+          "guide": "Dive through murky water to search the sunken debris field where the barrel is lodged."
+        },
+        {
+          "id": "whiskey_13",
+          "region": "Henbane River",
+          "name": "North of Vasquez Residence",
+          "location": "Under the bridge north of Vasquez Residence",
+          "guide": "Enter the large metal pipe opening from the land side and swim through to retrieve the barrel at the end of the line."
+        },
+        {
+          "id": "whiskey_14",
+          "region": "Henbane River",
+          "name": "South of Tanami Residence",
+          "location": "Channel between islands south of Tanami Residence",
+          "guide": "Dive down and enter the mouth of an underwater drainage culvert to collect the barrel."
+        },
+        {
+          "id": "whiskey_15",
+          "region": "Henbane River",
+          "name": "West of Can of Worms Fishing Store",
+          "location": "Bridge canal west of Can of Worms Fishing Store",
+          "guide": "Locate the fully submerged shipping container among the wrecks, swim inside, and make an immediate left-then-right turn to grab the final barrel."
+        }
+      ]
+    }
+  },
+  "prepper_stashes": {
+    "overview": {
+      "total_count": 27,
+      "base_rewards": "3 Perk Points and cash per stash (except the initial stash on Dutch's Island)",
+      "url_references": [
+        "https://www.ign.com/wikis/far-cry-5/Prepper_Stash_Locations#Swingers",
+        "https://www.ign.com/wikis/far-cry-5/Prepper_Stash_Locations#Animal_Control"
+      ]
+    },
+    "holland_valley": [
+      {
+        "id": "stash_hv_01",
+        "name": "Deep Dive",
+        "location": "Laurel Residence, directly west of Rye & Son's Aviation",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "My darling hubby, the bunker’s flooded… AGAIN! We were gonna use the stuff in there to help The Resistance. Where’d you put the shed key? I’ll go turn on the water pump. - Wifey",
+          "Wifey: We’re not gonna drain the bunker in time. I packed up the car with supplies, we’ll have to run before the cult gets here. We’ll have to leave whatever’s down there. Doubt the Peggies can hold their breath long enough to get their hands on the key to the shed - Hubby"
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note inside the house on the kitchen counter. Go out to the backyard shed, open the hatch beside it, and climb down the ladder into the water. Swim through the flooded bunker to grab the keycard off the desk at the far end. Return to the surface, unlock the shed with the keycard, and activate the yellow water pump switch by the window. Head back down into the drained bunker and smash through the wooden boards to access the stash."
+      },
+      {
+        "id": "stash_hv_02",
+        "name": "D.I.Y. and D.O.A.",
+        "location": "Doverspike Compound, foot of the mountains in northwest Holland Valley",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Hey'you stupid cultist f**ks! You’ll never get into my bunker. It’s impregnable. I built it myself. But even if you do, you’ll never get back out again.",
+          "Les, baby, I don’t know what those idiots from Hilgard Electric were so uptight about. you don’t need a “degree” in “electrical engineering” or anything else. You an’ me built this bunker with our bare hands. Safety hazard my entire ass. Didn’t I get a smoke detector and a sprinkler system from Red’s place last month? We’re gonna be fine down here."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the clue next to the shed door to the left of the house. Head inside the main house to the back bedroom dresser to retrieve the shed key. Unlock the shed, open the hatch, and descend into the bunker. Follow the hallway to the left, take a quick right to the end of the room, and pull the yellow generator switch inside the closet. Navigate back through the hallway carefully while avoiding fire, traps, and hazards, then swipe the keycard reader to open the bunker door."
+      },
+      {
+        "id": "stash_hv_03",
+        "name": "Dumpster Diving",
+        "location": "Waste treatment facility in the hills north of Fall's End",
+        "required_gear": "Grapple",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Dodd’s nowhere to be found. I’m sure he won’t mind if we stash some stuff in the back office. Power’s not hooked up quite right, so watch your step if you turn it on."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note outside the manager's trailer. Shoot the explosive red barrel on top of the stacked container to clear debris, climb onto the trailer roof, and jump across the perimeter wall. Cross the red container with the plywood plank to reach the center crates, then grapple-swing from the next container to the opposite ledge. Drop into the flooded basement below and activate the power switch on the north wall by the green tanks. Turn around, jump across the high shelving to avoid the electrified water, leap over the chainlink fence to the wall top, drop down onto the wooden beams, and open the stash door."
+      },
+      {
+        "id": "stash_hv_04",
+        "name": "Fire in the Hole",
+        "location": "Cabin above Orville Creek, far southeast Holland Valley",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Stan: We found a bunch of dynamite in the old mine under the house. If you’re reading this then we’ve already gone down to get it. We’re gonna see about setting up a weapons cache or something down there."
+        ],
+        "alternative_methods": null,
+        "guide": "Cross the footbridge over the waterfall and read the note atop the large rock in front of the cabin. Clear the four cultists outside and inside the cabin. Stand on or break the floorboards where the kneeling cultist was located to reveal a ladder into the mine. Descend into the Bliss, break the first wooden barrier, eliminate the addict down the right path, turn left at the next barrier, and clear the hallway of Bliss addicts. Follow the side passage to the right, destroy the rubble blocking the water channel with bullets or dynamite, swim across the flooded basin, eliminate the cultist on the opposite ledge, and enter the tunnel leading to the stash."
+      },
+      {
+        "id": "stash_hv_05",
+        "name": "Foxhole",
+        "location": "Grace Armstrong's house, directly east of Lamb of God Church",
+        "required_gear": "None",
+        "unique_rewards": "AR-CL Sniper Rifle",
+        "clue_notes": [
+          "Grace is already out there, takin’ the fight to the Peggies. She’s got a lot of gear stated in the bunker under her house. We have to find a way down there so the cult doesn’t get it first."
+        ],
+        "alternative_methods": null,
+        "guide": "Eliminate the cultists outside and pick up the stash note from the crate in front of the house. Hop through the open window sill; an exploding water heater will knock you back harmlessly. Head through the burned hallway on the left, step through the collapsed wall in the alcove, and climb onto the fallen second-story floor. Drop into the next room, turn around the broken wall, climb up onto the burned roofline via metal shelving, leap across the gap to the opposite corner, and drop down to open the bunker hatch."
+      },
+      {
+        "id": "stash_hv_06",
+        "name": "High Tension",
+        "location": "Lincoln Lookout Tower, high hills between Holland Valley and Whitetail Mountains",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [],
+        "alternative_methods": null,
+        "guide": "Read the clue note beside the door of the Lincoln Lookout Tower. Take the zipline leading into the forest from the east balcony down to a tree platform. Ride the second zipline and quickly tap the action key at the end to latch directly onto the third zipline instead of falling. Cross the wooden beam bridge between tree platforms, then ride the final zipline directly into the top of the silo to claim the stash."
+      },
+      {
+        "id": "stash_hv_07",
+        "name": "Long-Distance Lockpick",
+        "location": "Reservoir dock north of Fall's End",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "The cult’s tampering with the water. I locked myself in to stop them, there’s no way to open the door from the outside."
+        ],
+        "alternative_methods": null,
+        "guide": "Inspect the prepper note at the base of the long dock. Head down the pier to the boathouse shed to find a note explaining the lock situation. Climb onto the shed roof and snipe the cultist perched across the reservoir. Ride the zipline across the water to the opposite sniper platform, pick up the scoped rifle from the dead sniper, and aim through the boathouse window across the water to shoot the yellow padlock. Defeat the cultists drawn by the alarm, cross back over, and enter the unlocked boathouse shed."
+      },
+      {
+        "id": "stash_hv_08",
+        "name": "Man Cave",
+        "location": "Sunrise Threshing, east of Fall's End",
+        "required_gear": "None",
+        "unique_rewards": "Custom 2012 Kimberlite TCZ (Pickup)",
+        "clue_notes": [
+          "To whoever is out there fighting the cult: The Peggies took everything from me. My farm. My wife. Everything I have left is hidden here. There’s a secret entrance to my bunker and garage. Use what’s inside to make those fuckers pay. - Big Mike"
+        ],
+        "alternative_methods": null,
+        "guide": "Find the clue at Sunrise Threshing. Reverse the nearby pickup truck against the barbed-wire fence of the locked yard, climb onto the truck bed, and jump over into the enclosure. Shoot the padlock off the yard gate, back the pickup truck inside, and hitch/tow the trailer sitting on top of the bunker hatch out of the way. Open the bunker hatch, climb down inside, and climb up the exit ladder at the opposite end to enter the locked garage."
+      },
+      {
+        "id": "stash_hv_09",
+        "name": "Playing With Fire",
+        "location": "Hope County Jail Bus campsite",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Jack - Cult finally went crazy. Well, more crazy. let's hide our good shit inside the big pipe. I'll meet you there. Watch out for bears! - Howard"
+        ],
+        "alternative_methods": "Locksmith perk allows opening the pipe gate directly without retrieving the key.",
+        "guide": "Clear the cultists at the bus campsite and read the note inside the bus. Walk south to the pond and head into the large drainage pipe. Locate the short offshoot tunnel with the bloodstain on the wall (where the locked stash gate is). Continue along the main pipe following the blood trail out the opposite end into the open lake area. Slay the bear and the cultist wielding a flamethrower, then loot the keycard next to the corpse by the water's edge. Return inside the pipe, eliminate the wolverine inside the side branch, unlock the gate, and loot the cache."
+      },
+      {
+        "id": "stash_hv_10",
+        "name": "Swingers",
+        "location": "Bridge of Tears, east of Rae-Rae's Pumpkin Farm",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Me and my buddies raided some Peggie supplies. We hid the gear in the bridge supports. You’ll need a good Grappling Hook to get to it."
+        ],
+        "alternative_methods": null,
+        "guide": "Climb down to the scaffolding beneath the cliff ledge under the Bridge of Tears. Grapple onto the first support strut, swing out, and grapple to the next attachment point underneath the bridge deck. Chain grapple swings along the understructure to reach the suspended wooden platform located roughly halfway across the bridge span. Break through the weak wooden floorboards to drop down onto the stash."
+      },
+      {
+        "id": "stash_hv_11",
+        "name": "Vespiary",
+        "location": "Grain Elevator (Holland Valley)",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "If you're reading this and you're a Peggie, I've got you in my sights :) If you're Resistance, come on up and see me in the grain elevator. I got some goodies you can use against the cult. Just watch your step as you come up, I got a lot of little friends who don't wanna be disturbed."
+        ],
+        "alternative_methods": "Hives can be burned down with fire, but doing so risks igniting the wooden building and player.",
+        "guide": "Read the prepper note in the yard outside the grain elevator. Mantle onto the animal cage against the warehouse, jump onto the tin roof, and break through the boarded-up upper window. Move carefully past the wasp nests without running into them, vault over the desk, and jump onto the roped crate (an optional locked safe is nearby). Break through the damaged wall to the right, drop into the next room without agitating the wasps, and ascend the elevator tower ledges and scaffolding until you reach the stash at the top."
+      }
+    ],
+    "henbane_river": [
+      {
+        "id": "stash_hr_01",
+        "name": "Animal Control",
+        "location": "Howling Cave, down the hill north of Peaches Taxidermy",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "There’s always a squad of cultists taking wolves from Howling Cave. They’ve got a lot of good gear in there. I think someone oughtta get the jump on ‘em and steal it."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note on the crate down the hill from the cave mouth. Eliminate the cultists outside and enter the cave. Take down the two wolves (including a failed Judge wolf). Drop into the lower basin, look up, and grapple to the high ledge above the entrance. Follow the ascending tunnel, drop into the subsequent basin, and climb up the opposite ledge. Crawl through the low passage into the main cavern to clear out the cultist squad. Grapple up to the overhead platform to find the stash and an exit helicopter."
+      },
+      {
+        "id": "stash_hr_02",
+        "name": "Dead Man's Treasure",
+        "location": "Cabin off the dirt road leading north from Sharky's Trailer Park",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "To any cougars reading this: Me and my buddy stashed some goodies in a cave behind the waterfall. To get inside you’ll have to stop flow and grapple down."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note on the crate outside the cabin. Drop onto the rocks to the right of the building, crawl underneath the foundation, and climb up through the floor to collect the water gearwheel. Climb through the rear window and take the zipline down to the floodgate at the top of the waterfall. Insert the wheel into the mechanism and turn it to cut off the water flow. Rappel down the dry cliff face, swing into the hidden cavern halfway down, and follow the tunnel to the stash."
+      },
+      {
+        "id": "stash_hr_03",
+        "name": "Getaway",
+        "location": "Gas station east of Hope County Jail",
+        "required_gear": "None",
+        "unique_rewards": "1973 Pygmalion SSR ('The Midnight Ride')",
+        "clue_notes": [
+          "Can’t say I didn’t warn you. Cult’s gone nuts, but I’ve been ready with a bug out plan for ages. I put my best gear in my best car and I’m gettin’ the fuck outta here. Nobody can call me selfish though - left y’all'some stuff to fight the cult with, and my second-best car: The Midnight Ride. Damned if I remember where I left the key. It’s in the garage somewhere Good luck, chumps! - Steve"
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note inside the service station near the locked door. Head outside through the back door and break through the boarded doorway into the garage. Release the handbrake on the car sitting on the ramp, then hit the wall switch opposite the door to open the main garage door. Climb over the car ramp, enter the next room, climb the crates on the left, and drop down on the other side. Crawl under the low shelf and kill the trapped wolverine. Grab the key hanging above the bathroom toilet, climb the crates to the roof hatch, exit back to the storefront, and unlock the stash room."
+      },
+      {
+        "id": "stash_hr_04",
+        "name": "O'Hara's Haunted House",
+        "location": "Haunted house near the rail bridge, south of the tracks on the Henbane/Holland border",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "I’ve been enjoying the show, watching everyone in the county tear each other to pieces. I’ve left some treats at the top of the barn for anyone brave enough to go through my haunted house."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the clue note on the exterior wall of the haunted barn. Go behind O'Hara's residence, climb the crate onto the roof, and drop down to the south-side scaffolding. Enter through the open second-story window and flip the electrical lever to restore power. Ride the exterior zipline down to the barn entrance, step inside, and walk through the haunted house corridor. Climb the ladder into the attic loft at the end to collect the stash."
+      },
+      {
+        "id": "stash_hr_05",
+        "name": "Overwatch",
+        "location": "Raptor Peak (highest peak in Henbane River), northeast of Rock Bass Lake",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "A squad of The Resistance went to 'et'up camp on top of Raptor Peak. But I have heard from them in a while. I hope they’re doing okay. It’s a dangerous climb."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note in the lookout tower halfway up the mountain. Follow the objective trail to the base of Raptor Peak and climb the rope ledges. Grapple-swing across the chasms and chain grapple points along the mountain face while defending against hostile eagles. Reach the summit where Resistance fighters are under attack, bypass or help clear the eagles, and head down the path on the other side of the peak to find the stash campsite."
+      },
+      {
+        "id": "stash_hr_06",
+        "name": "Pooper Scooper",
+        "location": "Silver Lake Summer Camp, northwest of Peaches Taxidermy",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "The Peggies took over this summer camp. The cabins are full of their stuff, and they’re rounding up dogs. I can’t fight them by myself, but I did the next best thing: I stole the master key to all the cabins and fed it to one of the dogs inside the main building. If they want access to their stash again, they’ll have to wait until the dog shits it back out!"
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note on the lockbox near the central well. Climb the exterior scaffolding on the western wall of the large red building and smash through the boarded window. Search through the piles of dog droppings scattered across the rooms until you find the swallowed cabin master key (the specific pile is randomized). Exit the building, locate Cabin 2 on the camp grounds, and unlock it to access the stash."
+      },
+      {
+        "id": "stash_hr_07",
+        "name": "Side Effects",
+        "location": "Abandoned Radon Spa, southeast of Hope County Jail near Prosperity",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Back in the day, this place was a radon health mine (look it up online). Nowadays, the cult’s hiding some of their shit in it. If I was braver, I’d raid it for supplies. If you wanna go in that creepy old place, then the power should still be working if you can find a switch or a generator inside."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note on the crate behind the cabin outside the mine entrance. Enter the mine tunnel past the dormant Angels. Navigate across the large cavern with the scaffolding, following the tunnel downward until you find the generator and pump in the deep chamber. Start the generator to unlock the stash door at the entrance. Fight your way back up through the newly awakened Angels (two in the large cavern, one on the stairs, two in the closet, and three near the entrance), then enter the unlocked door."
+      },
+      {
+        "id": "stash_hr_08",
+        "name": "The Angels' Grave",
+        "location": "Cave crevasse south of Rock Bass Lake",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "I’ve seen the Peggies get rid of dead Angels by dropping them in the crevasse on top of this hill. Some could use that same opening to drop into the cave and steal the gear they’ve got stashed there."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note by the locked cave gate at the roadside cabin. Grapple up the cliff face, cross the road to the open sinkhole, take out the three cultists tossing corpses, and rappel or parachute down into the pit. Rappel down the interior crevasse to the thermal pool cavern. Jump between rock pillars across the boiling acidic water (do not touch the water). In the second chamber, grapple across the pool, leap onto the fallen central pillar, and ride the zipline across. Eliminate the guards on the carved rock stairs to reach the stash."
+      }
+    ],
+    "whitetail_mountains": [
+      {
+        "id": "stash_wm_01",
+        "name": "Cliffhanger",
+        "location": "Crashed truck beneath the bridge on the western edge of Whitetail Mountains",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Ian, my dear, if you’re reading this you must think I’ve abandoned you. The crash knocked you out cold and nothing I did could wake you up. I didn’t want to leave you but I have to go find help. The Cult’s watching the roads but I think there’s a way up by the falls. There’s no way I can carry the lockbox, but I got the key with me so those fuckers can’t open it. Don’t worry. I’ll be back soon. Love always, Ted."
+        ],
+        "alternative_methods": null,
+        "guide": "Inspect Ted's note beside the crashed truck in the ravine bottom. Follow the blood trail heading up the hill toward the waterfall cliff. Grapple up the rock wall, leap across the falls, and scale the cliff ledges to the rocky shelf directly beneath the bridge. Eliminate the two cultists while avoiding the patrol helicopter, loot the key from Ted's corpse, and wingsuit/parachute back down to unlock the lockbox in the truck bed."
+      },
+      {
+        "id": "stash_wm_02",
+        "name": "Gone Squatchin'",
+        "location": "Dicky Dansky's cabin, wooded ravine northwest of Langford Lake",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Sorry I locked you out, but I just couldn’t wait. I hear some noises outside the cabin and just had to follow. If you need your gear, just head north along the trailer, I’m up at the old lookout. I’ve got a feeling our hunt is over soon and we’ll have proof of that squelch once and for all! Get the drams ready! - Dicky Dansky",
+          "I can’t believe it! I heard it! A genuine sasquatch call! I’m sure it’s from a cave I’ve seen on the nearby cliffs. I’ve got a feeling that today is going to be the day that I come face to face with the squelch itself!"
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note on the table beside the cabin door. Head north along the trail up to the collapsed lookout tower to collect Dansky's journal note. Follow the blood trail up to the cliff face, use the grapple points to scale the wall, pass through the raided campsite, and climb past the bone overhang. Grapple-swing across the gaps to reach the high cave ledge lined with animal bones. Loot the cabin keycard beside Dansky's body, then wingsuit/parachute back down to unlock the cabin."
+      },
+      {
+        "id": "stash_wm_03",
+        "name": "Hangar Pains",
+        "location": "Lansdowne Airstrip hangar, north of F.A.N.G Center",
+        "required_gear": "Grappling Hook, Wingsuit, Parachute",
+        "unique_rewards": "Pack Hunter Plane",
+        "clue_notes": [
+          "For fuck’s sake, Russ, you broke the damn generator again/ How the hell am I supposed to open the door and get the plane out now? I’m off to get Shep to come and fix it. And I swear to god if you left the skylight open again I’m going to fire your ass. - Ben",
+          "Russ, there’s something rotting up there on the roof, I saw one of 'them'eagles perched on the nearby radio tower with something in its claws the other day. Pretty sure it glided over and dropped that sucker and now it’s baking up there in the sun. You’re going to have to find some way up there and clean it up. - Ben"
+        ],
+        "alternative_methods": "You can purchase or summon a helicopter at the nearby helipad shop and land directly onto the hangar roof instead of gliding from the radio tower.",
+        "guide": "Read the notes on the tool chest and side door outside the locked hangar. Grapple to the top of the radio tower situated south of the airstrip. Wingsuit off the tower platform toward the hangar, deploy the parachute above the building, and land on the roof. Drop down into the open skylight and press the glowing button on the western wall to open the main hangar doors."
+      },
+      {
+        "id": "stash_wm_04",
+        "name": "Mayday",
+        "location": "Footbridge in the far northwest mountains of Whitetail Mountains",
+        "required_gear": "Grappling Hook",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Eli has tasked me with finding a way to get the 'mesage'out. The cult controls all communications, not to mention all the bridges in and out. Our only hope is to fly out before they are able to control the skies as well. I've got my gear with me, I plan on leaving 'tonigh'tunder'cover of darkness. Wish me luck. - Kyle"
+        ],
+        "alternative_methods": null,
+        "guide": "Read Kyle's note and loot pack at the south end of the hiker footbridge. Cross the bridge and follow the trail markers up the rock face above the waterfall using your grapple. Scale the broken bridge span, swing across, and chain grapple points upward through the wreckage path. Climb the final cliff face, eliminate the three cultists searching the debris with melee takedowns, pick up the lockbox key from the crate near the top, and return to the base of the crash to unlock the stash."
+      },
+      {
+        "id": "stash_wm_05",
+        "name": "Salvage Rites",
+        "location": "Small island off the southern end of Clagett Bay",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Salvage contract form detailing a sunken Cessna aircraft in the bay containing a key to the campsite lockbox."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the salvage contract form next to the lockbox at the island campsite. Follow the underwater cord and red marker buoys stretching out into Clagett Bay, surfacing for air as needed. At the final buoy, dive down to the sunken fuselage of the aircraft, grab the lockbox key lying near the pilot's body, swim back to the island, and unlock the chest."
+      },
+      {
+        "id": "stash_wm_06",
+        "name": "Shipwreck",
+        "location": "Island west of the railway bridge connecting Whitetail Mountains to Henbane River",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "My bunker’s compromised, some asshat drove a fucking dredge into it. I tried to get it loose, but every time I touch the controls it just digs a deeper hole. 'Last'thing I need is a bunch of veggies swimming in to steal my shit."
+        ],
+        "alternative_methods": null,
+        "guide": "Read the note outside the island cabin. Swim through the open window on the south side of the sunken dredge hull. Follow the submerged hallway to the left, surface inside the central hold, and climb the ladder to the dredge control room. Pull the control lever to start the dredge mechanism, cutting an opening into the bunker below. Swim through the flooded tunnel, watch out for the trapped snake, and climb into the bunker hatch."
+      },
+      {
+        "id": "stash_wm_07",
+        "name": "The Holdouts",
+        "location": "Elliot Residence, south of F.A.N.G Center and west of Baron Lumber Mill",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "Tanner, got orders from Jacob to remove Elliot and his family from their house. They’ve been a thorn in our ass for far too long. Make sure you check their bunker, they could be hiding in there. Use whatever means necessary. - Billy"
+        ],
+        "alternative_methods": null,
+        "guide": "Inspect the cult orders on the crates in the front yard. Move to the backyard, climb onto the second-story roof via the collapsed porch, and enter through the window. Walk through the second-story rooms, step onto the front roof, enter the window to the right, and take the stairs down into the kitchen. Pick up Richard Elliot's bunker keycard from the floor beside his body. Eliminate the cultist reinforcements arriving outside, head into the backyard shed, shoot the lock off the hatch, and unlock the bunker door with the keycard."
+      },
+      {
+        "id": "stash_wm_08",
+        "name": "Unwelcome Guest",
+        "location": "Cabin high on the mountain along the western Whitetail/Holland border",
+        "required_gear": "None",
+        "unique_rewards": null,
+        "clue_notes": [
+          "To: Shep / Damn thief got into my cabin, nearly got my stash. I’m off to track that bastard down. 'Meanwhile'see what you can do with the lock. I’ll be damned if this is going to happen again. - Hardcastle"
+        ],
+        "alternative_methods": null,
+        "guide": "Read Hardcastle's note on the cabin door. Head around the cabin and follow the trail of dropped supplies into the rocky hills to the west toward a large cave. Defeat the grizzly bear ('Not-So-Gentle Ben') at the cave mouth, search Hardcastle's remains inside for the key, and return to the cabin to unlock the door."
+      }
+    ]
+  },
+  "regions_and_story_structure": {
+    "prologue_dutchs_island": {
+      "region_name": "Dutch's Island",
+      "ruler": "Joseph 'The Preacher' Seed (Opening)",
+      "liberator_contact": "Richard 'Dutch' Roosevelt",
+      "missions": [
+        "The Warrant",
+        "No Way Out",
+        "Glimmer of Hope",
+        "The Resistance"
+      ]
+    },
+    "holland_valley": {
+      "region_name": "Holland Valley",
+      "ruler": "John Seed",
+      "theme": "Food production, agriculture, dairies, and indoctrination",
+      "stronghold": "Fall's End",
+      "story_missions": [
+        "Fall's End",
+        "Good Samaritan",
+        "Man's Best Friend",
+        "Rye and Son's Aviation",
+        "Wingman",
+        "Grace Under Fire",
+        "Air Raid",
+        "The Deathwish",
+        "Jumping Ship",
+        "The Widowmaker",
+        "Razing the Steaks",
+        "Blow Their Mine"
+      ],
+      "lieutenant_boss_encounters": [
+        "The Cleansing",
+        "The Confession",
+        "The Atonement",
+        "Wrath",
+        "The Quality of Mercy"
+      ],
+      "side_missions": [
+        "Free Larry",
+        "The Heroes Journey",
+        "Close Encounters",
+        "Out of This World",
+        "Light 'Em Up",
+        "Valley Armed Convoy",
+        "Testy Festy",
+        "Prairie Oyster Harvest",
+        "Exodus",
+        "Bear Necessities",
+        "Cow Punching",
+        "The Judge Moose",
+        "Water Works",
+        "Uncrate",
+        "Patriot Acts",
+        "Golden Age Nostalgia",
+        "Baptist of Fire",
+        "Special Delivery",
+        "Spray and Pray",
+        "What They Carried"
+      ],
+      "cult_defenses_by_resistance_level": {
+        "level_1": "Road patrols attempting forced civilian recruitment.",
+        "level_2": "Strategic roadblocks set up across valley routes.",
+        "level_3": "The Chosen deploying fighter planes."
+      }
+    },
+    "henbane_river": {
+      "region_name": "Henbane River",
+      "ruler": "Faith Seed",
+      "theme": "Cultivation and distribution of the Bliss narcotic drug",
+      "stronghold": "Hope County Jail",
+      "story_missions": [
+        "Hope County Jail",
+        "Here Kitty Kitty",
+        "Friendly Skies",
+        "Burn Baby Burn",
+        "Eco-Warriors",
+        "False Prophet",
+        "Clean Water Act",
+        "Sins of The Father",
+        "Salvation",
+        "Doctors Orders",
+        "Clinical Study"
+      ],
+      "lieutenant_boss_encounters": [
+        "A Leap of Faith",
+        "The Bliss",
+        "Ignorance is Bliss",
+        "The Lesson",
+        "Paradise Lost",
+        "Walk The Path"
+      ],
+      "side_missions": [
+        "River Armed Convoy",
+        "Refuel",
+        "False Idols",
+        "Fast",
+        "Furious",
+        "Quiet on the Set",
+        "Blood Dragon 3",
+        "The Judge Bear",
+        "The Judge Cougar",
+        "Our Better Angels",
+        "Ragnar the Terrible",
+        "Broken Path"
+      ],
+      "cult_defenses_by_resistance_level": {
+        "level_1": "Armed recruitment trucks and wandering/working Bliss-addicted Angels.",
+        "level_2": "Gunboat Squadrons deployed on river ways.",
+        "level_3": "The Chosen deploying fighter planes."
+      }
+    },
+    "whitetail_mountains": {
+      "region_name": "Whitetail Mountains",
+      "ruler": "Jacob Seed",
+      "theme": "Army conditioning, culling, hunter training, and Judge beasts",
+      "stronghold": "Wolf's Den",
+      "story_missions": [
+        "Baron Lumbermill",
+        "A Dish Served Cold",
+        "Missing in Action",
+        "A Right to Bear Arms",
+        "The Prodigal Son",
+        "Make Hope Great Again",
+        "Gearing Up",
+        "Dinner Time",
+        "Get Free",
+        "Radio Silence",
+        "Eviction Notice"
+      ],
+      "lieutenant_boss_encounters": [
+        "The World is Weak",
+        "We Must Be Strong",
+        "Sacrifice The Weak",
+        "Only You",
+        "Casualties of War"
+      ],
+      "side_missions": [
+        "Call of the Wild",
+        "Mountain Armed Convoy",
+        "Flavour Country",
+        "Grill Steak",
+        "Nature Provides",
+        "Shooting Gallery",
+        "Static Frequency",
+        "Tools of the Trade",
+        "Gone Fishin’",
+        "The Admiral",
+        "Welcome Party"
+      ],
+      "cult_defenses_by_resistance_level": {
+        "level_1": "Recruitment patrols and trained Judge wolves roaming the woods.",
+        "level_2": "Helicopter Squadrons hunting the player.",
+        "level_3": "The Chosen deploying fighter planes."
+      }
+    }
+  },
+  "walkthrough_missions": [
+    {
+      "id": "walkthrough_prologue_01",
+      "mission_name": "The Warrant",
+      "region": "Dutch's Island (Prologue)",
+      "objectives": [
+        "Touch down via helicopter with U.S. Marshal and Sheriff Whitehorse.",
+        "Walk down the path into the church.",
+        "Handcuff Joseph Seed (or wait 5 minutes to trigger the secret ending).",
+        "Escort Joseph Seed back to the helicopter."
+      ],
+      "guide": "Follow Sheriff Whitehorse on rails into the church. Approach Joseph Seed when instructed. Cuffing him triggers the main story; refusing to cuff him and standing idle for roughly five minutes triggers the secret early ending."
+    },
+    {
+      "id": "walkthrough_prologue_02",
+      "mission_name": "No Way Out",
+      "region": "Dutch's Island (Prologue)",
+      "objectives": [
+        "Flee the crashed helicopter.",
+        "Perform stealth takedown and arm yourself.",
+        "Meet the Marshal at the trailer house.",
+        "Hold off cultists while the Marshal gets the truck ready.",
+        "Survive the vehicular chase sequence."
+      ],
+      "guide": "Crawl out of the crash and sprint to the house. Crouch for stealth, grab the pipe by the lumber, execute a takedown on the cultist, and take his firearm. Meet the Marshal at the trailer, grab ammo from external crates, hold off the cultist waves, and jump into the truck passenger seat. Lean inside for cover while shooting pursuers and throwing dynamite until the bridge is destroyed."
+    },
+    {
+      "id": "walkthrough_prologue_03",
+      "mission_name": "Glimmer of Hope",
+      "region": "Dutch's Island (Prologue)",
+      "objectives": [
+        "Awaken in Dutch's bunker.",
+        "Change clothes and customize appearance.",
+        "Speak with Dutch.",
+        "Collect gear and map from the safe and exit the bunker."
+      ],
+      "guide": "After surviving the water crash and being dragged to safety by Dutch, wake up in the bunker. Change into clean clothes, customize your character, talk to Dutch, and pick up the firearm and map to prepare for island liberation."
+    },
+    {
+      "id": "walkthrough_prologue_04",
+      "mission_name": "The Resistance",
+      "region": "Dutch's Island (Prologue)",
+      "objectives": [
+        "Destroy the western cult shrine.",
+        "Rescue and hire a civilian at the fishing dock.",
+        "Secure the Research Station and liberate the hostage.",
+        "Liberate the Ranger Station.",
+        "Climb the Radio Tower and activate the antenna."
+      ],
+      "guide": "Stealthily eliminate the three cultists at the shrine and blow it up with explosives. Head to the fishing dock, take out the guards, and hire the liberated fighter. Clear the Research Station to get intel, liberate the Ranger Station outpost, and climb to the top of the radio tower to throw the power switch and open up Hope County."
+    },
+    {
+      "id": "walkthrough_hv_01",
+      "mission_name": "Fall's End",
+      "region": "Holland Valley",
+      "objectives": [
+        "Travel to Fall's End.",
+        "Secure Fall's End by eliminating all Peggies.",
+        "Rescue optional hostages.",
+        "Destroy incoming cult air support using the roof-mounted gun."
+      ],
+      "guide": "Sneak around the town perimeter to pick off cultists. Use the water tower or rooftops for lines of sight. When enemy air support arrives, mount the machine gun on the central building roof to shoot down the plane, then mop up remaining ground troops to trigger the liberation cinematic."
+    },
+    {
+      "id": "walkthrough_hv_02",
+      "mission_name": "Good Samaritan",
+      "region": "Holland Valley",
+      "objectives": [
+        "Reach Woodson Pig Farm.",
+        "Stealthily eliminate cultists and rescue three hostages.",
+        "Defend the farm against incoming cultist vehicle reinforcements."
+      ],
+      "guide": "Approach quietly so the cultists don't execute hostages. Take out the guard by the truck, breach the house to kill the cultist beating a hostage, free the hostage on the right, and eliminate the central flamethrower enemy from behind. Defeat arriving vehicles with the armed hostages to finish."
+    },
+    {
+      "id": "walkthrough_hv_03",
+      "mission_name": "Man's Best Friend",
+      "region": "Holland Valley",
+      "objectives": [
+        "Travel to Rae-Rae's Pumpkin Farm.",
+        "Free Boomer from his cage.",
+        "Secure the farm alongside Boomer.",
+        "Pet Boomer to comfort him."
+      ],
+      "guide": "Approach the farm, eliminate the guarding Peggies, and smash/punch Boomer's trailer cage open. Fight alongside Boomer against the incoming cultists. Approach Boomer as he mourns his former owners and pet him to recruit him as a Fang for Hire."
+    },
+    {
+      "id": "walkthrough_hv_04",
+      "mission_name": "Rye and Son's Aviation",
+      "region": "Holland Valley",
+      "objectives": [
+        "Reach Rye and Son's Aviation.",
+        "Eliminate cultists and hostile attack dogs.",
+        "Revive Nick Rye."
+      ],
+      "guide": "Arrive at the airfield amidst gunfire, take down cultists and their fast attack dog, and revive Nick Rye on the ground. Speak with him to unlock his personal loyalty mission 'Wingman'."
+    },
+    {
+      "id": "walkthrough_hv_05",
+      "mission_name": "Wingman",
+      "region": "Holland Valley",
+      "objectives": [
+        "Infiltrate Seed Ranch and steal back Nick's plane ('Carmina').",
+        "Fly through tutorial rings and follow the riverbed.",
+        "Destroy cult fuel tankers and enemy planes on the ground.",
+        "Land at Nick's airfield and defend his home and hangar."
+      ],
+      "guide": "Infiltrate the barn at Seed Ranch without raising alarms, board the floatplane, and take off. Complete the flight path, destroy tankers and grounded planes via machine guns and bombs, return to Nick's property, and defend his home and hangar against ground waves until Nick touches down."
+    },
+    {
+      "id": "walkthrough_hv_06",
+      "mission_name": "Grace Under Fire",
+      "region": "Holland Valley",
+      "objectives": [
+        "Reach the Lamb of God Church.",
+        "Speak with Grace Armstrong on the church roof.",
+        "Defend three mausoleums from waves of cultists, snipers, and flamethrowers."
+      ],
+      "guide": "Clear the churchyard and climb up to Grace. Defend the cemetery mausoleums against advancing cultists, snipers, and heavy flamethrowers (watch out for spreading grass fires). Ensure at least one mausoleum remains intact to complete the mission and recruit Grace."
+    },
+    {
+      "id": "walkthrough_hv_07",
+      "mission_name": "The Cleansing",
+      "region": "Holland Valley (Boss Encounter)",
+      "objectives": [
+        "Survive capture and transport crash.",
+        "Secure the road checkpoint with Pastor Jerome.",
+        "Advance up the road and rescue Merle Briggs.",
+        "Survive 2-minute extraction countdown using mortar and weapons."
+      ],
+      "guide": "Triggered automatically when marked by John Seed. Escape the overturned van with Pastor Jerome, clear out the checkpoint, move up the hill while dodging mortar fire, use ziplines to reach Merle, and man the mortar against charging cultists until the rescue helicopter lands."
+    },
+    {
+      "id": "walkthrough_hv_08",
+      "mission_name": "Air Raid",
+      "region": "Holland Valley",
+      "objectives": [
+        "Board Nick's plane at Rye and Son's Aviation.",
+        "Destroy the designated cult fuel pump.",
+        "Destroy two moving fuel tanker convoys.",
+        "Shoot down two attack helicopters.",
+        "Engage and destroy The Chosen fighter plane."
+      ],
+      "guide": "Fly Nick's plane to take out the stationary fuel pump, followed by the two moving convoys on the roads below. Engage the two enemy choppers, then dogfight the nimble Chosen plane to complete the mission and unlock the Carnival plane at hangars."
+    },
+    {
+      "id": "walkthrough_hv_09",
+      "mission_name": "The Deathwish",
+      "region": "Holland Valley",
+      "objectives": [
+        "Meet Merle at Silver Lake Trailer Park.",
+        "Liberate US Auto.",
+        "Pursue and reclaim The Deathwish at Golden Valley Gas Station.",
+        "Drive Merle to the Construction Yard and ram green Bliss containers."
+      ],
+      "guide": "Clear US Auto from the eastern ridge. Drive to Golden Valley Gas Station, chase the fleeing Deathwish without destroying the vehicle, kill the driver, return the truck to Merle, and drive him through the construction yard to smash bliss containers and enemies."
+    },
+    {
+      "id": "walkthrough_hv_10",
+      "mission_name": "Jumping Ship",
+      "region": "Holland Valley",
+      "objectives": [
+        "Meet the Pastor in Fall's End.",
+        "Travel to Silver Lake Trailer Park and secure the area.",
+        "Defend the cult defector against assault waves.",
+        "Carry the defector to the escape boat at the docks."
+      ],
+      "guide": "Clear the trailer park, position for defending the building against cult assaults from both the front and rear, then pick up the wounded defector. Fire your sidearm and use Guns for Hire for cover as you transport him to the boat at the docks."
+    },
+    {
+      "id": "walkthrough_hv_11",
+      "mission_name": "The Confession",
+      "region": "Holland Valley (Boss Encounter)",
+      "objectives": [
+        "Survive capture by John Seed's Bliss squad.",
+        "Escape your restraints and find a weapon.",
+        "Navigate the underground facility toward Deputy Hudson.",
+        "Escape the bunker within the 1:30 lockdown countdown."
+      ],
+      "guide": "Triggered by Bliss capture. After John takes Hudson downstairs, tilt your chair down the steps to break free. Stealth-kill guards to acquire a pipe and pistol, navigate through vents and rooms, trigger the cutscene with John, and sprint through escaping cultists/Angels up the stairs and down dual ziplines before the timer expires."
+    },
+    {
+      "id": "walkthrough_hv_12",
+      "mission_name": "The Widowmaker",
+      "region": "Holland Valley",
+      "objectives": [
+        "Speak with Mary May at Spread Eagle Bar in Fall's End.",
+        "Infiltrate the grain elevator north of Woodson Farm.",
+        "Eliminate guards, take the keys, and steal the semi-truck.",
+        "Ram through cult roadblocks and return The Widowmaker to Fall's End."
+      ],
+      "guide": "Breach the grain elevator yard, kill the VIP to retrieve the keys, get into The Widowmaker semi-truck, and drive along the marked route crashing through cult barricades and roadblocks back to Fall's End."
+    },
+    {
+      "id": "walkthrough_hv_13",
+      "mission_name": "Razing the Steaks",
+      "region": "Holland Valley",
+      "objectives": [
+        "Meet Zip Kupka at Kupka Ranch.",
+        "Drive with Zip to Flatiron Stockyards.",
+        "Eliminate all drugged animals and cultists on site.",
+        "Guard Zip while he rigs explosives and secure the area."
+      ],
+      "guide": "Ride with Zip to the stockyards, kill the cultists and drug-addled cattle, provide protective fire while Zip plants demolitions, and repel incoming Peggies to finish."
+    },
+    {
+      "id": "walkthrough_hv_14",
+      "mission_name": "Blow Their Mine",
+      "region": "Holland Valley",
+      "objectives": [
+        "Travel to Catamount Mines in southeast Holland Valley.",
+        "Rig four designated crates with explosives.",
+        "Defend the bomb charges from being defused for 4 minutes.",
+        "Retreat to a safe distance to witness the detonation."
+      ],
+      "guide": "Zipline into the mines, plant charges at the four designated crate outlines, position on high ground to pick off cultists attempting to defuse the bombs during the 4-minute timer, and fall back to the safe zone."
+    },
+    {
+      "id": "walkthrough_hv_15",
+      "mission_name": "The Atonement / Wrath",
+      "region": "Holland Valley (Boss Encounter)",
+      "objectives": [
+        "Confront John Seed at the church in Fall's End.",
+        "Survive the shootout in Fall's End.",
+        "Man the truck turret with Mary May in pursuit of John.",
+        "Dogfight and shoot down John Seed's plane ('Wrath').",
+        "Kill John Seed on foot and collect his bunker key."
+      ],
+      "guide": "Enter the Fall's End church, turn the tables during the forced confession, clear the town, ride shotgun/turret behind Mary May chasing John to Seed Ranch, board a pursuit plane to shoot down John's aircraft, and finish him on the ground to claim his key."
+    },
+    {
+      "id": "walkthrough_hv_16",
+      "mission_name": "The Quality of Mercy",
+      "region": "Holland Valley (Region Finale)",
+      "objectives": [
+        "Unlock John Seed's bunker with his key.",
+        "Fight through the bunker to locate Deputy Hudson.",
+        "Follow Hudson to the prisoner cells and release captives.",
+        "Infiltrate the control room and climb the decommissioned missile silo.",
+        "Destroy all green Bliss containers and escape before detonation."
+      ],
+      "guide": "Breach the bunker, clear the rooms to find Deputy Hudson, release the prisoners, navigate the silo platforms by shooting yellow hinges to drop walkways, blow up all Bliss containers to start the destruction cascade, and escape to the surface to liberate Holland Valley."
+    },
+    {
+      "id": "walkthrough_hr_01",
+      "mission_name": "Hope County Jail",
+      "region": "Henbane River",
+      "objectives": [
+        "Travel to Hope County Jail.",
+        "Scale the perimeter wall and eliminate attacking Peggies.",
+        "Defend the main gate against vehicle waves.",
+        "Destroy the cult fuel tanker with a rocket launcher."
+      ],
+      "guide": "Climb onto the prison wall via vehicle roofs, collect weapons and the rocket launcher from the wall bunkers, repel waves of attackers, and use your reserved rocket launcher ammo to destroy the incoming fuel tanker."
+    },
+    {
+      "id": "walkthrough_hr_02",
+      "mission_name": "Here Kitty Kitty",
+      "region": "Henbane River",
+      "objectives": [
+        "Speak with Miss Mable at Peaches Taxidermy.",
+        "Collect Peaches' special meat treats.",
+        "Locate Peaches at the nearby cultist camp.",
+        "Lure Peaches back to the taxidermy shop by tossing treats.",
+        "Defend the property from attacking cultists and pen Peaches."
+      ],
+      "guide": "Grab treats from the cage, follow the blood trail to the camp, eliminate the Peggies, toss treats to lure Peaches home, clear out the cultists attacking Miss Mable's property, and throw a treat inside Peaches' pen to complete the quest."
+    },
+    {
+      "id": "walkthrough_hr_03",
+      "mission_name": "A Leap of Faith",
+      "region": "Henbane River (Boss Encounter)",
+      "objectives": [
+        "Interact with Faith Seed's hallucinatory projection.",
+        "Listen to Faith at the dreamscape garden.",
+        "Jump off the statue of Joseph Seed."
+      ],
+      "guide": "Triggered automatically when encountering hallucinations in Henbane River. Walk with Faith to the book on Joseph's statue, leap off the edge into the abyss, and wake up unharmed among corpses on the ground below."
+    },
+    {
+      "id": "walkthrough_hr_04",
+      "mission_name": "Friendly Skies",
+      "region": "Henbane River",
+      "objectives": [
+        "Liberate Drubman Marina and speak with Adelaide Drubman.",
+        "Investigate three candidate locations to locate Adelaide's stolen helicopter ('Tulip').",
+        "Steal the chopper once it lands at the lookout.",
+        "Fly the chopper back to the marina and defeat attacking cultists."
+      ],
+      "guide": "Investigate McCoy Cabin and the fire tower to rule out incorrect choppers, scout the lookout with binoculars, eliminate ground cultists, steal Tulip when it lands, fly it back to the marina, destroy attacking Peggies, and land safely."
+    },
+    {
+      "id": "walkthrough_hr_05",
+      "mission_name": "Burn Baby Burn",
+      "region": "Henbane River",
+      "objectives": [
+        "Meet Sharky Boshaw at Moonflower Trailer Park.",
+        "Defend the trailer rooftops from swarming Angels.",
+        "Manually shut off all loudspeakers across the park.",
+        "Eliminate remaining Angels to secure the area."
+      ],
+      "guide": "Climb the trailer to meet Sharky, use heavy firearms and explosives to slaughter the waves of Angels drawn by loud music, hop across rooftops and ladders to manually switch off the malfunctioning speakers, and finish off stragglers."
+    },
+    {
+      "id": "walkthrough_hr_06",
+      "mission_name": "Eco-Warriors",
+      "region": "Henbane River",
+      "objectives": [
+        "Talk to Xander at Drubman Marina.",
+        "Hack the laptop at Misty River Gas Station and survive 1:30.",
+        "Call in Adelaide and shadow the boat convoy.",
+        "Locate and destroy the Bliss containers at the rail depot."
+      ],
+      "guide": "Hack the laptop at Misty River Gas Station, defend the position until the upload finishes, tail the Bliss boat convoy by air or river to the train depot, and destroy all Bliss containers using firearms or explosives."
+    },
+    {
+      "id": "walkthrough_hr_07",
+      "mission_name": "False Prophet",
+      "region": "Henbane River",
+      "objectives": [
+        "Talk to Tracer at Hope County Jail.",
+        "Travel to Angel's Peak and attack Joseph Seed's giant statue.",
+        "Destroy the outer shell of the statue using rocket launchers.",
+        "Climb through the interior framework and burn Joseph's holy book."
+      ],
+      "guide": "Fire rockets at the statue body and arms while running in circles to dodge cultists, restock rockets on the cliffside cache, climb through the interior ladders and twisted metal scaffolds, and burn Faith's copy of Joseph's scripture at the summit."
+    },
+    {
+      "id": "walkthrough_hr_08",
+      "mission_name": "The Bliss",
+      "region": "Henbane River (Boss Encounter)",
+      "objectives": [
+        "Experience the Bliss hallucinations with Faith and Joseph Seed.",
+        "Observe the fiery hellscape transformation.",
+        "Wake up in the company of Sheriff Whitehorse and Tracey."
+      ],
+      "guide": "Unavoidable narrative hallucination upon crossing a Resistance threshold. Watch Faith and Joseph's monologues until Sheriff Whitehorse revives you with an adrenaline shot."
+    },
+    {
+      "id": "walkthrough_hr_09",
+      "mission_name": "Clean Water Act",
+      "region": "Henbane River",
+      "objectives": [
+        "Speak to Virgil inside Hope County Jail.",
+        "Travel to the Water Treatment Plant and eliminate cultists.",
+        "Activate pump controls, navigate drained pipes, and destroy pump stations."
+      ],
+      "guide": "Snipe the cultists at the treatment plant from the overlook, drain the first pool, shoot the barrel obstructing the pipe, swim into the first pump room to destroy the equipment, activate the circular tank pump, crawl through the pipe, and destroy the second set of pumps."
+    },
+    {
+      "id": "walkthrough_hr_10",
+      "mission_name": "Salvation",
+      "region": "Henbane River",
+      "objectives": [
+        "Speak to Sheriff Whitehorse at Hope County Jail.",
+        "Travel to the stranded ship ('The Misery') east of Moonflower Trailer Park.",
+        "Stealthily eliminate cult guards and rescue hostages.",
+        "Ambush and eliminate the cult Priestess."
+      ],
+      "guide": "Sneak onto the ship via the western pipe entrance, quietly eliminate guards (prioritizing alarm runners), rescue the hostages, and ambush the Priestess when she arrives by car (or boat if alerted)."
+    },
+    {
+      "id": "walkthrough_hr_11",
+      "mission_name": "Ignorance is Bliss",
+      "region": "Henbane River (Boss Encounter)",
+      "objectives": [
+        "Fall into the Bliss and join Marshal Burke on his boat.",
+        "Pursue Marshal Burke on foot and perform a takedown.",
+        "Awaken at Hope County Jail as Burke is treated."
+      ],
+      "guide": "Triggered by Resistance meter accumulation. Ride with Marshal Burke in the dreamscape boat, chase after him as he disembarks, execute a takedown to break the spell, and wake up back at the jail."
+    },
+    {
+      "id": "walkthrough_hr_12",
+      "mission_name": "Doctors Orders",
+      "region": "Henbane River",
+      "objectives": [
+        "Liberate Mastodon Geothermal Park and rescue Dr. Charles Lindsay.",
+        "Dive into the geothermal pool cave to recover the doctor's bag.",
+        "Defend the park from cultists and attack choppers.",
+        "Harvest 2 undamaged pronghorn skins and 2 undamaged black bear skins.",
+        "Deliver the skins to Dr. Lindsay at Hope County Jail."
+      ],
+      "guide": "Rescue Dr. Lindsay, retrieve his bag from the submerged pool cave, defend the area against attacking waves, hunt two pronghorns and two black bears (undamaged pelts), and deliver the supplies to the doctor at the jail."
+    },
+    {
+      "id": "walkthrough_hr_13",
+      "mission_name": "Clinical Study",
+      "region": "Henbane River",
+      "objectives": [
+        "Collect experimental bait from Dr. Lindsay.",
+        "Infiltrate the test farm west of the jail and kill only the cultists.",
+        "Place the bait on the table and observe from the roof.",
+        "Eliminate swarming Angels and skunks.",
+        "Acquire 2 undamaged skunk skins and return them to the doctor."
+      ],
+      "guide": "Kill the guards at the farm without alerting the working Angels, place the bait on the table, climb to the roof to observe, eliminate the agitated Angels, collect two clean skunk skins, and return to Dr. Lindsay to upgrade bait functionality."
+    },
+    {
+      "id": "walkthrough_hr_14",
+      "mission_name": "The Lesson",
+      "region": "Henbane River (Boss Encounter)",
+      "objectives": [
+        "Witness Marshal Burke's tragic betrayal in the Bliss.",
+        "Infiltrate the compromised Hope County Jail via roof grappling points.",
+        "Stealthily drop through ceiling vents to clear cultists and rescue Tracey.",
+        "Loot the key to unlock Tracey's cell."
+      ],
+      "guide": "Grapple to the prison roof, eliminate rooftop snipers, enter the air vent, quietly take down cultists holding hostages below, search the bodies for the jail cell key, unlock Tracey, and step outside to start 'Paradise Lost'."
+    },
+    {
+      "id": "walkthrough_hr_15",
+      "mission_name": "Paradise Lost",
+      "region": "Henbane River (Boss Encounter)",
+      "objectives": [
+        "Confront Faith Seed in the Bliss arena.",
+        "Strafing attack to dodge 3-projectile volleys.",
+        "Eliminate summoned Angels and Faith illusions.",
+        "Defeat Faith Seed."
+      ],
+      "guide": "Keep moving laterally to dodge Faith's projectile bursts, return fire during her attack cool-down window, eliminate incoming Angels and illusion clones, restock from floating caches, and deplete her health bar."
+    },
+    {
+      "id": "walkthrough_hr_16",
+      "mission_name": "Walk The Path",
+      "region": "Henbane River (Region Finale)",
+      "objectives": [
+        "Locate Sheriff Whitehorse inside Faith's bunker.",
+        "Shut off five central Bliss distribution valves.",
+        "Destroy the central pumps with explosives.",
+        "Navigate fire-trapped corridors and defeat armored guards.",
+        "Escape the exploding bunker to liberate Henbane River."
+      ],
+      "guide": "Enter the real-world bunker from the dreamscape, eliminate guards methodically before closing the 5 valves, blow up the pump engines, navigate through the fiery rooms, take out armored Peggies, and climb to the surface before detonation."
+    },
+    {
+      "id": "walkthrough_wm_01",
+      "mission_name": "Baron Lumbermill",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Travel to Baron Lumber Mill.",
+        "Eliminate cultist defenders and central tower sniper.",
+        "Liberate the facility and speak with Jess Black."
+      ],
+      "guide": "Infiltrate via the upper front window, take down the tower sniper to dominate the mill, eliminate cultist reinforcements using cover and rocket launcher ammo, and free the captives to recruit Jess Black."
+    },
+    {
+      "id": "walkthrough_wm_02",
+      "mission_name": "A Dish Served Cold",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Follow Jess Black through the mountains.",
+        "Silently liberate hostages at the camp.",
+        "Rescue quarry hostages by picking off high-ground shooters.",
+        "Track down and eliminate 'The Cook'."
+      ],
+      "guide": "Accompany Jess with a hunting bow, quietly dispatch camp guards to rescue prisoners, clear the quarry shooters, approach The Cook's camp, take out peripheral guards, and eliminate The Cook with sustained fire."
+    },
+    {
+      "id": "walkthrough_wm_03",
+      "mission_name": "Missing in Action",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Talk to Eli at Wolf's Den.",
+        "Infiltrate the Whitetail Park Visitor Center through drain tunnels.",
+        "Rescue four hostages silently.",
+        "Travel to Hawkeye Tunnel, eliminate cultists, and destroy the helicopter."
+      ],
+      "guide": "Crawl through the drainage pipes into the Visitor Center, clear guards without tripping alarms to preserve hostages, proceed to Hawkeye Tunnel, eliminate the squad, and destroy the incoming attack helicopter using rockets."
+    },
+    {
+      "id": "walkthrough_wm_04",
+      "mission_name": "A Right to Bear Arms",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Liberate the F.A.N.G Center and speak with Wade.",
+        "Catch a fresh salmon at the marked fishing hole.",
+        "Travel to Linero Building Supplies and feed Cheeseburger.",
+        "Defend Cheeseburger from attacking cultist squads."
+      ],
+      "guide": "Fish for salmon at the waypoint, head east to Linero Building Supplies, clear entrance guards, feed the salmon to Cheeseburger, and provide sniper/rifle cover while the bear mauls cultists to recruit him."
+    },
+    {
+      "id": "walkthrough_wm_05",
+      "mission_name": "The Prodigal Son",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Meet Hurk Drubman Sr. at Fort Drubman.",
+        "Ride with Hurk Jr. to the mountain watchtower and clear enemies.",
+        "Zipline down to retrieve Hurk Sr.'s truck ('Nancy').",
+        "Ride shotgun or man the turret during the escape chase.",
+        "Destroy roadblock vehicles and pursuing helicopters."
+      ],
+      "guide": "Ride with Hurk Jr. to the watchtower, clear enemies, zipline down to Nancy, man the turret to destroy chasing ATVs, trucks, and helicopters, and return to Fort Drubman to unlock Hurk Jr."
+    },
+    {
+      "id": "walkthrough_wm_06",
+      "mission_name": "Make Hope Great Again",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Speak with Hurk Drubman Sr. at Fort Drubman.",
+        "Travel to the crossroads with Hurk Jr.",
+        "Eliminate cultist patrols, vehicle waves, and helicopters."
+      ],
+      "guide": "Position on the cliff above the crossroads, tag enemies with binoculars, direct Hurk Jr. to fire rockets at incoming vehicles and choppers, and clear the area to earn Hurk Sr.'s truck."
+    },
+    {
+      "id": "walkthrough_wm_07",
+      "mission_name": "The World is Weak",
+      "region": "Whitetail Mountains (Boss Encounter)",
+      "objectives": [
+        "Survive capture by Jacob Seed's hunters.",
+        "Survive the music box conditioning trial before the timer expires.",
+        "Kill enemies to gain bonus time.",
+        "Awaken at Wolf's Den rescued by Whitetail militia."
+      ],
+      "guide": "Pick up firearms quickly, chain takedowns and headshots to add precious seconds to the clock, follow the linear course through doors and tunnels, and slide down the final square duct to safety."
+    },
+    {
+      "id": "walkthrough_wm_08",
+      "mission_name": "We Must Be Strong",
+      "region": "Whitetail Mountains (Boss Encounter)",
+      "objectives": [
+        "Survive second conditioning capture by Jacob.",
+        "Complete the extended timed shooting trial course.",
+        "Eliminate the final targets in the Wolf projector room.",
+        "Awaken in the wilderness."
+      ],
+      "guide": "Run the trial course from the previous mission, continuing past the square tunnel into new rooms, clearing counter guards and hallway targets rapidly before the timer expires."
+    },
+    {
+      "id": "walkthrough_wm_09",
+      "mission_name": "Gearing Up",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Speak with Wheaty at Wolf's Den.",
+        "Find the cabin supply map at Jefferson Lookout Tower.",
+        "Retrieve equipment caches from Cooper Cabin and Redtail Cabin.",
+        "Intercept and recover stolen gear from Kestrel Cabin fleeing cultist.",
+        "Deliver supplies back to Wheaty."
+      ],
+      "guide": "Pick up the map at the lookout tower, fly a helicopter to Cooper Cabin to grab the case in the brick shed basement, clear Redtail Cabin's bunker, intercept the courier fleeing Kestrel Cabin by road, and return to Wheaty."
+    },
+    {
+      "id": "walkthrough_wm_10",
+      "mission_name": "Sacrifice The Weak",
+      "region": "Whitetail Mountains (Boss Encounter)",
+      "objectives": [
+        "Survive third capture by Jacob Seed.",
+        "Complete the conditioning trial course.",
+        "Escape custody with Deputy Pratt.",
+        "Survive Pratt's diversion drop into the wilderness."
+      ],
+      "guide": "Run the conditioning course again, follow Pratt through corridors, and survive being shoved from the balcony as the alarm blares to wake up atop a truck."
+    },
+    {
+      "id": "walkthrough_wm_11",
+      "mission_name": "Dinner Time",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Meet Dr. Sarah Perkins at MCA Mobile Lab.",
+        "Travel to Breakthrough Camp and clear cultists.",
+        "Open the pen gate and place a corpse in the feeding trough.",
+        "Trap the live Judge wolf inside the pen."
+      ],
+      "guide": "Clear Breakthrough Camp, pull the yellow panel lever to open the central pen, throw a cultist corpse into the feeding trough, wait for the Judge wolf to enter, close the gate, and unlock the Ultimate Hunter recipe."
+    },
+    {
+      "id": "walkthrough_wm_12",
+      "mission_name": "Get Free",
+      "region": "Whitetail Mountains (Missable Quest)",
+      "objectives": [
+        "Speak to Eli at Wolf's Den.",
+        "Infiltrate Grand View Hotel quietly to locate Briggs.",
+        "Play the deprogramming cassette tape in the upper room.",
+        "Defend Briggs against massive ground, water, and air assaults."
+      ],
+      "guide": "Enter the hotel quietly through the broken west door, reach the top floor, eliminate the guard, and start the tape. Man mounted guns on the balconies to repel trucks, boats, snipers, and choppers carrying heavy armor until Whitetail allies arrive."
+    },
+    {
+      "id": "walkthrough_wm_13",
+      "mission_name": "Radio Silence",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Speak with Tammy at Wolf's Den.",
+        "Climb and destroy jammers on two mountain radio towers.",
+        "Ambush and destroy the mobile jammer truck."
+      ],
+      "guide": "Grapple to the top of the northern radio tower to shoot the jammer, assault the second tower overlooking the hotel to destroy its jammer and armored defenders, and set an explosive ambush on the road to destroy the jammer truck."
+    },
+    {
+      "id": "walkthrough_wm_14",
+      "mission_name": "Eviction Notice",
+      "region": "Whitetail Mountains",
+      "objectives": [
+        "Speak with Tammy at Wolf's Den.",
+        "Infiltrate Stone Ridge Chalet.",
+        "Eliminate two Chosen leaders.",
+        "Plant two IED charges (second floor and basement cellar).",
+        "Escape the blast radius within 15 seconds."
+      ],
+      "guide": "Infiltrate the chalet, kill the Chosen on the porch and the one inside with the bow, plant the explosive on the second floor east side and in the basement cellar, and sprint out before the 15-second fuse detonates."
+    },
+    {
+      "id": "walkthrough_wm_15",
+      "mission_name": "Only You",
+      "region": "Whitetail Mountains (Boss Encounter)",
+      "objectives": [
+        "Survive final conditioning trial (starts with only 15 seconds).",
+        "Kill the final target (revealed to be Eli).",
+        "Exit the Wolf's Den and destroy cult wolf beacons.",
+        "Scale the mountain under sniper fire and kill Jacob Seed.",
+        "Collect Jacob's bunker key."
+      ],
+      "guide": "Sprint through the conditioning course maximizing headshot time bonuses, kill the final target, discover you shot Eli, destroy the beacon transmitters outside while battling hallucinated wolves, advance up the mountain using rock cover to avoid Jacob's red sniper laser, and kill Jacob at the peak."
+    },
+    {
+      "id": "walkthrough_wm_16",
+      "mission_name": "Casualties of War",
+      "region": "Whitetail Mountains (Region Finale)",
+      "objectives": [
+        "Breach Jacob Seed's bunker north of F.A.N.G Center with his key.",
+        "Clear the mess hall and unlock pressure doors from the control room.",
+        "Locate and rescue Deputy Pratt.",
+        "Escape through flooding chambers and defeat armored reinforcements."
+      ],
+      "guide": "Infiltrate Jacob's bunker, clear the mess hall, hit the console to unlock pressure doors, locate Deputy Pratt, fight back through flooding rooms and armored enemies, and reach the exit boom gates to liberate Whitetail Mountains."
+    },
+    {
+      "id": "walkthrough_ending_01",
+      "mission_name": "Where It All Began / Endings",
+      "region": "Joseph's Compound (Ending)",
+      "objectives": [
+        "Confront Joseph Seed at his compound in the center of Hope County.",
+        "Choose between 'Resist' or 'Walk Away'."
+      ],
+      "endings_explained": {
+        "good_resist_ending": "Choose 'Resist'. Joseph spills Bliss containers, mind-controlling your allies. Down and revive your comrades to free them, then deplete Joseph's health. As Joseph speaks, a nuclear detonation occurs in the distance. Drive through a firestorm toward Dutch's bunker; crash into a tree, wake up handcuffed to a bunk with Dutch dead and Joseph proclaiming a new family.",
+        "bad_walk_away_ending": "Choose 'Walk Away'. You, Sheriff Whitehorse, Pratt, and Hudson leave in a pickup truck toward Missoula to alert the National Guard. Whitehorse turns on the radio, playing 'Only You', triggering your psychological conditioning as the screen turns red and cuts to black.",
+        "secret_prologue_ending": "In the game's opening mission 'The Warrant', refuse to handcuff Joseph Seed and wait idle for 5 minutes. Sheriff Whitehorse decides to leave, aborting the arrest as the credits roll."
+      }
+    }
+  ],
+  "weapons": {
+    "melee_weapons": [
+      {
+        "name": "Baseball Bat",
+        "type": "Melee",
+        "price": "Free / Found in world",
+        "description": "A baseball bat made of wood. Classic. Used for more than just hitting balls.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 5,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 7
+        }
+      },
+      {
+        "name": "Aluminium Bat",
+        "type": "Melee",
+        "price": "$1,025",
+        "description": "This has made countless slow-pitch softball players feel like first ballot hall-of-famers.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 5,
+          "range": 2,
+          "rate_of_fire": 5,
+          "handling": 8
+        }
+      },
+      {
+        "name": "Spiked Bat",
+        "type": "Melee",
+        "price": "Unlock via Resistance",
+        "unlock_requirements": "Gain 2 levels of resistance (total) from any region(s).",
+        "description": "A lethal bat modified with sharp spikes for enhanced stopping power.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 6,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 7
+        }
+      },
+      {
+        "name": "Socket Pipe",
+        "type": "Melee",
+        "price": "$500",
+        "description": "A victim of the housing collapse who changed careers late in life to become a weapon.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 5,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 8
+        }
+      },
+      {
+        "name": "Bolted Pipe",
+        "type": "Melee",
+        "price": "$500",
+        "description": "A while ago, this pipe was part of an anonymous leak. The bosses found out and it lost its job.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 5,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 8
+        }
+      },
+      {
+        "name": "Shovel",
+        "type": "Melee",
+        "price": "$500",
+        "description": "A tool with a broad flat blade used for moving earth, snow, or bullsh*t in the workplace.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 6,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 7
+        }
+      },
+      {
+        "name": "Optimism",
+        "type": "Melee (Special)",
+        "price": "$4,800",
+        "description": "This shovel always sees holes of dirt as half full.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 6,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 7
+        }
+      },
+      {
+        "name": "Whacki",
+        "type": "Melee",
+        "price": "$7,200",
+        "description": "This paddle is for those who like their violence to have a sprinkling of cartoony.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 5,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 4
+        }
+      }
+    ],
+    "sidearms": [
+      {
+        "name": "1911",
+        "type": "Sidearm",
+        "price": "Default / Found",
+        "description": "Death, taxes, and the 1911. The design of this American made semi-automatic hasn't changed since WWI.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 4,
+          "handling": 8
+        }
+      },
+      {
+        "name": ".44 Magnum",
+        "type": "Sidearm",
+        "price": "$1,000",
+        "description": "A powerful handgun that is perfect for close-quarters self defense.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 6,
+          "range": 5,
+          "rate_of_fire": 3,
+          "handling": 7
+        }
+      },
+      {
+        "name": "SMG-11",
+        "type": "Sidearm",
+        "price": "$1,300",
+        "description": "This subcompact machine pistol will burn through bullets faster than a fake news story gets shared.",
+        "stats": {
+          "accuracy": 3,
+          "damage": 3,
+          "range": 4,
+          "rate_of_fire": 8,
+          "handling": 6
+        }
+      },
+      {
+        "name": "P226 'Amendment 2'",
+        "type": "Sidearm",
+        "price": "$4,800",
+        "description": "This P226 is as American as George Washington eating a deep-fried bald eagle.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 4,
+          "range": 5,
+          "rate_of_fire": 5,
+          "handling": 8
+        }
+      },
+      {
+        "name": "1911 'Toaster'",
+        "type": "Sidearm",
+        "price": "$4,800",
+        "description": "Custom finished 1911 sidearm.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 4,
+          "handling": 8
+        }
+      },
+      {
+        "name": "1911 Extended 'Golden Aerie'",
+        "type": "Sidearm",
+        "price": "$4,800",
+        "description": "This 1911 extended pistol is powerful, ostentatious, and perfect for the flashy millennial in us all.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 4,
+          "handling": 8
+        }
+      },
+      {
+        "name": "Skorpion 'Big Spender'",
+        "type": "Sidearm",
+        "price": "$4,800",
+        "description": "This gold-plated Skorpion compensates for its size with a shiny facade.",
+        "stats": {
+          "accuracy": 2,
+          "damage": 3,
+          "range": 3,
+          "rate_of_fire": 8,
+          "handling": 7
+        }
+      },
+      {
+        "name": "1911 'The Shark'",
+        "type": "Sidearm",
+        "price": "$4,800",
+        "description": "This 1911 has that retro vintage authentic bomber feel.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 4,
+          "handling": 8
+        }
+      },
+      {
+        "name": "M-79 'Shark Shooter'",
+        "type": "Special Sidearm",
+        "price": "$4,800",
+        "description": "This M-79 was in the war. Which war? I dunno. The one with that shark paint trend.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 9,
+          "range": 7,
+          "rate_of_fire": 2,
+          "handling": 5
+        }
+      }
+    ],
+    "shotguns": [
+      {
+        "name": "M133",
+        "type": "Shotgun",
+        "price": "$1,380",
+        "description": "This pump-action shotgun will cause more internal damage than cheap vodka.",
+        "stats": {
+          "accuracy": 3,
+          "damage": 7,
+          "range": 4,
+          "rate_of_fire": 2,
+          "handling": 5
+        }
+      },
+      {
+        "name": "M133 'The Grand Slam'",
+        "type": "Shotgun",
+        "price": "$4,800",
+        "description": "This M133 doesn't hit singles, doubles, triples, or home runs. Only grand slams.",
+        "stats": {
+          "accuracy": 2,
+          "damage": 7,
+          "range": 3,
+          "rate_of_fire": 2,
+          "handling": 5
+        }
+      },
+      {
+        "name": "SBS 'The Farmhand'",
+        "type": "Shotgun",
+        "price": "$4,800",
+        "description": "This SBS shotgun says 'get off my property' better than any spoken threat ever could.",
+        "stats": {
+          "accuracy": 4,
+          "damage": 7,
+          "range": 5,
+          "rate_of_fire": 2,
+          "handling": 4
+        }
+      },
+      {
+        "name": "SPAS-12 'Flameout'",
+        "type": "Shotgun",
+        "price": "$4,800",
+        "description": "This SPAS-12 has a paint job that makes it prone to overheat. Worth it.",
+        "stats": {
+          "accuracy": 3,
+          "damage": 7,
+          "range": 4,
+          "rate_of_fire": 4,
+          "handling": 5
+        }
+      }
+    ],
+    "submachine_guns": [
+      {
+        "name": "MP5K",
+        "type": "Submachine Gun",
+        "price": "Ubisoft Club Unlock (20 Uplay Points)",
+        "description": "Lightweight automatic submachine gun with high rate of fire.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 4,
+          "range": 5,
+          "rate_of_fire": 8,
+          "handling": 7
+        }
+      }
+    ],
+    "rifles": [
+      {
+        "name": "AR-C",
+        "type": "Rifle",
+        "price": "Default / Found",
+        "description": "Once a military oddball, this modular semi-automatic rifle has become wildly popular with the DIY crowd.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 8,
+          "handling": 5
+        }
+      },
+      {
+        "name": "AR-C 'The Shark'",
+        "type": "Rifle",
+        "price": "$4,800",
+        "description": "This AR-C is a shark. Don't ever play pool or cards with it.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 8,
+          "handling": 5
+        }
+      },
+      {
+        "name": "AR-C 'Stars 'N Stripes'",
+        "type": "Rifle",
+        "price": "$4,800",
+        "description": "If this isn't the official firearm of the United States of America, it should be.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 5,
+          "range": 5,
+          "rate_of_fire": 8,
+          "handling": 5
+        }
+      },
+      {
+        "name": "45/70 'Fall's Ghost'",
+        "type": "Rifle",
+        "price": "$4,800",
+        "description": "This 45/70 has the spirit of Fall's End's founder.",
+        "stats": {
+          "accuracy": 7,
+          "damage": 5,
+          "range": 6,
+          "rate_of_fire": 5,
+          "handling": 5
+        }
+      },
+      {
+        "name": "AKM-S 'The Whitetailer'",
+        "type": "Rifle",
+        "price": "$7,200",
+        "description": "This AKM-S's paint job lets everyone know you are with the Whitetail Militia... not against them.",
+        "stats": {
+          "accuracy": 4,
+          "damage": 6,
+          "range": 4,
+          "rate_of_fire": 5,
+          "handling": 6
+        }
+      }
+    ],
+    "sniper_rifles": [
+      {
+        "name": "AR-CL",
+        "type": "Sniper Rifle",
+        "price": "$1,800",
+        "description": "A semi-automatic rifle manufactured to maintain long-distance relationships, or eliminate them.",
+        "stats": {
+          "accuracy": 7,
+          "damage": 5,
+          "range": 7,
+          "rate_of_fire": 5,
+          "handling": 4
+        }
+      },
+      {
+        "name": "MBP .50",
+        "type": "Sniper Rifle",
+        "price": "$2,500",
+        "description": "This .50 cal bolt action rifle knows about your accuracy and penetration. Just like your sarcastic friend.",
+        "stats": {
+          "accuracy": 8,
+          "damage": 8,
+          "range": 8,
+          "rate_of_fire": 3,
+          "handling": 3
+        }
+      },
+      {
+        "name": "308 Carbine 'Old Flame'",
+        "type": "Sniper Rifle",
+        "price": "$4,800",
+        "description": "This 308 Carbine still checks you out on social media. The spark between you will never die.",
+        "stats": {
+          "accuracy": 8,
+          "damage": 6,
+          "range": 8,
+          "rate_of_fire": 3,
+          "handling": 4
+        }
+      },
+      {
+        "name": "AR-CL 'Sharkbite'",
+        "type": "Sniper Rifle",
+        "price": "$4,800",
+        "description": "This AR-CL is just a shark. You know how sharks are, right?",
+        "stats": {
+          "accuracy": 7,
+          "damage": 5,
+          "range": 7,
+          "rate_of_fire": 5,
+          "handling": 4
+        }
+      },
+      {
+        "name": "SA50 'Free State'",
+        "type": "Sniper Rifle",
+        "price": "$7,200",
+        "description": "This SA50 is only for a well-regulated militia which is necessary for the security of a free state.",
+        "stats": {
+          "accuracy": 7,
+          "damage": 8,
+          "range": 8,
+          "rate_of_fire": 5,
+          "handling": 3
+        }
+      }
+    ],
+    "machine_guns": [
+      {
+        "name": "M60",
+        "type": "Machine Gun",
+        "price": "$2,750",
+        "description": "Instructions for using this belt-fed machine gun: apply red bandana, pull trigger, yell.",
+        "stats": {
+          "accuracy": 8,
+          "damage": 7,
+          "range": 7,
+          "rate_of_fire": 5,
+          "handling": 3
+        }
+      },
+      {
+        "name": "M249 'Militia'",
+        "type": "Machine Gun",
+        "price": "$7,200",
+        "description": "This M249 is a loud and proud member of the Whitetail Militia.",
+        "stats": {
+          "accuracy": 6,
+          "damage": 7,
+          "range": 7,
+          "rate_of_fire": 8,
+          "handling": 3
+        }
+      }
+    ],
+    "special_weapons": [
+      {
+        "name": "Flamethrower",
+        "type": "Special Weapon",
+        "price": "$2,000",
+        "description": "It does one thing and one thing only... it shoots a steady stream of fire. Pro tip: don't burn yourself.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 8,
+          "range": 4,
+          "rate_of_fire": 6,
+          "handling": 5
+        }
+      },
+      {
+        "name": "Flames on Flames",
+        "type": "Special Weapon",
+        "price": "$2,400",
+        "description": "What else are you gonna put on a flamethrower besides flames? C'mon.",
+        "stats": {
+          "accuracy": 5,
+          "damage": 8,
+          "range": 4,
+          "rate_of_fire": 6,
+          "handling": 5
+        }
+      },
+      {
+        "name": "Basic Fishing Rod",
+        "type": "Fishing Rod",
+        "price": "$300",
+        "description": "Strong and durable, this rod is perfect for anyone new to fly fishing.",
+        "stats": {
+          "accuracy": 0,
+          "damage": 0,
+          "range": 2,
+          "rate_of_fire": 2,
+          "handling": 2
+        }
+      },
+      {
+        "name": "Natural Fishing Rod",
+        "type": "Fishing Rod",
+        "price": "$800",
+        "description": "A mid-range fly fishing rod with a high gauge line and a fast reel.",
+        "stats": {
+          "accuracy": 0,
+          "damage": 0,
+          "range": 2,
+          "rate_of_fire": 4,
+          "handling": 4
+        }
+      },
+      {
+        "name": "Magnopulsar",
+        "type": "Alien Weapon (Special)",
+        "price": "Free (Side Quest Reward)",
+        "unlock_requirements": "Complete Larry Parker's side quest series at Parker Laboratories: 'Free Larry', 'The Heroes Journey', 'Close Encounters', and 'Out of This World'.",
+        "description": "This weapon uses some kind of magnetized microwaves that, if aimed properly, can explode organic targets. WTF?",
+        "stats": {
+          "accuracy": 5,
+          "damage": 0,
+          "range": 4,
+          "rate_of_fire": 5,
+          "handling": 5
+        }
+      }
+    ]
+  },
+  "guns_and_fangs_for_hire": [
+    {
+      "id": "hire_01",
+      "name": "Adelaide Drubman",
+      "title": "The Chopper Queen",
+      "type": "Guns For Hire",
+      "region": "Henbane River",
+      "location": "Drubman Marina",
+      "unlock_mission": "Friendly Skies",
+      "skills": [
+        {
+          "name": "Call a Chopper",
+          "description": "Will provide air support and deliver a helicopter."
+        },
+        {
+          "name": "Less Reload",
+          "description": "Gun + Big Magazine = More shooting."
+        }
+      ]
+    },
+    {
+      "id": "hire_02",
+      "name": "Boomer",
+      "title": "The Good Boy",
+      "type": "Fangs For Hire",
+      "region": "Holland Valley",
+      "location": "Rae-Rae's Pumpkin Farm",
+      "unlock_mission": "Man's Best Friend",
+      "skills": [
+        {
+          "name": "Pointer",
+          "description": "Will tag all enemies nearby."
+        },
+        {
+          "name": "Retriever",
+          "description": "Will sometimes fetch a weapon after an attack."
+        }
+      ]
+    },
+    {
+      "id": "hire_03",
+      "name": "Cheeseburger",
+      "title": "The Fearsome Grizzly",
+      "type": "Fangs For Hire",
+      "region": "Whitetail Mountains",
+      "location": "F.A.N.G Center",
+      "unlock_mission": "A Right to Bear Arms",
+      "skills": [
+        {
+          "name": "Bear Arms",
+          "description": "Will exercise his right to attack."
+        },
+        {
+          "name": "Cross to Bear",
+          "description": "Will draw focus during combat."
+        }
+      ]
+    },
+    {
+      "id": "hire_04",
+      "name": "Grace Armstrong",
+      "title": "The Sharp-Shooting Hero",
+      "type": "Guns For Hire",
+      "region": "Holland Valley",
+      "location": "Lamb of God Church",
+      "unlock_mission": "Grace Under Fire",
+      "skills": [
+        {
+          "name": "Boom Boom",
+          "description": "Her sniper shots will scare enemies."
+        },
+        {
+          "name": "Friendly Sight",
+          "description": "Her laser sight is easier to distinguish."
+        }
+      ]
+    },
+    {
+      "id": "hire_05",
+      "name": "Hurk Drubman Jr.",
+      "title": "Just Dangerously Stupid",
+      "type": "Guns For Hire",
+      "region": "Whitetail Mountains",
+      "location": "Fort Drubman",
+      "unlock_mission": "The Prodigal Son",
+      "skills": [
+        {
+          "name": "Heat Seeker",
+          "description": "RPGs will track air and land vehicles."
+        },
+        {
+          "name": "Junk It",
+          "description": "RPGs on vehicles are more destructive."
+        }
+      ]
+    },
+    {
+      "id": "hire_06",
+      "name": "Peaches",
+      "title": "The Feline Powerhouse",
+      "type": "Fangs For Hire",
+      "region": "Henbane River",
+      "location": "Peaches Taxidermy",
+      "unlock_mission": "Here Kitty Kitty",
+      "skills": [
+        {
+          "name": "Pounce",
+          "description": "Will silently takedown an enemy."
+        },
+        {
+          "name": "Stalk",
+          "description": "Will stay hidden when moving through tall grass."
+        }
+      ]
+    },
+    {
+      "id": "hire_07",
+      "name": "Jess Black",
+      "title": "The Master Huntress",
+      "type": "Guns For Hire",
+      "region": "Whitetail Mountains",
+      "location": "Baron Lumber Mill",
+      "unlock_mission": "A Dish Served Cold",
+      "skills": [
+        {
+          "name": "Concealment",
+          "description": "Enemies will have a harder time detecting her."
+        },
+        {
+          "name": "Feral Friendly",
+          "description": "Wild animals see her as one of their own."
+        }
+      ]
+    },
+    {
+      "id": "hire_08",
+      "name": "Nick Rye",
+      "title": "The King of the Skies",
+      "type": "Guns For Hire",
+      "region": "Holland Valley",
+      "location": "Rye and Son's Aviation",
+      "unlock_mission": "Wingman",
+      "skills": [
+        {
+          "name": "Bomb's Away",
+          "description": "You want a bomb? He'll drop it."
+        },
+        {
+          "name": "Light 'Em Up",
+          "description": "You want a strafing run? Look out."
+        }
+      ]
+    },
+    {
+      "id": "hire_09",
+      "name": "Sharky Boshaw",
+      "title": "The Pyrotechnics Phenomenon",
+      "type": "Guns For Hire",
+      "region": "Henbane River",
+      "location": "Moonflower Trailer Park",
+      "unlock_mission": "Burn Baby Burn",
+      "skills": [
+        {
+          "name": "Fire it Up",
+          "description": "Attacks will have an extra spark to it."
+        },
+        {
+          "name": "Shatterproof",
+          "description": "Resistant to most explosions and impacts."
+        }
+      ]
+    }
+  ],
+  "survivalist_magazines": {
+    "holland_valley": [
+      {
+        "location": "Davenport Farm",
+        "guide": "Climb roof of silo beside the barn and jump to platform opening."
+      },
+      {
+        "location": "Eden's Gate Greenhouse",
+        "guide": "Climb roof near Seed Ranch, jump to silo, and climb up to the windmill."
+      },
+      {
+        "location": "Fillmore Residence",
+        "guide": "Enter the fallout shelter bunker inside the shed; magazine is on a shelf."
+      },
+      {
+        "location": "St. Isidore School",
+        "guide": "Collect key from bird's nest on roof via scaffold; find magazine inside shed."
+      },
+      {
+        "location": "Camp West of Rae-Rae's Pumpkin Farm",
+        "guide": "On a table beneath tarp on a raised western plateau."
+      },
+      {
+        "location": "Frobisher's Cave",
+        "guide": "Head inside cave southwest of Rae-Rae's; found next to a yellow crate."
+      },
+      {
+        "location": "Harris Residence",
+        "guide": "Inside the property's shed bunker, on the bathroom floor."
+      },
+      {
+        "location": "Gardenview Orchards",
+        "guide": "Break into boarded shed beside metal silo; magazine is on rear wall shelf."
+      },
+      {
+        "location": "Rae-Rae's Pumpkin Farm",
+        "guide": "Inside the outdoor bunker behind the house on a fold-out bed."
+      },
+      {
+        "location": "Sergey's Place",
+        "guide": "Inside unused train containers near the river southeast of Rae-Rae's farm."
+      },
+      {
+        "location": "Holland Valley Station",
+        "guide": "Jump onto box into train car along the river tracks."
+      },
+      {
+        "location": "Roberts Cabin",
+        "guide": "Break wood slats behind house to access hole."
+      },
+      {
+        "location": "Boyd Residence",
+        "guide": "Inside wooden slat shed bunker on a fold-out bed."
+      },
+      {
+        "location": "North East of Fall's End",
+        "guide": "Inside isolated wooden shed north of Sunrise Farm on shelf by door."
+      },
+      {
+        "location": "Drainpipe Northeast of Sunrise Farm",
+        "guide": "Enter drainpipe south of lake; found around mid-point turn."
+      },
+      {
+        "location": "Sawyer Residence",
+        "guide": "Inside riverbank property fenceline bunker on a shelf."
+      },
+      {
+        "location": "Dupree Residence",
+        "guide": "Inside bunker near front fence on shelving."
+      },
+      {
+        "location": "Miller Residence",
+        "guide": "Inside bunker beside white shed on bathroom shelf."
+      },
+      {
+        "location": "South of Adams Ranch",
+        "guide": "On table behind garage far south of Adams Ranch."
+      },
+      {
+        "location": "Drain East of Fall's End",
+        "guide": "Inside mid-point turn of drainpipe where two roads cross."
+      },
+      {
+        "location": "Old Silo",
+        "guide": "Climb ladder to top and leap across grating gaps."
+      },
+      {
+        "location": "Bradbury Farm",
+        "guide": "Get key from upper barn level (or Locksmith perk), unlock second building."
+      },
+      {
+        "location": "Steele Farm",
+        "guide": "On top of the camper van near Lamb of God Church."
+      }
+    ],
+    "henbane_river": [
+      {
+        "location": "North of Drubman Marina",
+        "guide": "Grapple to top of radio tower north of marina."
+      },
+      {
+        "location": "North East of Drubman Marina",
+        "guide": "Small cliffside cave amongst bones in the back."
+      },
+      {
+        "location": "Island West of Drubman Marina",
+        "guide": "Inside tent on small Silver Lake island."
+      },
+      {
+        "location": "South of Peaches Taxidermy",
+        "guide": "Inside trailer of crashed truck in small lake."
+      },
+      {
+        "location": "Near Camp Cougars",
+        "guide": "Break wood planks blocking cliff cave; inside by blue barrels."
+      },
+      {
+        "location": "Sabre-Tooth Springs",
+        "guide": "Follow springs back into small cave leakage."
+      },
+      {
+        "location": "Island in Rock Bass Lake",
+        "guide": "Inside small cave on the larger island."
+      },
+      {
+        "location": "North East of Moonflower Trailer Park",
+        "guide": "Inside shack on a bed within Bliss field."
+      },
+      {
+        "location": "Plane Crash East of Rock Bass Lake",
+        "guide": "Among plane wreckage along eastern border road."
+      },
+      {
+        "location": "Gethsemane Greenhouse",
+        "guide": "Inside rear bunker on a bed."
+      },
+      {
+        "location": "Harrison Lookout Tower",
+        "guide": "On table on tower balcony."
+      },
+      {
+        "location": "Puma Mine",
+        "guide": "Inside back broken room of white house."
+      },
+      {
+        "location": "Ancient Bison Tunnel",
+        "guide": "Inside school bus near collapsed tunnel entrance."
+      },
+      {
+        "location": "Abercrombie Residence",
+        "guide": "Inside backyard bunker on the basin."
+      },
+      {
+        "location": "The Last Best Resting Place",
+        "guide": "Break wooden slats over grave hole near tree in cemetery."
+      },
+      {
+        "location": "Tunnel North East of Dead Man's River",
+        "guide": "Right side alcove with bed inside mountain tunnel."
+      },
+      {
+        "location": "Jones Residence",
+        "guide": "Inside shed bunker on kitchen counter."
+      },
+      {
+        "location": "Nelson Residence",
+        "guide": "On white chest of drawers in bedroom."
+      },
+      {
+        "location": "8-Bit Pizza Bar",
+        "guide": "Behind overturned table in main room."
+      },
+      {
+        "location": "Tunnel Between Moonflower and Jail",
+        "guide": "Inside overturned trailer inside mountain tunnel."
+      },
+      {
+        "location": "Throne of Mercy Church",
+        "guide": "Inside shed behind the church."
+      },
+      {
+        "location": "Nature Cabin",
+        "guide": "On fireplace mantel inside main cabin."
+      },
+      {
+        "location": "Cave North of Nature Cabin",
+        "guide": "Just inside mountain creek cave."
+      },
+      {
+        "location": "Campsite Under the Bridge",
+        "guide": "At creek campsite beneath road bridge."
+      },
+      {
+        "location": "Purpletop Antenna Hunting Zone",
+        "guide": "Zipline from radio antenna onto hunting platform."
+      },
+      {
+        "location": "North of Purpletop Antenna",
+        "guide": "On rear wall bookshelf in Bliss house."
+      },
+      {
+        "location": "Chan Residence",
+        "guide": "Break planks covering hole behind backyard shed."
+      },
+      {
+        "location": "Henbane River Chalets",
+        "guide": "On bed inside chalet closest to river."
+      },
+      {
+        "location": "McClean Residence",
+        "guide": "On living room couch."
+      },
+      {
+        "location": "North of Joseph's Statue",
+        "guide": "Inside rocky cave north of Angel's Peak statue."
+      },
+      {
+        "location": "Vasquez Residence",
+        "guide": "On table inside residence."
+      }
+    ],
+    "whitetail_mountains": [
+      {
+        "location": "Waterfall Basin",
+        "guide": "At hunting setup on southern shore of northwest mountain lake."
+      },
+      {
+        "location": "West of Cedar Lake",
+        "guide": "On fold-out bed inside bunker next to lookout."
+      },
+      {
+        "location": "Cedar Lake Cult Camp",
+        "guide": "Under tent shelter on shelf beside cooler."
+      },
+      {
+        "location": "Small Island in Cedar Lake",
+        "guide": "On shelf inside central log cottage."
+      },
+      {
+        "location": "Large Island in Cedar Lake",
+        "guide": "Behind informational sign at high point."
+      },
+      {
+        "location": "South of Jacob's Compound",
+        "guide": "On crate at cliffside campsite above river."
+      },
+      {
+        "location": "Railway Bridge Drain",
+        "guide": "Inside secret camp at end of drain under northeast bridge."
+      },
+      {
+        "location": "North of Baron Lumber Mill",
+        "guide": "Under fold-out chair at high camp overlook."
+      },
+      {
+        "location": "South of Baron Lumber Mill",
+        "guide": "Grapple onto roof of Golden Valley gas station."
+      },
+      {
+        "location": "Loresca Residence",
+        "guide": "Beside front porch chair."
+      },
+      {
+        "location": "Marshland Lookout Tower",
+        "guide": "On floor inside log structure across from Elliot Residence."
+      },
+      {
+        "location": "Ringing Rocks Overlook",
+        "guide": "Below informational sign on Moccasin River islet."
+      },
+      {
+        "location": "Resistance Camp",
+        "guide": "Grapple into wooden lookout tower on west side of camp."
+      },
+      {
+        "location": "Hunter's Campsite",
+        "guide": "On bench at island campsite in lake southwest of ranger station."
+      },
+      {
+        "location": "Raided Bunker",
+        "guide": "On orange chair inside hill bunker with hanging corpse."
+      },
+      {
+        "location": "Cult Lookout",
+        "guide": "On pallet stack inside tent west of PIN-K0 radar station."
+      },
+      {
+        "location": "Cliffside Hunter's Blind",
+        "guide": "Beside boxes in hunter's blind northwest of Jefferson tower."
+      },
+      {
+        "location": "Hillside Camp",
+        "guide": "Inside tower at campsite with animal cage west of Oberlin picnic area."
+      },
+      {
+        "location": "Southwest of Clagett Bay",
+        "guide": "On fold-out bed inside bunker next to tree with hanging body."
+      },
+      {
+        "location": "West of Langford Lake",
+        "guide": "On ground behind house among broken dresser furniture."
+      }
+    ]
+  },
+  "perks_system": {
+    "perk_point_sources": [
+      "Finding Prepper Stashes (3 perk points per stash)",
+      "Finding Invent & Survive Survivalist Magazines (1 perk point each)",
+      "Completing in-game weapon, hunting, and world Challenges",
+      "Leveling up and playing Far Cry Arcade"
+    ],
+    "recommended_starter_perks": [
+      {
+        "name": "Parachute",
+        "cost": 1,
+        "reason": "Safe landings when falling or bailing."
+      },
+      {
+        "name": "Grapple",
+        "cost": 1,
+        "reason": "Essential for mountain scaling, caches, and cliffs."
+      },
+      {
+        "name": "Close Combat Gear Bag",
+        "cost": 1,
+        "reason": "Expands sidearm ammo capacity."
+      },
+      {
+        "name": "Wingsuit",
+        "cost": 4,
+        "reason": "Fast mountain navigation and aerial infiltration."
+      },
+      {
+        "name": "Harvest Master",
+        "cost": 8,
+        "reason": "Doubles loot yield from harvested plants and animals for fast cash."
+      }
+    ]
+  },
+  "challenges": {
+    "assault": [
+      {
+        "challenge": "Total Kills",
+        "requirement": "Kill 100 enemies",
+        "reward": 3
+      },
+      {
+        "challenge": "Melee Kills",
+        "requirement": "10 Melee Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Shotgun Kills",
+        "requirement": "10 Shotgun Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "SMG Kills",
+        "requirement": "10 SMG Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Assault Rifle Kills",
+        "requirement": "40 Assault Rifle Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Sniper Kills",
+        "requirement": "10 Sniper Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "LMG Kills",
+        "requirement": "20 Light Machine Gun Kills",
+        "reward": 3
+      },
+      {
+        "challenge": "Arrow Kills",
+        "requirement": "20 Kills with Arrows",
+        "reward": 3
+      },
+      {
+        "challenge": "Flamethrower Kills",
+        "requirement": "10 Flamethrower Kills",
+        "reward": 3
+      },
+      {
+        "challenge": "Grenade Launcher Kills",
+        "requirement": "10 Grenade Launcher Kills",
+        "reward": 3
+      },
+      {
+        "challenge": "Rocket Launcher Kills",
+        "requirement": "10 Rocket Launcher Kills",
+        "reward": 3
+      },
+      {
+        "challenge": "Grenade Kills",
+        "requirement": "15 Grenade Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Dynamite Kills",
+        "requirement": "15 Dynamite Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Molotov Kills",
+        "requirement": "8 Molotov Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Throwing Knife Kills",
+        "requirement": "8 Throwing Knife Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Remote Explosive Kills",
+        "requirement": "3 Remote Explosive Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Proximity Explosive Kills",
+        "requirement": "3 Proximity Explosive Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Headshots",
+        "requirement": "50 Headshot kills with any weapon",
+        "reward": 2
+      },
+      {
+        "challenge": "Hit and Run Kills",
+        "requirement": "Kill 10 enemies with land-based vehicles",
+        "reward": 1
+      },
+      {
+        "challenge": "Airstrike Kills",
+        "requirement": "Kill 8 enemies while being in an aircraft",
+        "reward": 2
+      },
+      {
+        "challenge": "Long Range Kills",
+        "requirement": "Kill 5 enemies from at least 150 meters",
+        "reward": 4
+      },
+      {
+        "challenge": "Saboteur Kills",
+        "requirement": "Kill 3 enemies using the Saboteur Perk on vehicles",
+        "reward": 3
+      },
+      {
+        "challenge": "Standard Takedown Kills",
+        "requirement": "Kill 15 enemies using Standard Takedowns",
+        "reward": 3
+      },
+      {
+        "challenge": "Death From Above Kills",
+        "requirement": "Kill 4 enemies using Death From Above Takedowns",
+        "reward": 3
+      },
+      {
+        "challenge": "Death From Below Kills",
+        "requirement": "Kill 2 enemies using Death From Below Takedowns",
+        "reward": 3
+      },
+      {
+        "challenge": "Chain Takedown Kills",
+        "requirement": "Kill 5 enemies using Chain Takedowns",
+        "reward": 3
+      },
+      {
+        "challenge": "Pistol Takedown Kills",
+        "requirement": "Kill 5 enemies using Pistol Takedowns",
+        "reward": 2
+      },
+      {
+        "challenge": "Handgun Kills",
+        "requirement": "13 Handgun Kills",
+        "reward": 2
+      }
+    ],
+    "world": [
+      {
+        "challenge": "Civilians Rescued",
+        "requirement": "Rescue 3 Civilians from the cult",
+        "reward": 2
+      },
+      {
+        "challenge": "Homeopathics Consumed",
+        "requirement": "Consume 6 Homeopathics",
+        "reward": 2
+      },
+      {
+        "challenge": "Distance Travelled by Wingsuit",
+        "requirement": "Travel 2000m by Wingsuit",
+        "reward": 2
+      },
+      {
+        "challenge": "Minutes Spent in Co-op",
+        "requirement": "Spend 60 minutes in Co-op",
+        "reward": 3
+      }
+    ],
+    "guns_for_hire": [
+      {
+        "challenge": "Boomer: Total Kills",
+        "requirement": "Have Boomer Get 10 Kills",
+        "reward": 3
+      },
+      {
+        "challenge": "Nick Rye: Kills From The Air",
+        "requirement": "Have Nick Rye Get 5 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Grace: Sniper Kills",
+        "requirement": "Have Grace Get 5 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Cheeseburger: Total Kills",
+        "requirement": "Have Cheeseburger Get 10 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Jess Black: Total Kills",
+        "requirement": "Have Jess Black Get 5 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Hurk: Total Kills",
+        "requirement": "Have Hurk Get 5 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Peaches: Total Kills",
+        "requirement": "Have Peaches Get 10 Kills",
+        "reward": 3
+      },
+      {
+        "challenge": "Adelaide: Total Kills",
+        "requirement": "Have Adelaide Get 5 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Sharky: Total Kills",
+        "requirement": "Have Sharky Get 5 Kills",
+        "reward": 2
+      },
+      {
+        "challenge": "Fighters: Total Kills",
+        "requirement": "Have Your Fighters Get 15 Kills",
+        "reward": 3
+      }
+    ],
+    "hunting_and_fishing": [
+      {
+        "target": "Deer Skinned",
+        "requirement": "Hunt and skin 1 Deer",
+        "reward": 1
+      },
+      {
+        "target": "Pronghorns Skinned",
+        "requirement": "Hunt and skin 1 Pronghorn",
+        "reward": 1
+      },
+      {
+        "target": "Elks Skinned",
+        "requirement": "Hunt and skin 2 Elks",
+        "reward": 2
+      },
+      {
+        "target": "Caribou Skinned",
+        "requirement": "Hunt and skin 4 Caribou",
+        "reward": 3
+      },
+      {
+        "target": "Bison Skinned",
+        "requirement": "Hunt and skin 3 Bison",
+        "reward": 3
+      },
+      {
+        "target": "Moose Skinned",
+        "requirement": "Hunt and skin 2 Moose",
+        "reward": 3
+      },
+      {
+        "target": "Hares Skinned",
+        "requirement": "Hunt and skin 1 Hare",
+        "reward": 2
+      },
+      {
+        "target": "Boars Skinned",
+        "requirement": "Hunt and skin 2 Boars",
+        "reward": 2
+      },
+      {
+        "target": "Skunks Skinned",
+        "requirement": "Hunt and skin 3 Skunks",
+        "reward": 2
+      },
+      {
+        "target": "Wolverines Skinned",
+        "requirement": "Hunt and skin 3 Wolverines",
+        "reward": 2
+      },
+      {
+        "target": "Wolves Skinned",
+        "requirement": "Hunt and skin 5 Wolves",
+        "reward": 2
+      },
+      {
+        "target": "Cougars Skinned",
+        "requirement": "Hunt and skin 4 Cougars",
+        "reward": 3
+      },
+      {
+        "target": "Black Bears Skinned",
+        "requirement": "Hunt and skin 2 Black Bears",
+        "reward": 2
+      },
+      {
+        "target": "Grizzly Bears Skinned",
+        "requirement": "Hunt and skin 3 Grizzly Bears",
+        "reward": 3
+      },
+      {
+        "target": "Turkeys Skinned",
+        "requirement": "Hunt and skin 2 Turkeys",
+        "reward": 2
+      },
+      {
+        "target": "Eagles Skinned",
+        "requirement": "Hunt and skin 3 Eagles",
+        "reward": 3
+      },
+      {
+        "target": "Kokanees Caught",
+        "requirement": "Catch 1 Kokanee",
+        "reward": 1
+      },
+      {
+        "target": "Arctic Graylings Caught",
+        "requirement": "Catch 1 Arctic Grayling",
+        "reward": 1
+      },
+      {
+        "target": "Golden Trout Caught",
+        "reward": 1,
+        "requirement": "Catch 1 Golden Trout"
+      },
+      {
+        "target": "Rock Bass Caught",
+        "requirement": "Catch 1 Rock Bass",
+        "reward": 1
+      },
+      {
+        "target": "Smallmouths Caught",
+        "requirement": "Catch 1 Smallmouth",
+        "reward": 1
+      },
+      {
+        "target": "Largemouths Caught",
+        "requirement": "Catch 1 Largemouth",
+        "reward": 1
+      },
+      {
+        "target": "Bull Trout Caught",
+        "requirement": "Catch 1 Bull Trout",
+        "reward": 1
+      },
+      {
+        "target": "Lake Trout Caught",
+        "requirement": "Catch 1 Lake Trout",
+        "reward": 1
+      },
+      {
+        "target": "Rainbow Trout Caught",
+        "requirement": "Catch 1 Rainbow Trout",
+        "reward": 1
+      },
+      {
+        "target": "Chinooks Caught",
+        "requirement": "Catch 1 Chinook",
+        "reward": 1
+      },
+      {
+        "target": "Pallid Sturgeons Caught",
+        "requirement": "Catch 1 Pallid Sturgeon",
+        "reward": 3
+      },
+      {
+        "target": "Paddlefishes Caught",
+        "requirement": "Catch 1 Paddlefish",
+        "reward": 3
+      }
+    ]
+  },
+  "easter_eggs_and_secrets": [
+    {
+      "name": "Secret Prologue Ending",
+      "type": "Secret Ending / Exploit",
+      "description": "Refuse to handcuff Joseph Seed inside the church during 'The Warrant'. Stand idle for roughly 5 minutes; Sheriff Whitehorse leaves and the credits roll."
+    },
+    {
+      "name": "IT Red Balloon",
+      "type": "Pop Culture Reference",
+      "description": "A floating red balloon inside a sewer pipe between Lamb of God Church and Fall's End."
+    },
+    {
+      "name": "Firewatch Audio Tape",
+      "type": "Game Reference",
+      "description": "An audio recording on a phone at Johnson Lookout Tower on Dutch's Island."
+    },
+    {
+      "name": "Left 4 Dead 2 (Ellis)",
+      "type": "Game Reference",
+      "description": "A deceased character clutching a frying pan atop Raptor Peak, resembling Ellis from Left 4 Dead 2."
+    },
+    {
+      "name": "The Legend of Zelda",
+      "type": "Game Reference",
+      "description": "Sticky note inside Dutch's bunker reading: 'It's dangerous to go alone! Take this.'"
+    },
+    {
+      "name": "Far Cry 3: Blood Dragon",
+      "type": "Franchise Reference",
+      "description": "Encountering Guy Marvel filming a movie in Henbane River on a Blood Dragon movie set."
+    },
+    {
+      "name": "Mumu Chiffon",
+      "type": "Franchise Reference",
+      "description": "Copies of the book 'Mumu's Fashion Week' scattered around Hope County, referencing the Far Cry 4 tailor."
+    },
+    {
+      "name": "Skyrim Arrow in the Knee",
+      "type": "Game Reference",
+      "description": "Hired fighters dialogue remarking they wanted to be a deputy until taking a bullet to the knee."
+    },
+    {
+      "name": "Big Mouth Billy Bass",
+      "type": "Easter Egg",
+      "description": "Singing novelty fish plaques mounted in buildings."
+    },
+    {
+      "name": "Vaas Bobblehead / Reference",
+      "type": "Franchise Reference",
+      "description": "Nods and assets honoring Vaas Montenegro from Far Cry 3."
+    },
+    {
+      "name": "Ghostbusters",
+      "type": "Pop Culture Reference",
+      "description": "Paranormal research notes and gear nods across cabins."
+    },
+    {
+      "name": "Far Cry Primal",
+      "type": "Franchise Reference",
+      "description": "Cave paintings and prehistoric weapon nods in hidden caverns."
+    },
+    {
+      "name": "Bigfoot's Cave",
+      "type": "Myth / Easter Egg",
+      "description": "Dansky's search and bone-strewn cave from 'Gone Squatchin'."
+    },
+    {
+      "name": "Mannequin Town",
+      "type": "Creepy Easter Egg",
+      "description": "Structures filled with staged mannequins throughout rural compounds."
+    },
+    {
+      "name": "Head in a Chimney",
+      "type": "Visual Gag",
+      "description": "Body part tucked into a brick chimney."
+    }
+  ],
+  "trophies_and_achievements": [
+    {
+      "name": "We Always Had Faith In You",
+      "type": "PLATINUM",
+      "description": "Obtain all the Trophies.",
+      "earned": false,
+      "earnedDateTime": null
+    },
+    {
+      "name": "The Spark",
+      "type": "BRONZE",
+      "description": "Complete the game intro by liberating Dutch’s island (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-08-05T14:32:00.000Z"
+    },
+    {
+      "name": "You Are Wrath",
+      "type": "BRONZE",
+      "description": "Be deemed the Sin of Wrath (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-08-11T17:20:00.000Z"
+    },
+    {
+      "name": "Special Delivery",
+      "type": "BRONZE",
+      "description": "Ensure a baby's safe passage into this world (Solo Campaign only).",
+      "earned": false,
+      "earnedDateTime": null
+    },
+    {
+      "name": "Only You",
+      "type": "BRONZE",
+      "description": "Successfully complete the First Trial (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-08-18T12:00:00.000Z"
+    },
+    {
+      "name": "Walk The Path",
+      "type": "BRONZE",
+      "description": "Discover the Bliss (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-08-25T15:10:00.000Z"
+    },
+    {
+      "name": "Scavenger",
+      "type": "SILVER",
+      "description": "Follow the clues to the end of 3 treasure hunts (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-10-25T16:15:30.000Z"
+    },
+    {
+      "name": "Pack Rat",
+      "type": "BRONZE",
+      "description": "Grab 1 of each collectible item (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-08-20T21:10:45.000Z"
+    },
+    {
+      "name": "Peachy Keen",
+      "type": "BRONZE",
+      "description": "Bait Peaches into going back home (Solo Campaign only).",
+      "earned": true,
+      "earnedDateTime": "2026-10-14T22:45:00.000Z"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "rp",
+      "icon": "⭐",
+      "label": "Resistance Pts",
+      "current": 0,
+      "total": 39000,
+      "step": 100
+    },
+    {
+      "id": "outposts",
+      "icon": "🏴",
+      "label": "Outposts",
+      "current": 0,
+      "total": 21,
+      "step": 1
+    },
+    {
+      "id": "cultProperty",
+      "icon": "🔥",
+      "label": "Cult Property",
+      "current": 0,
+      "total": 48,
+      "step": 1
+    },
+    {
+      "id": "stashes",
+      "icon": "📦",
+      "label": "Prepper Stashes",
+      "current": 0,
+      "total": 27,
+      "step": 1
+    },
+    {
+      "id": "roster",
+      "icon": "🐾",
+      "label": "Guns & Fangs",
+      "current": 0,
+      "total": 9,
+      "step": 1
+    },
+    {
+      "id": "collectibles",
+      "icon": "🗂️",
+      "label": "Collectibles",
+      "current": 0,
+      "total": 58,
+      "step": 1
+    }
+  ],
+  "lastSyncTimestamp": "2026-10-27T19:42:50.931Z",
+  "activeUser": "wildhorse_spirit",
+  "mostRecentTrophyEarned": {
+    "name": "Scavenger",
+    "earnedDateTime": "2026-10-25T16:15:30.000Z"
+  }
+}
