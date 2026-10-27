@@ -10,7 +10,7 @@
       "quest_giver_location": "Oberlin Picnic Area, Whitetail Mountains",
       "total_count": 9,
       "region": "Whitetail Mountains",
-      "items": [
+      "items": [ 
         {
           "id": "baseball_card_01",
           "name": "Southwest of F.A.N.G Center",
@@ -1663,26 +1663,14 @@
         "type": "Melee",
         "price": "Free / Found in world",
         "description": "A baseball bat made of wood. Classic. Used for more than just hitting balls.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 5,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 7
-        }
+        "stats": { "accuracy": 5, "damage": 5, "range": 2, "rate_of_fire": 4, "handling": 7 }
       },
       {
         "name": "Aluminium Bat",
         "type": "Melee",
         "price": "$1,025",
         "description": "This has made countless slow-pitch softball players feel like first ballot hall-of-famers.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 5,
-          "range": 2,
-          "rate_of_fire": 5,
-          "handling": 8
-        }
+        "stats": { "accuracy": 5, "damage": 5, "range": 2, "rate_of_fire": 5, "handling": 8 }
       },
       {
         "name": "Spiked Bat",
@@ -1690,78 +1678,42 @@
         "price": "Unlock via Resistance",
         "unlock_requirements": "Gain 2 levels of resistance (total) from any region(s).",
         "description": "A lethal bat modified with sharp spikes for enhanced stopping power.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 6,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 7
-        }
+        "stats": { "accuracy": 5, "damage": 6, "range": 2, "rate_of_fire": 4, "handling": 7 }
       },
       {
         "name": "Socket Pipe",
         "type": "Melee",
         "price": "$500",
         "description": "A victim of the housing collapse who changed careers late in life to become a weapon.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 5,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 8
-        }
+        "stats": { "accuracy": 5, "damage": 5, "range": 2, "rate_of_fire": 4, "handling": 8 }
       },
       {
         "name": "Bolted Pipe",
         "type": "Melee",
         "price": "$500",
         "description": "A while ago, this pipe was part of an anonymous leak. The bosses found out and it lost its job.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 5,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 8
-        }
+        "stats": { "accuracy": 5, "damage": 5, "range": 2, "rate_of_fire": 4, "handling": 8 }
       },
       {
         "name": "Shovel",
         "type": "Melee",
         "price": "$500",
         "description": "A tool with a broad flat blade used for moving earth, snow, or bullsh*t in the workplace.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 6,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 7
-        }
+        "stats": { "accuracy": 5, "damage": 6, "range": 2, "rate_of_fire": 4, "handling": 7 }
       },
       {
         "name": "Optimism",
         "type": "Melee (Special)",
         "price": "$4,800",
         "description": "This shovel always sees holes of dirt as half full.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 6,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 7
-        }
+        "stats": { "accuracy": 5, "damage": 6, "range": 2, "rate_of_fire": 4, "handling": 7 }
       },
       {
         "name": "Whacki",
         "type": "Melee",
         "price": "$7,200",
         "description": "This paddle is for those who like their violence to have a sprinkling of cartoony.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 5,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 4
-        }
+        "stats": { "accuracy": 5, "damage": 5, "range": 2, "rate_of_fire": 4, "handling": 4 }
       }
     ],
     "sidearms": [
@@ -1770,117 +1722,63 @@
         "type": "Sidearm",
         "price": "Default / Found",
         "description": "Death, taxes, and the 1911. The design of this American made semi-automatic hasn't changed since WWI.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 4,
-          "handling": 8
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 4, "handling": 8 }
       },
       {
         "name": ".44 Magnum",
         "type": "Sidearm",
         "price": "$1,000",
         "description": "A powerful handgun that is perfect for close-quarters self defense.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 6,
-          "range": 5,
-          "rate_of_fire": 3,
-          "handling": 7
-        }
+        "stats": { "accuracy": 6, "damage": 6, "range": 5, "rate_of_fire": 3, "handling": 7 }
       },
       {
         "name": "SMG-11",
         "type": "Sidearm",
         "price": "$1,300",
         "description": "This subcompact machine pistol will burn through bullets faster than a fake news story gets shared.",
-        "stats": {
-          "accuracy": 3,
-          "damage": 3,
-          "range": 4,
-          "rate_of_fire": 8,
-          "handling": 6
-        }
+        "stats": { "accuracy": 3, "damage": 3, "range": 4, "rate_of_fire": 8, "handling": 6 }
       },
       {
         "name": "P226 'Amendment 2'",
         "type": "Sidearm",
         "price": "$4,800",
         "description": "This P226 is as American as George Washington eating a deep-fried bald eagle.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 4,
-          "range": 5,
-          "rate_of_fire": 5,
-          "handling": 8
-        }
+        "stats": { "accuracy": 6, "damage": 4, "range": 5, "rate_of_fire": 5, "handling": 8 }
       },
       {
         "name": "1911 'Toaster'",
         "type": "Sidearm",
         "price": "$4,800",
         "description": "Custom finished 1911 sidearm.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 4,
-          "handling": 8
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 4, "handling": 8 }
       },
       {
         "name": "1911 Extended 'Golden Aerie'",
         "type": "Sidearm",
         "price": "$4,800",
         "description": "This 1911 extended pistol is powerful, ostentatious, and perfect for the flashy millennial in us all.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 4,
-          "handling": 8
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 4, "handling": 8 }
       },
       {
         "name": "Skorpion 'Big Spender'",
         "type": "Sidearm",
         "price": "$4,800",
         "description": "This gold-plated Skorpion compensates for its size with a shiny facade.",
-        "stats": {
-          "accuracy": 2,
-          "damage": 3,
-          "range": 3,
-          "rate_of_fire": 8,
-          "handling": 7
-        }
+        "stats": { "accuracy": 2, "damage": 3, "range": 3, "rate_of_fire": 8, "handling": 7 }
       },
       {
         "name": "1911 'The Shark'",
         "type": "Sidearm",
         "price": "$4,800",
         "description": "This 1911 has that retro vintage authentic bomber feel.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 4,
-          "handling": 8
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 4, "handling": 8 }
       },
       {
         "name": "M-79 'Shark Shooter'",
         "type": "Special Sidearm",
         "price": "$4,800",
         "description": "This M-79 was in the war. Which war? I dunno. The one with that shark paint trend.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 9,
-          "range": 7,
-          "rate_of_fire": 2,
-          "handling": 5
-        }
+        "stats": { "accuracy": 5, "damage": 9, "range": 7, "rate_of_fire": 2, "handling": 5 }
       }
     ],
     "shotguns": [
@@ -1889,52 +1787,28 @@
         "type": "Shotgun",
         "price": "$1,380",
         "description": "This pump-action shotgun will cause more internal damage than cheap vodka.",
-        "stats": {
-          "accuracy": 3,
-          "damage": 7,
-          "range": 4,
-          "rate_of_fire": 2,
-          "handling": 5
-        }
+        "stats": { "accuracy": 3, "damage": 7, "range": 4, "rate_of_fire": 2, "handling": 5 }
       },
       {
         "name": "M133 'The Grand Slam'",
         "type": "Shotgun",
         "price": "$4,800",
         "description": "This M133 doesn't hit singles, doubles, triples, or home runs. Only grand slams.",
-        "stats": {
-          "accuracy": 2,
-          "damage": 7,
-          "range": 3,
-          "rate_of_fire": 2,
-          "handling": 5
-        }
+        "stats": { "accuracy": 2, "damage": 7, "range": 3, "rate_of_fire": 2, "handling": 5 }
       },
       {
         "name": "SBS 'The Farmhand'",
         "type": "Shotgun",
         "price": "$4,800",
         "description": "This SBS shotgun says 'get off my property' better than any spoken threat ever could.",
-        "stats": {
-          "accuracy": 4,
-          "damage": 7,
-          "range": 5,
-          "rate_of_fire": 2,
-          "handling": 4
-        }
+        "stats": { "accuracy": 4, "damage": 7, "range": 5, "rate_of_fire": 2, "handling": 4 }
       },
       {
         "name": "SPAS-12 'Flameout'",
         "type": "Shotgun",
         "price": "$4,800",
         "description": "This SPAS-12 has a paint job that makes it prone to overheat. Worth it.",
-        "stats": {
-          "accuracy": 3,
-          "damage": 7,
-          "range": 4,
-          "rate_of_fire": 4,
-          "handling": 5
-        }
+        "stats": { "accuracy": 3, "damage": 7, "range": 4, "rate_of_fire": 4, "handling": 5 }
       }
     ],
     "submachine_guns": [
@@ -1943,13 +1817,7 @@
         "type": "Submachine Gun",
         "price": "Ubisoft Club Unlock (20 Uplay Points)",
         "description": "Lightweight automatic submachine gun with high rate of fire.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 4,
-          "range": 5,
-          "rate_of_fire": 8,
-          "handling": 7
-        }
+        "stats": { "accuracy": 6, "damage": 4, "range": 5, "rate_of_fire": 8, "handling": 7 }
       }
     ],
     "rifles": [
@@ -1958,65 +1826,35 @@
         "type": "Rifle",
         "price": "Default / Found",
         "description": "Once a military oddball, this modular semi-automatic rifle has become wildly popular with the DIY crowd.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 8,
-          "handling": 5
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 8, "handling": 5 }
       },
       {
         "name": "AR-C 'The Shark'",
         "type": "Rifle",
         "price": "$4,800",
         "description": "This AR-C is a shark. Don't ever play pool or cards with it.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 8,
-          "handling": 5
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 8, "handling": 5 }
       },
       {
         "name": "AR-C 'Stars 'N Stripes'",
         "type": "Rifle",
         "price": "$4,800",
         "description": "If this isn't the official firearm of the United States of America, it should be.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 5,
-          "range": 5,
-          "rate_of_fire": 8,
-          "handling": 5
-        }
+        "stats": { "accuracy": 6, "damage": 5, "range": 5, "rate_of_fire": 8, "handling": 5 }
       },
       {
         "name": "45/70 'Fall's Ghost'",
         "type": "Rifle",
         "price": "$4,800",
         "description": "This 45/70 has the spirit of Fall's End's founder.",
-        "stats": {
-          "accuracy": 7,
-          "damage": 5,
-          "range": 6,
-          "rate_of_fire": 5,
-          "handling": 5
-        }
+        "stats": { "accuracy": 7, "damage": 5, "range": 6, "rate_of_fire": 5, "handling": 5 }
       },
       {
         "name": "AKM-S 'The Whitetailer'",
         "type": "Rifle",
         "price": "$7,200",
         "description": "This AKM-S's paint job lets everyone know you are with the Whitetail Militia... not against them.",
-        "stats": {
-          "accuracy": 4,
-          "damage": 6,
-          "range": 4,
-          "rate_of_fire": 5,
-          "handling": 6
-        }
+        "stats": { "accuracy": 4, "damage": 6, "range": 4, "rate_of_fire": 5, "handling": 6 }
       }
     ],
     "sniper_rifles": [
@@ -2025,65 +1863,35 @@
         "type": "Sniper Rifle",
         "price": "$1,800",
         "description": "A semi-automatic rifle manufactured to maintain long-distance relationships, or eliminate them.",
-        "stats": {
-          "accuracy": 7,
-          "damage": 5,
-          "range": 7,
-          "rate_of_fire": 5,
-          "handling": 4
-        }
+        "stats": { "accuracy": 7, "damage": 5, "range": 7, "rate_of_fire": 5, "handling": 4 }
       },
       {
         "name": "MBP .50",
         "type": "Sniper Rifle",
         "price": "$2,500",
         "description": "This .50 cal bolt action rifle knows about your accuracy and penetration. Just like your sarcastic friend.",
-        "stats": {
-          "accuracy": 8,
-          "damage": 8,
-          "range": 8,
-          "rate_of_fire": 3,
-          "handling": 3
-        }
+        "stats": { "accuracy": 8, "damage": 8, "range": 8, "rate_of_fire": 3, "handling": 3 }
       },
       {
         "name": "308 Carbine 'Old Flame'",
         "type": "Sniper Rifle",
         "price": "$4,800",
         "description": "This 308 Carbine still checks you out on social media. The spark between you will never die.",
-        "stats": {
-          "accuracy": 8,
-          "damage": 6,
-          "range": 8,
-          "rate_of_fire": 3,
-          "handling": 4
-        }
+        "stats": { "accuracy": 8, "damage": 6, "range": 8, "rate_of_fire": 3, "handling": 4 }
       },
       {
         "name": "AR-CL 'Sharkbite'",
         "type": "Sniper Rifle",
         "price": "$4,800",
         "description": "This AR-CL is just a shark. You know how sharks are, right?",
-        "stats": {
-          "accuracy": 7,
-          "damage": 5,
-          "range": 7,
-          "rate_of_fire": 5,
-          "handling": 4
-        }
+        "stats": { "accuracy": 7, "damage": 5, "range": 7, "rate_of_fire": 5, "handling": 4 }
       },
       {
         "name": "SA50 'Free State'",
         "type": "Sniper Rifle",
         "price": "$7,200",
         "description": "This SA50 is only for a well-regulated militia which is necessary for the security of a free state.",
-        "stats": {
-          "accuracy": 7,
-          "damage": 8,
-          "range": 8,
-          "rate_of_fire": 5,
-          "handling": 3
-        }
+        "stats": { "accuracy": 7, "damage": 8, "range": 8, "rate_of_fire": 5, "handling": 3 }
       }
     ],
     "machine_guns": [
@@ -2092,26 +1900,14 @@
         "type": "Machine Gun",
         "price": "$2,750",
         "description": "Instructions for using this belt-fed machine gun: apply red bandana, pull trigger, yell.",
-        "stats": {
-          "accuracy": 8,
-          "damage": 7,
-          "range": 7,
-          "rate_of_fire": 5,
-          "handling": 3
-        }
+        "stats": { "accuracy": 8, "damage": 7, "range": 7, "rate_of_fire": 5, "handling": 3 }
       },
       {
         "name": "M249 'Militia'",
         "type": "Machine Gun",
         "price": "$7,200",
         "description": "This M249 is a loud and proud member of the Whitetail Militia.",
-        "stats": {
-          "accuracy": 6,
-          "damage": 7,
-          "range": 7,
-          "rate_of_fire": 8,
-          "handling": 3
-        }
+        "stats": { "accuracy": 6, "damage": 7, "range": 7, "rate_of_fire": 8, "handling": 3 }
       }
     ],
     "special_weapons": [
@@ -2120,52 +1916,28 @@
         "type": "Special Weapon",
         "price": "$2,000",
         "description": "It does one thing and one thing only... it shoots a steady stream of fire. Pro tip: don't burn yourself.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 8,
-          "range": 4,
-          "rate_of_fire": 6,
-          "handling": 5
-        }
+        "stats": { "accuracy": 5, "damage": 8, "range": 4, "rate_of_fire": 6, "handling": 5 }
       },
       {
         "name": "Flames on Flames",
         "type": "Special Weapon",
         "price": "$2,400",
         "description": "What else are you gonna put on a flamethrower besides flames? C'mon.",
-        "stats": {
-          "accuracy": 5,
-          "damage": 8,
-          "range": 4,
-          "rate_of_fire": 6,
-          "handling": 5
-        }
+        "stats": { "accuracy": 5, "damage": 8, "range": 4, "rate_of_fire": 6, "handling": 5 }
       },
       {
         "name": "Basic Fishing Rod",
         "type": "Fishing Rod",
         "price": "$300",
         "description": "Strong and durable, this rod is perfect for anyone new to fly fishing.",
-        "stats": {
-          "accuracy": 0,
-          "damage": 0,
-          "range": 2,
-          "rate_of_fire": 2,
-          "handling": 2
-        }
+        "stats": { "accuracy": 0, "damage": 0, "range": 2, "rate_of_fire": 2, "handling": 2 }
       },
       {
         "name": "Natural Fishing Rod",
         "type": "Fishing Rod",
         "price": "$800",
         "description": "A mid-range fly fishing rod with a high gauge line and a fast reel.",
-        "stats": {
-          "accuracy": 0,
-          "damage": 0,
-          "range": 2,
-          "rate_of_fire": 4,
-          "handling": 4
-        }
+        "stats": { "accuracy": 0, "damage": 0, "range": 2, "rate_of_fire": 4, "handling": 4 }
       },
       {
         "name": "Magnopulsar",
@@ -2173,13 +1945,7 @@
         "price": "Free (Side Quest Reward)",
         "unlock_requirements": "Complete Larry Parker's side quest series at Parker Laboratories: 'Free Larry', 'The Heroes Journey', 'Close Encounters', and 'Out of This World'.",
         "description": "This weapon uses some kind of magnetized microwaves that, if aimed properly, can explode organic targets. WTF?",
-        "stats": {
-          "accuracy": 5,
-          "damage": 0,
-          "range": 4,
-          "rate_of_fire": 5,
-          "handling": 5
-        }
+        "stats": { "accuracy": 5, "damage": 0, "range": 4, "rate_of_fire": 5, "handling": 5 }
       }
     ]
   },
@@ -2193,14 +1959,8 @@
       "location": "Drubman Marina",
       "unlock_mission": "Friendly Skies",
       "skills": [
-        {
-          "name": "Call a Chopper",
-          "description": "Will provide air support and deliver a helicopter."
-        },
-        {
-          "name": "Less Reload",
-          "description": "Gun + Big Magazine = More shooting."
-        }
+        { "name": "Call a Chopper", "description": "Will provide air support and deliver a helicopter." },
+        { "name": "Less Reload", "description": "Gun + Big Magazine = More shooting." }
       ]
     },
     {
@@ -2212,14 +1972,8 @@
       "location": "Rae-Rae's Pumpkin Farm",
       "unlock_mission": "Man's Best Friend",
       "skills": [
-        {
-          "name": "Pointer",
-          "description": "Will tag all enemies nearby."
-        },
-        {
-          "name": "Retriever",
-          "description": "Will sometimes fetch a weapon after an attack."
-        }
+        { "name": "Pointer", "description": "Will tag all enemies nearby." },
+        { "name": "Retriever", "description": "Will sometimes fetch a weapon after an attack." }
       ]
     },
     {
@@ -2231,14 +1985,8 @@
       "location": "F.A.N.G Center",
       "unlock_mission": "A Right to Bear Arms",
       "skills": [
-        {
-          "name": "Bear Arms",
-          "description": "Will exercise his right to attack."
-        },
-        {
-          "name": "Cross to Bear",
-          "description": "Will draw focus during combat."
-        }
+        { "name": "Bear Arms", "description": "Will exercise his right to attack." },
+        { "name": "Cross to Bear", "description": "Will draw focus during combat." }
       ]
     },
     {
@@ -2250,14 +1998,8 @@
       "location": "Lamb of God Church",
       "unlock_mission": "Grace Under Fire",
       "skills": [
-        {
-          "name": "Boom Boom",
-          "description": "Her sniper shots will scare enemies."
-        },
-        {
-          "name": "Friendly Sight",
-          "description": "Her laser sight is easier to distinguish."
-        }
+        { "name": "Boom Boom", "description": "Her sniper shots will scare enemies." },
+        { "name": "Friendly Sight", "description": "Her laser sight is easier to distinguish." }
       ]
     },
     {
@@ -2269,14 +2011,8 @@
       "location": "Fort Drubman",
       "unlock_mission": "The Prodigal Son",
       "skills": [
-        {
-          "name": "Heat Seeker",
-          "description": "RPGs will track air and land vehicles."
-        },
-        {
-          "name": "Junk It",
-          "description": "RPGs on vehicles are more destructive."
-        }
+        { "name": "Heat Seeker", "description": "RPGs will track air and land vehicles." },
+        { "name": "Junk It", "description": "RPGs on vehicles are more destructive." }
       ]
     },
     {
@@ -2288,14 +2024,8 @@
       "location": "Peaches Taxidermy",
       "unlock_mission": "Here Kitty Kitty",
       "skills": [
-        {
-          "name": "Pounce",
-          "description": "Will silently takedown an enemy."
-        },
-        {
-          "name": "Stalk",
-          "description": "Will stay hidden when moving through tall grass."
-        }
+        { "name": "Pounce", "description": "Will silently takedown an enemy." },
+        { "name": "Stalk", "description": "Will stay hidden when moving through tall grass." }
       ]
     },
     {
@@ -2307,14 +2037,8 @@
       "location": "Baron Lumber Mill",
       "unlock_mission": "A Dish Served Cold",
       "skills": [
-        {
-          "name": "Concealment",
-          "description": "Enemies will have a harder time detecting her."
-        },
-        {
-          "name": "Feral Friendly",
-          "description": "Wild animals see her as one of their own."
-        }
+        { "name": "Concealment", "description": "Enemies will have a harder time detecting her." },
+        { "name": "Feral Friendly", "description": "Wild animals see her as one of their own." }
       ]
     },
     {
@@ -2326,14 +2050,8 @@
       "location": "Rye and Son's Aviation",
       "unlock_mission": "Wingman",
       "skills": [
-        {
-          "name": "Bomb's Away",
-          "description": "You want a bomb? He'll drop it."
-        },
-        {
-          "name": "Light 'Em Up",
-          "description": "You want a strafing run? Look out."
-        }
+        { "name": "Bomb's Away", "description": "You want a bomb? He'll drop it." },
+        { "name": "Light 'Em Up", "description": "You want a strafing run? Look out." }
       ]
     },
     {
@@ -2345,319 +2063,91 @@
       "location": "Moonflower Trailer Park",
       "unlock_mission": "Burn Baby Burn",
       "skills": [
-        {
-          "name": "Fire it Up",
-          "description": "Attacks will have an extra spark to it."
-        },
-        {
-          "name": "Shatterproof",
-          "description": "Resistant to most explosions and impacts."
-        }
+        { "name": "Fire it Up", "description": "Attacks will have an extra spark to it." },
+        { "name": "Shatterproof", "description": "Resistant to most explosions and impacts." }
       ]
     }
   ],
   "survivalist_magazines": {
     "holland_valley": [
-      {
-        "location": "Davenport Farm",
-        "guide": "Climb roof of silo beside the barn and jump to platform opening."
-      },
-      {
-        "location": "Eden's Gate Greenhouse",
-        "guide": "Climb roof near Seed Ranch, jump to silo, and climb up to the windmill."
-      },
-      {
-        "location": "Fillmore Residence",
-        "guide": "Enter the fallout shelter bunker inside the shed; magazine is on a shelf."
-      },
-      {
-        "location": "St. Isidore School",
-        "guide": "Collect key from bird's nest on roof via scaffold; find magazine inside shed."
-      },
-      {
-        "location": "Camp West of Rae-Rae's Pumpkin Farm",
-        "guide": "On a table beneath tarp on a raised western plateau."
-      },
-      {
-        "location": "Frobisher's Cave",
-        "guide": "Head inside cave southwest of Rae-Rae's; found next to a yellow crate."
-      },
-      {
-        "location": "Harris Residence",
-        "guide": "Inside the property's shed bunker, on the bathroom floor."
-      },
-      {
-        "location": "Gardenview Orchards",
-        "guide": "Break into boarded shed beside metal silo; magazine is on rear wall shelf."
-      },
-      {
-        "location": "Rae-Rae's Pumpkin Farm",
-        "guide": "Inside the outdoor bunker behind the house on a fold-out bed."
-      },
-      {
-        "location": "Sergey's Place",
-        "guide": "Inside unused train containers near the river southeast of Rae-Rae's farm."
-      },
-      {
-        "location": "Holland Valley Station",
-        "guide": "Jump onto box into train car along the river tracks."
-      },
-      {
-        "location": "Roberts Cabin",
-        "guide": "Break wood slats behind house to access hole."
-      },
-      {
-        "location": "Boyd Residence",
-        "guide": "Inside wooden slat shed bunker on a fold-out bed."
-      },
-      {
-        "location": "North East of Fall's End",
-        "guide": "Inside isolated wooden shed north of Sunrise Farm on shelf by door."
-      },
-      {
-        "location": "Drainpipe Northeast of Sunrise Farm",
-        "guide": "Enter drainpipe south of lake; found around mid-point turn."
-      },
-      {
-        "location": "Sawyer Residence",
-        "guide": "Inside riverbank property fenceline bunker on a shelf."
-      },
-      {
-        "location": "Dupree Residence",
-        "guide": "Inside bunker near front fence on shelving."
-      },
-      {
-        "location": "Miller Residence",
-        "guide": "Inside bunker beside white shed on bathroom shelf."
-      },
-      {
-        "location": "South of Adams Ranch",
-        "guide": "On table behind garage far south of Adams Ranch."
-      },
-      {
-        "location": "Drain East of Fall's End",
-        "guide": "Inside mid-point turn of drainpipe where two roads cross."
-      },
-      {
-        "location": "Old Silo",
-        "guide": "Climb ladder to top and leap across grating gaps."
-      },
-      {
-        "location": "Bradbury Farm",
-        "guide": "Get key from upper barn level (or Locksmith perk), unlock second building."
-      },
-      {
-        "location": "Steele Farm",
-        "guide": "On top of the camper van near Lamb of God Church."
-      }
+      { "location": "Davenport Farm", "guide": "Climb roof of silo beside the barn and jump to platform opening." },
+      { "location": "Eden's Gate Greenhouse", "guide": "Climb roof near Seed Ranch, jump to silo, and climb up to the windmill." },
+      { "location": "Fillmore Residence", "guide": "Enter the fallout shelter bunker inside the shed; magazine is on a shelf." },
+      { "location": "St. Isidore School", "guide": "Collect key from bird's nest on roof via scaffold; find magazine inside shed." },
+      { "location": "Camp West of Rae-Rae's Pumpkin Farm", "guide": "On a table beneath tarp on a raised western plateau." },
+      { "location": "Frobisher's Cave", "guide": "Head inside cave southwest of Rae-Rae's; found next to a yellow crate." },
+      { "location": "Harris Residence", "guide": "Inside the property's shed bunker, on the bathroom floor." },
+      { "location": "Gardenview Orchards", "guide": "Break into boarded shed beside metal silo; magazine is on rear wall shelf." },
+      { "location": "Rae-Rae's Pumpkin Farm", "guide": "Inside the outdoor bunker behind the house on a fold-out bed." },
+      { "location": "Sergey's Place", "guide": "Inside unused train containers near the river southeast of Rae-Rae's farm." },
+      { "location": "Holland Valley Station", "guide": "Jump onto box into train car along the river tracks." },
+      { "location": "Roberts Cabin", "guide": "Break wood slats behind house to access hole." },
+      { "location": "Boyd Residence", "guide": "Inside wooden slat shed bunker on a fold-out bed." },
+      { "location": "North East of Fall's End", "guide": "Inside isolated wooden shed north of Sunrise Farm on shelf by door." },
+      { "location": "Drainpipe Northeast of Sunrise Farm", "guide": "Enter drainpipe south of lake; found around mid-point turn." },
+      { "location": "Sawyer Residence", "guide": "Inside riverbank property fenceline bunker on a shelf." },
+      { "location": "Dupree Residence", "guide": "Inside bunker near front fence on shelving." },
+      { "location": "Miller Residence", "guide": "Inside bunker beside white shed on bathroom shelf." },
+      { "location": "South of Adams Ranch", "guide": "On table behind garage far south of Adams Ranch." },
+      { "location": "Drain East of Fall's End", "guide": "Inside mid-point turn of drainpipe where two roads cross." },
+      { "location": "Old Silo", "guide": "Climb ladder to top and leap across grating gaps." },
+      { "location": "Bradbury Farm", "guide": "Get key from upper barn level (or Locksmith perk), unlock second building." },
+      { "location": "Steele Farm", "guide": "On top of the camper van near Lamb of God Church." }
     ],
     "henbane_river": [
-      {
-        "location": "North of Drubman Marina",
-        "guide": "Grapple to top of radio tower north of marina."
-      },
-      {
-        "location": "North East of Drubman Marina",
-        "guide": "Small cliffside cave amongst bones in the back."
-      },
-      {
-        "location": "Island West of Drubman Marina",
-        "guide": "Inside tent on small Silver Lake island."
-      },
-      {
-        "location": "South of Peaches Taxidermy",
-        "guide": "Inside trailer of crashed truck in small lake."
-      },
-      {
-        "location": "Near Camp Cougars",
-        "guide": "Break wood planks blocking cliff cave; inside by blue barrels."
-      },
-      {
-        "location": "Sabre-Tooth Springs",
-        "guide": "Follow springs back into small cave leakage."
-      },
-      {
-        "location": "Island in Rock Bass Lake",
-        "guide": "Inside small cave on the larger island."
-      },
-      {
-        "location": "North East of Moonflower Trailer Park",
-        "guide": "Inside shack on a bed within Bliss field."
-      },
-      {
-        "location": "Plane Crash East of Rock Bass Lake",
-        "guide": "Among plane wreckage along eastern border road."
-      },
-      {
-        "location": "Gethsemane Greenhouse",
-        "guide": "Inside rear bunker on a bed."
-      },
-      {
-        "location": "Harrison Lookout Tower",
-        "guide": "On table on tower balcony."
-      },
-      {
-        "location": "Puma Mine",
-        "guide": "Inside back broken room of white house."
-      },
-      {
-        "location": "Ancient Bison Tunnel",
-        "guide": "Inside school bus near collapsed tunnel entrance."
-      },
-      {
-        "location": "Abercrombie Residence",
-        "guide": "Inside backyard bunker on the basin."
-      },
-      {
-        "location": "The Last Best Resting Place",
-        "guide": "Break wooden slats over grave hole near tree in cemetery."
-      },
-      {
-        "location": "Tunnel North East of Dead Man's River",
-        "guide": "Right side alcove with bed inside mountain tunnel."
-      },
-      {
-        "location": "Jones Residence",
-        "guide": "Inside shed bunker on kitchen counter."
-      },
-      {
-        "location": "Nelson Residence",
-        "guide": "On white chest of drawers in bedroom."
-      },
-      {
-        "location": "8-Bit Pizza Bar",
-        "guide": "Behind overturned table in main room."
-      },
-      {
-        "location": "Tunnel Between Moonflower and Jail",
-        "guide": "Inside overturned trailer inside mountain tunnel."
-      },
-      {
-        "location": "Throne of Mercy Church",
-        "guide": "Inside shed behind the church."
-      },
-      {
-        "location": "Nature Cabin",
-        "guide": "On fireplace mantel inside main cabin."
-      },
-      {
-        "location": "Cave North of Nature Cabin",
-        "guide": "Just inside mountain creek cave."
-      },
-      {
-        "location": "Campsite Under the Bridge",
-        "guide": "At creek campsite beneath road bridge."
-      },
-      {
-        "location": "Purpletop Antenna Hunting Zone",
-        "guide": "Zipline from radio antenna onto hunting platform."
-      },
-      {
-        "location": "North of Purpletop Antenna",
-        "guide": "On rear wall bookshelf in Bliss house."
-      },
-      {
-        "location": "Chan Residence",
-        "guide": "Break planks covering hole behind backyard shed."
-      },
-      {
-        "location": "Henbane River Chalets",
-        "guide": "On bed inside chalet closest to river."
-      },
-      {
-        "location": "McClean Residence",
-        "guide": "On living room couch."
-      },
-      {
-        "location": "North of Joseph's Statue",
-        "guide": "Inside rocky cave north of Angel's Peak statue."
-      },
-      {
-        "location": "Vasquez Residence",
-        "guide": "On table inside residence."
-      }
+      { "location": "North of Drubman Marina", "guide": "Grapple to top of radio tower north of marina." },
+      { "location": "North East of Drubman Marina", "guide": "Small cliffside cave amongst bones in the back." },
+      { "location": "Island West of Drubman Marina", "guide": "Inside tent on small Silver Lake island." },
+      { "location": "South of Peaches Taxidermy", "guide": "Inside trailer of crashed truck in small lake." },
+      { "location": "Near Camp Cougars", "guide": "Break wood planks blocking cliff cave; inside by blue barrels." },
+      { "location": "Sabre-Tooth Springs", "guide": "Follow springs back into small cave leakage." },
+      { "location": "Island in Rock Bass Lake", "guide": "Inside small cave on the larger island." },
+      { "location": "North East of Moonflower Trailer Park", "guide": "Inside shack on a bed within Bliss field." },
+      { "location": "Plane Crash East of Rock Bass Lake", "guide": "Among plane wreckage along eastern border road." },
+      { "location": "Gethsemane Greenhouse", "guide": "Inside rear bunker on a bed." },
+      { "location": "Harrison Lookout Tower", "guide": "On table on tower balcony." },
+      { "location": "Puma Mine", "guide": "Inside back broken room of white house." },
+      { "location": "Ancient Bison Tunnel", "guide": "Inside school bus near collapsed tunnel entrance." },
+      { "location": "Abercrombie Residence", "guide": "Inside backyard bunker on the basin." },
+      { "location": "The Last Best Resting Place", "guide": "Break wooden slats over grave hole near tree in cemetery." },
+      { "location": "Tunnel North East of Dead Man's River", "guide": "Right side alcove with bed inside mountain tunnel." },
+      { "location": "Jones Residence", "guide": "Inside shed bunker on kitchen counter." },
+      { "location": "Nelson Residence", "guide": "On white chest of drawers in bedroom." },
+      { "location": "8-Bit Pizza Bar", "guide": "Behind overturned table in main room." },
+      { "location": "Tunnel Between Moonflower and Jail", "guide": "Inside overturned trailer inside mountain tunnel." },
+      { "location": "Throne of Mercy Church", "guide": "Inside shed behind the church." },
+      { "location": "Nature Cabin", "guide": "On fireplace mantel inside main cabin." },
+      { "location": "Cave North of Nature Cabin", "guide": "Just inside mountain creek cave." },
+      { "location": "Campsite Under the Bridge", "guide": "At creek campsite beneath road bridge." },
+      { "location": "Purpletop Antenna Hunting Zone", "guide": "Zipline from radio antenna onto hunting platform." },
+      { "location": "North of Purpletop Antenna", "guide": "On rear wall bookshelf in Bliss house." },
+      { "location": "Chan Residence", "guide": "Break planks covering hole behind backyard shed." },
+      { "location": "Henbane River Chalets", "guide": "On bed inside chalet closest to river." },
+      { "location": "McClean Residence", "guide": "On living room couch." },
+      { "location": "North of Joseph's Statue", "guide": "Inside rocky cave north of Angel's Peak statue." },
+      { "location": "Vasquez Residence", "guide": "On table inside residence." }
     ],
     "whitetail_mountains": [
-      {
-        "location": "Waterfall Basin",
-        "guide": "At hunting setup on southern shore of northwest mountain lake."
-      },
-      {
-        "location": "West of Cedar Lake",
-        "guide": "On fold-out bed inside bunker next to lookout."
-      },
-      {
-        "location": "Cedar Lake Cult Camp",
-        "guide": "Under tent shelter on shelf beside cooler."
-      },
-      {
-        "location": "Small Island in Cedar Lake",
-        "guide": "On shelf inside central log cottage."
-      },
-      {
-        "location": "Large Island in Cedar Lake",
-        "guide": "Behind informational sign at high point."
-      },
-      {
-        "location": "South of Jacob's Compound",
-        "guide": "On crate at cliffside campsite above river."
-      },
-      {
-        "location": "Railway Bridge Drain",
-        "guide": "Inside secret camp at end of drain under northeast bridge."
-      },
-      {
-        "location": "North of Baron Lumber Mill",
-        "guide": "Under fold-out chair at high camp overlook."
-      },
-      {
-        "location": "South of Baron Lumber Mill",
-        "guide": "Grapple onto roof of Golden Valley gas station."
-      },
-      {
-        "location": "Loresca Residence",
-        "guide": "Beside front porch chair."
-      },
-      {
-        "location": "Marshland Lookout Tower",
-        "guide": "On floor inside log structure across from Elliot Residence."
-      },
-      {
-        "location": "Ringing Rocks Overlook",
-        "guide": "Below informational sign on Moccasin River islet."
-      },
-      {
-        "location": "Resistance Camp",
-        "guide": "Grapple into wooden lookout tower on west side of camp."
-      },
-      {
-        "location": "Hunter's Campsite",
-        "guide": "On bench at island campsite in lake southwest of ranger station."
-      },
-      {
-        "location": "Raided Bunker",
-        "guide": "On orange chair inside hill bunker with hanging corpse."
-      },
-      {
-        "location": "Cult Lookout",
-        "guide": "On pallet stack inside tent west of PIN-K0 radar station."
-      },
-      {
-        "location": "Cliffside Hunter's Blind",
-        "guide": "Beside boxes in hunter's blind northwest of Jefferson tower."
-      },
-      {
-        "location": "Hillside Camp",
-        "guide": "Inside tower at campsite with animal cage west of Oberlin picnic area."
-      },
-      {
-        "location": "Southwest of Clagett Bay",
-        "guide": "On fold-out bed inside bunker next to tree with hanging body."
-      },
-      {
-        "location": "West of Langford Lake",
-        "guide": "On ground behind house among broken dresser furniture."
-      }
+      { "location": "Waterfall Basin", "guide": "At hunting setup on southern shore of northwest mountain lake." },
+      { "location": "West of Cedar Lake", "guide": "On fold-out bed inside bunker next to lookout." },
+      { "location": "Cedar Lake Cult Camp", "guide": "Under tent shelter on shelf beside cooler." },
+      { "location": "Small Island in Cedar Lake", "guide": "On shelf inside central log cottage." },
+      { "location": "Large Island in Cedar Lake", "guide": "Behind informational sign at high point." },
+      { "location": "South of Jacob's Compound", "guide": "On crate at cliffside campsite above river." },
+      { "location": "Railway Bridge Drain", "guide": "Inside secret camp at end of drain under northeast bridge." },
+      { "location": "North of Baron Lumber Mill", "guide": "Under fold-out chair at high camp overlook." },
+      { "location": "South of Baron Lumber Mill", "guide": "Grapple onto roof of Golden Valley gas station." },
+      { "location": "Loresca Residence", "guide": "Beside front porch chair." },
+      { "location": "Marshland Lookout Tower", "guide": "On floor inside log structure across from Elliot Residence." },
+      { "location": "Ringing Rocks Overlook", "guide": "Below informational sign on Moccasin River islet." },
+      { "location": "Resistance Camp", "guide": "Grapple into wooden lookout tower on west side of camp." },
+      { "location": "Hunter's Campsite", "guide": "On bench at island campsite in lake southwest of ranger station." },
+      { "location": "Raided Bunker", "guide": "On orange chair inside hill bunker with hanging corpse." },
+      { "location": "Cult Lookout", "guide": "On pallet stack inside tent west of PIN-K0 radar station." },
+      { "location": "Cliffside Hunter's Blind", "guide": "Beside boxes in hunter's blind northwest of Jefferson tower." },
+      { "location": "Hillside Camp", "guide": "Inside tower at campsite with animal cage west of Oberlin picnic area." },
+      { "location": "Southwest of Clagett Bay", "guide": "On fold-out bed inside bunker next to tree with hanging body." },
+      { "location": "West of Langford Lake", "guide": "On ground behind house among broken dresser furniture." }
     ]
   },
   "perks_system": {
@@ -2668,391 +2158,91 @@
       "Leveling up and playing Far Cry Arcade"
     ],
     "recommended_starter_perks": [
-      {
-        "name": "Parachute",
-        "cost": 1,
-        "reason": "Safe landings when falling or bailing."
-      },
-      {
-        "name": "Grapple",
-        "cost": 1,
-        "reason": "Essential for mountain scaling, caches, and cliffs."
-      },
-      {
-        "name": "Close Combat Gear Bag",
-        "cost": 1,
-        "reason": "Expands sidearm ammo capacity."
-      },
-      {
-        "name": "Wingsuit",
-        "cost": 4,
-        "reason": "Fast mountain navigation and aerial infiltration."
-      },
-      {
-        "name": "Harvest Master",
-        "cost": 8,
-        "reason": "Doubles loot yield from harvested plants and animals for fast cash."
-      }
+      { "name": "Parachute", "cost": 1, "reason": "Safe landings when falling or bailing." },
+      { "name": "Grapple", "cost": 1, "reason": "Essential for mountain scaling, caches, and cliffs." },
+      { "name": "Close Combat Gear Bag", "cost": 1, "reason": "Expands sidearm ammo capacity." },
+      { "name": "Wingsuit", "cost": 4, "reason": "Fast mountain navigation and aerial infiltration." },
+      { "name": "Harvest Master", "cost": 8, "reason": "Doubles loot yield from harvested plants and animals for fast cash." }
     ]
   },
   "challenges": {
     "assault": [
-      {
-        "challenge": "Total Kills",
-        "requirement": "Kill 100 enemies",
-        "reward": 3
-      },
-      {
-        "challenge": "Melee Kills",
-        "requirement": "10 Melee Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Shotgun Kills",
-        "requirement": "10 Shotgun Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "SMG Kills",
-        "requirement": "10 SMG Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Assault Rifle Kills",
-        "requirement": "40 Assault Rifle Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Sniper Kills",
-        "requirement": "10 Sniper Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "LMG Kills",
-        "requirement": "20 Light Machine Gun Kills",
-        "reward": 3
-      },
-      {
-        "challenge": "Arrow Kills",
-        "requirement": "20 Kills with Arrows",
-        "reward": 3
-      },
-      {
-        "challenge": "Flamethrower Kills",
-        "requirement": "10 Flamethrower Kills",
-        "reward": 3
-      },
-      {
-        "challenge": "Grenade Launcher Kills",
-        "requirement": "10 Grenade Launcher Kills",
-        "reward": 3
-      },
-      {
-        "challenge": "Rocket Launcher Kills",
-        "requirement": "10 Rocket Launcher Kills",
-        "reward": 3
-      },
-      {
-        "challenge": "Grenade Kills",
-        "requirement": "15 Grenade Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Dynamite Kills",
-        "requirement": "15 Dynamite Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Molotov Kills",
-        "requirement": "8 Molotov Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Throwing Knife Kills",
-        "requirement": "8 Throwing Knife Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Remote Explosive Kills",
-        "requirement": "3 Remote Explosive Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Proximity Explosive Kills",
-        "requirement": "3 Proximity Explosive Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Headshots",
-        "requirement": "50 Headshot kills with any weapon",
-        "reward": 2
-      },
-      {
-        "challenge": "Hit and Run Kills",
-        "requirement": "Kill 10 enemies with land-based vehicles",
-        "reward": 1
-      },
-      {
-        "challenge": "Airstrike Kills",
-        "requirement": "Kill 8 enemies while being in an aircraft",
-        "reward": 2
-      },
-      {
-        "challenge": "Long Range Kills",
-        "requirement": "Kill 5 enemies from at least 150 meters",
-        "reward": 4
-      },
-      {
-        "challenge": "Saboteur Kills",
-        "requirement": "Kill 3 enemies using the Saboteur Perk on vehicles",
-        "reward": 3
-      },
-      {
-        "challenge": "Standard Takedown Kills",
-        "requirement": "Kill 15 enemies using Standard Takedowns",
-        "reward": 3
-      },
-      {
-        "challenge": "Death From Above Kills",
-        "requirement": "Kill 4 enemies using Death From Above Takedowns",
-        "reward": 3
-      },
-      {
-        "challenge": "Death From Below Kills",
-        "requirement": "Kill 2 enemies using Death From Below Takedowns",
-        "reward": 3
-      },
-      {
-        "challenge": "Chain Takedown Kills",
-        "requirement": "Kill 5 enemies using Chain Takedowns",
-        "reward": 3
-      },
-      {
-        "challenge": "Pistol Takedown Kills",
-        "requirement": "Kill 5 enemies using Pistol Takedowns",
-        "reward": 2
-      },
-      {
-        "challenge": "Handgun Kills",
-        "requirement": "13 Handgun Kills",
-        "reward": 2
-      }
+      { "challenge": "Total Kills", "requirement": "Kill 100 enemies", "reward": 3 },
+      { "challenge": "Melee Kills", "requirement": "10 Melee Kills", "reward": 2 },
+      { "challenge": "Shotgun Kills", "requirement": "10 Shotgun Kills", "reward": 2 },
+      { "challenge": "SMG Kills", "requirement": "10 SMG Kills", "reward": 2 },
+      { "challenge": "Assault Rifle Kills", "requirement": "40 Assault Rifle Kills", "reward": 2 },
+      { "challenge": "Sniper Kills", "requirement": "10 Sniper Kills", "reward": 2 },
+      { "challenge": "LMG Kills", "requirement": "20 Light Machine Gun Kills", "reward": 3 },
+      { "challenge": "Arrow Kills", "requirement": "20 Kills with Arrows", "reward": 3 },
+      { "challenge": "Flamethrower Kills", "requirement": "10 Flamethrower Kills", "reward": 3 },
+      { "challenge": "Grenade Launcher Kills", "requirement": "10 Grenade Launcher Kills", "reward": 3 },
+      { "challenge": "Rocket Launcher Kills", "requirement": "10 Rocket Launcher Kills", "reward": 3 },
+      { "challenge": "Grenade Kills", "requirement": "15 Grenade Kills", "reward": 2 },
+      { "challenge": "Dynamite Kills", "requirement": "15 Dynamite Kills", "reward": 2 },
+      { "challenge": "Molotov Kills", "requirement": "8 Molotov Kills", "reward": 2 },
+      { "challenge": "Throwing Knife Kills", "requirement": "8 Throwing Knife Kills", "reward": 2 },
+      { "challenge": "Remote Explosive Kills", "requirement": "3 Remote Explosive Kills", "reward": 2 },
+      { "challenge": "Proximity Explosive Kills", "requirement": "3 Proximity Explosive Kills", "reward": 2 },
+      { "challenge": "Headshots", "requirement": "50 Headshot kills with any weapon", "reward": 2 },
+      { "challenge": "Hit and Run Kills", "requirement": "Kill 10 enemies with land-based vehicles", "reward": 1 },
+      { "challenge": "Airstrike Kills", "requirement": "Kill 8 enemies while being in an aircraft", "reward": 2 },
+      { "challenge": "Long Range Kills", "requirement": "Kill 5 enemies from at least 150 meters", "reward": 4 },
+      { "challenge": "Saboteur Kills", "requirement": "Kill 3 enemies using the Saboteur Perk on vehicles", "reward": 3 },
+      { "challenge": "Standard Takedown Kills", "requirement": "Kill 15 enemies using Standard Takedowns", "reward": 3 },
+      { "challenge": "Death From Above Kills", "requirement": "Kill 4 enemies using Death From Above Takedowns", "reward": 3 },
+      { "challenge": "Death From Below Kills", "requirement": "Kill 2 enemies using Death From Below Takedowns", "reward": 3 },
+      { "challenge": "Chain Takedown Kills", "requirement": "Kill 5 enemies using Chain Takedowns", "reward": 3 },
+      { "challenge": "Pistol Takedown Kills", "requirement": "Kill 5 enemies using Pistol Takedowns", "reward": 2 },
+      { "challenge": "Handgun Kills", "requirement": "13 Handgun Kills", "reward": 2 }
     ],
     "world": [
-      {
-        "challenge": "Civilians Rescued",
-        "requirement": "Rescue 3 Civilians from the cult",
-        "reward": 2
-      },
-      {
-        "challenge": "Homeopathics Consumed",
-        "requirement": "Consume 6 Homeopathics",
-        "reward": 2
-      },
-      {
-        "challenge": "Distance Travelled by Wingsuit",
-        "requirement": "Travel 2000m by Wingsuit",
-        "reward": 2
-      },
-      {
-        "challenge": "Minutes Spent in Co-op",
-        "requirement": "Spend 60 minutes in Co-op",
-        "reward": 3
-      }
+      { "challenge": "Civilians Rescued", "requirement": "Rescue 3 Civilians from the cult", "reward": 2 },
+      { "challenge": "Homeopathics Consumed", "requirement": "Consume 6 Homeopathics", "reward": 2 },
+      { "challenge": "Distance Travelled by Wingsuit", "requirement": "Travel 2000m by Wingsuit", "reward": 2 },
+      { "challenge": "Minutes Spent in Co-op", "requirement": "Spend 60 minutes in Co-op", "reward": 3 }
     ],
     "guns_for_hire": [
-      {
-        "challenge": "Boomer: Total Kills",
-        "requirement": "Have Boomer Get 10 Kills",
-        "reward": 3
-      },
-      {
-        "challenge": "Nick Rye: Kills From The Air",
-        "requirement": "Have Nick Rye Get 5 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Grace: Sniper Kills",
-        "requirement": "Have Grace Get 5 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Cheeseburger: Total Kills",
-        "requirement": "Have Cheeseburger Get 10 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Jess Black: Total Kills",
-        "requirement": "Have Jess Black Get 5 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Hurk: Total Kills",
-        "requirement": "Have Hurk Get 5 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Peaches: Total Kills",
-        "requirement": "Have Peaches Get 10 Kills",
-        "reward": 3
-      },
-      {
-        "challenge": "Adelaide: Total Kills",
-        "requirement": "Have Adelaide Get 5 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Sharky: Total Kills",
-        "requirement": "Have Sharky Get 5 Kills",
-        "reward": 2
-      },
-      {
-        "challenge": "Fighters: Total Kills",
-        "requirement": "Have Your Fighters Get 15 Kills",
-        "reward": 3
-      }
+      { "challenge": "Boomer: Total Kills", "requirement": "Have Boomer Get 10 Kills", "reward": 3 },
+      { "challenge": "Nick Rye: Kills From The Air", "requirement": "Have Nick Rye Get 5 Kills", "reward": 2 },
+      { "challenge": "Grace: Sniper Kills", "requirement": "Have Grace Get 5 Kills", "reward": 2 },
+      { "challenge": "Cheeseburger: Total Kills", "requirement": "Have Cheeseburger Get 10 Kills", "reward": 2 },
+      { "challenge": "Jess Black: Total Kills", "requirement": "Have Jess Black Get 5 Kills", "reward": 2 },
+      { "challenge": "Hurk: Total Kills", "requirement": "Have Hurk Get 5 Kills", "reward": 2 },
+      { "challenge": "Peaches: Total Kills", "requirement": "Have Peaches Get 10 Kills", "reward": 3 },
+      { "challenge": "Adelaide: Total Kills", "requirement": "Have Adelaide Get 5 Kills", "reward": 2 },
+      { "challenge": "Sharky: Total Kills", "requirement": "Have Sharky Get 5 Kills", "reward": 2 },
+      { "challenge": "Fighters: Total Kills", "requirement": "Have Your Fighters Get 15 Kills", "reward": 3 }
     ],
     "hunting_and_fishing": [
-      {
-        "target": "Deer Skinned",
-        "requirement": "Hunt and skin 1 Deer",
-        "reward": 1
-      },
-      {
-        "target": "Pronghorns Skinned",
-        "requirement": "Hunt and skin 1 Pronghorn",
-        "reward": 1
-      },
-      {
-        "target": "Elks Skinned",
-        "requirement": "Hunt and skin 2 Elks",
-        "reward": 2
-      },
-      {
-        "target": "Caribou Skinned",
-        "requirement": "Hunt and skin 4 Caribou",
-        "reward": 3
-      },
-      {
-        "target": "Bison Skinned",
-        "requirement": "Hunt and skin 3 Bison",
-        "reward": 3
-      },
-      {
-        "target": "Moose Skinned",
-        "requirement": "Hunt and skin 2 Moose",
-        "reward": 3
-      },
-      {
-        "target": "Hares Skinned",
-        "requirement": "Hunt and skin 1 Hare",
-        "reward": 2
-      },
-      {
-        "target": "Boars Skinned",
-        "requirement": "Hunt and skin 2 Boars",
-        "reward": 2
-      },
-      {
-        "target": "Skunks Skinned",
-        "requirement": "Hunt and skin 3 Skunks",
-        "reward": 2
-      },
-      {
-        "target": "Wolverines Skinned",
-        "requirement": "Hunt and skin 3 Wolverines",
-        "reward": 2
-      },
-      {
-        "target": "Wolves Skinned",
-        "requirement": "Hunt and skin 5 Wolves",
-        "reward": 2
-      },
-      {
-        "target": "Cougars Skinned",
-        "requirement": "Hunt and skin 4 Cougars",
-        "reward": 3
-      },
-      {
-        "target": "Black Bears Skinned",
-        "requirement": "Hunt and skin 2 Black Bears",
-        "reward": 2
-      },
-      {
-        "target": "Grizzly Bears Skinned",
-        "requirement": "Hunt and skin 3 Grizzly Bears",
-        "reward": 3
-      },
-      {
-        "target": "Turkeys Skinned",
-        "requirement": "Hunt and skin 2 Turkeys",
-        "reward": 2
-      },
-      {
-        "target": "Eagles Skinned",
-        "requirement": "Hunt and skin 3 Eagles",
-        "reward": 3
-      },
-      {
-        "target": "Kokanees Caught",
-        "requirement": "Catch 1 Kokanee",
-        "reward": 1
-      },
-      {
-        "target": "Arctic Graylings Caught",
-        "requirement": "Catch 1 Arctic Grayling",
-        "reward": 1
-      },
-      {
-        "target": "Golden Trout Caught",
-        "reward": 1,
-        "requirement": "Catch 1 Golden Trout"
-      },
-      {
-        "target": "Rock Bass Caught",
-        "requirement": "Catch 1 Rock Bass",
-        "reward": 1
-      },
-      {
-        "target": "Smallmouths Caught",
-        "requirement": "Catch 1 Smallmouth",
-        "reward": 1
-      },
-      {
-        "target": "Largemouths Caught",
-        "requirement": "Catch 1 Largemouth",
-        "reward": 1
-      },
-      {
-        "target": "Bull Trout Caught",
-        "requirement": "Catch 1 Bull Trout",
-        "reward": 1
-      },
-      {
-        "target": "Lake Trout Caught",
-        "requirement": "Catch 1 Lake Trout",
-        "reward": 1
-      },
-      {
-        "target": "Rainbow Trout Caught",
-        "requirement": "Catch 1 Rainbow Trout",
-        "reward": 1
-      },
-      {
-        "target": "Chinooks Caught",
-        "requirement": "Catch 1 Chinook",
-        "reward": 1
-      },
-      {
-        "target": "Pallid Sturgeons Caught",
-        "requirement": "Catch 1 Pallid Sturgeon",
-        "reward": 3
-      },
-      {
-        "target": "Paddlefishes Caught",
-        "requirement": "Catch 1 Paddlefish",
-        "reward": 3
-      }
+      { "target": "Deer Skinned", "requirement": "Hunt and skin 1 Deer", "reward": 1 },
+      { "target": "Pronghorns Skinned", "requirement": "Hunt and skin 1 Pronghorn", "reward": 1 },
+      { "target": "Elks Skinned", "requirement": "Hunt and skin 2 Elks", "reward": 2 },
+      { "target": "Caribou Skinned", "requirement": "Hunt and skin 4 Caribou", "reward": 3 },
+      { "target": "Bison Skinned", "requirement": "Hunt and skin 3 Bison", "reward": 3 },
+      { "target": "Moose Skinned", "requirement": "Hunt and skin 2 Moose", "reward": 3 },
+      { "target": "Hares Skinned", "requirement": "Hunt and skin 1 Hare", "reward": 2 },
+      { "target": "Boars Skinned", "requirement": "Hunt and skin 2 Boars", "reward": 2 },
+      { "target": "Skunks Skinned", "requirement": "Hunt and skin 3 Skunks", "reward": 2 },
+      { "target": "Wolverines Skinned", "requirement": "Hunt and skin 3 Wolverines", "reward": 2 },
+      { "target": "Wolves Skinned", "requirement": "Hunt and skin 5 Wolves", "reward": 2 },
+      { "target": "Cougars Skinned", "requirement": "Hunt and skin 4 Cougars", "reward": 3 },
+      { "target": "Black Bears Skinned", "requirement": "Hunt and skin 2 Black Bears", "reward": 2 },
+      { "target": "Grizzly Bears Skinned", "requirement": "Hunt and skin 3 Grizzly Bears", "reward": 3 },
+      { "target": "Turkeys Skinned", "requirement": "Hunt and skin 2 Turkeys", "reward": 2 },
+      { "target": "Eagles Skinned", "requirement": "Hunt and skin 3 Eagles", "reward": 3 },
+      { "target": "Kokanees Caught", "requirement": "Catch 1 Kokanee", "reward": 1 },
+      { "target": "Arctic Graylings Caught", "requirement": "Catch 1 Arctic Grayling", "reward": 1 },
+      { "target": "Golden Trout Caught", "reward": 1, "requirement": "Catch 1 Golden Trout" },
+      { "target": "Rock Bass Caught", "requirement": "Catch 1 Rock Bass", "reward": 1 },
+      { "target": "Smallmouths Caught", "requirement": "Catch 1 Smallmouth", "reward": 1 },
+      { "target": "Largemouths Caught", "requirement": "Catch 1 Largemouth", "reward": 1 },
+      { "target": "Bull Trout Caught", "requirement": "Catch 1 Bull Trout", "reward": 1 },
+      { "target": "Lake Trout Caught", "requirement": "Catch 1 Lake Trout", "reward": 1 },
+      { "target": "Rainbow Trout Caught", "requirement": "Catch 1 Rainbow Trout", "reward": 1 },
+      { "target": "Chinooks Caught", "requirement": "Catch 1 Chinook", "reward": 1 },
+      { "target": "Pallid Sturgeons Caught", "requirement": "Catch 1 Pallid Sturgeon", "reward": 3 },
+      { "target": "Paddlefishes Caught", "requirement": "Catch 1 Paddlefish", "reward": 3 }
     ]
   },
   "easter_eggs_and_secrets": [
@@ -3096,161 +2286,87 @@
       "type": "Game Reference",
       "description": "Hired fighters dialogue remarking they wanted to be a deputy until taking a bullet to the knee."
     },
-    {
-      "name": "Big Mouth Billy Bass",
-      "type": "Easter Egg",
-      "description": "Singing novelty fish plaques mounted in buildings."
-    },
-    {
-      "name": "Vaas Bobblehead / Reference",
-      "type": "Franchise Reference",
-      "description": "Nods and assets honoring Vaas Montenegro from Far Cry 3."
-    },
-    {
-      "name": "Ghostbusters",
-      "type": "Pop Culture Reference",
-      "description": "Paranormal research notes and gear nods across cabins."
-    },
-    {
-      "name": "Far Cry Primal",
-      "type": "Franchise Reference",
-      "description": "Cave paintings and prehistoric weapon nods in hidden caverns."
-    },
-    {
-      "name": "Bigfoot's Cave",
-      "type": "Myth / Easter Egg",
-      "description": "Dansky's search and bone-strewn cave from 'Gone Squatchin'."
-    },
-    {
-      "name": "Mannequin Town",
-      "type": "Creepy Easter Egg",
-      "description": "Structures filled with staged mannequins throughout rural compounds."
-    },
-    {
-      "name": "Head in a Chimney",
-      "type": "Visual Gag",
-      "description": "Body part tucked into a brick chimney."
-    }
+    { "name": "Big Mouth Billy Bass", "type": "Easter Egg", "description": "Singing novelty fish plaques mounted in buildings." },
+    { "name": "Vaas Bobblehead / Reference", "type": "Franchise Reference", "description": "Nods and assets honoring Vaas Montenegro from Far Cry 3." },
+    { "name": "Ghostbusters", "type": "Pop Culture Reference", "description": "Paranormal research notes and gear nods across cabins." },
+    { "name": "Far Cry Primal", "type": "Franchise Reference", "description": "Cave paintings and prehistoric weapon nods in hidden caverns." },
+    { "name": "Bigfoot's Cave", "type": "Myth / Easter Egg", "description": "Dansky's search and bone-strewn cave from 'Gone Squatchin'." },
+    { "name": "Mannequin Town", "type": "Creepy Easter Egg", "description": "Structures filled with staged mannequins throughout rural compounds." },
+    { "name": "Head in a Chimney", "type": "Visual Gag", "description": "Body part tucked into a brick chimney." }
   ],
   "trophies_and_achievements": [
-    {
-      "name": "We Always Had Faith In You",
-      "type": "PLATINUM",
-      "description": "Obtain all the Trophies.",
-      "earned": false,
-      "earnedDateTime": null
-    },
-    {
-      "name": "The Spark",
-      "type": "BRONZE",
-      "description": "Complete the game intro by liberating Dutch’s island (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-08-05T14:32:00.000Z"
-    },
-    {
-      "name": "You Are Wrath",
-      "type": "BRONZE",
-      "description": "Be deemed the Sin of Wrath (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-08-11T17:20:00.000Z"
-    },
-    {
-      "name": "Special Delivery",
-      "type": "BRONZE",
-      "description": "Ensure a baby's safe passage into this world (Solo Campaign only).",
-      "earned": false,
-      "earnedDateTime": null
-    },
-    {
-      "name": "Only You",
-      "type": "BRONZE",
-      "description": "Successfully complete the First Trial (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-08-18T12:00:00.000Z"
-    },
-    {
-      "name": "Walk The Path",
-      "type": "BRONZE",
-      "description": "Discover the Bliss (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-08-25T15:10:00.000Z"
-    },
-    {
-      "name": "Scavenger",
-      "type": "SILVER",
-      "description": "Follow the clues to the end of 3 treasure hunts (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-10-25T16:15:30.000Z"
-    },
-    {
-      "name": "Pack Rat",
-      "type": "BRONZE",
-      "description": "Grab 1 of each collectible item (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-08-20T21:10:45.000Z"
-    },
-    {
-      "name": "Peachy Keen",
-      "type": "BRONZE",
-      "description": "Bait Peaches into going back home (Solo Campaign only).",
-      "earned": true,
-      "earnedDateTime": "2026-10-14T22:45:00.000Z"
-    }
-  ],
-  "metrics": [
-    {
-      "id": "rp",
-      "icon": "⭐",
-      "label": "Resistance Pts",
-      "current": 0,
-      "total": 39000,
-      "step": 100
-    },
-    {
-      "id": "outposts",
-      "icon": "🏴",
-      "label": "Outposts",
-      "current": 0,
-      "total": 21,
-      "step": 1
-    },
-    {
-      "id": "cultProperty",
-      "icon": "🔥",
-      "label": "Cult Property",
-      "current": 0,
-      "total": 48,
-      "step": 1
-    },
-    {
-      "id": "stashes",
-      "icon": "📦",
-      "label": "Prepper Stashes",
-      "current": 0,
-      "total": 27,
-      "step": 1
-    },
-    {
-      "id": "roster",
-      "icon": "🐾",
-      "label": "Guns & Fangs",
-      "current": 0,
-      "total": 9,
-      "step": 1
-    },
-    {
-      "id": "collectibles",
-      "icon": "🗂️",
-      "label": "Collectibles",
-      "current": 0,
-      "total": 58,
-      "step": 1
-    }
-  ],
-  "lastSyncTimestamp": "2026-10-27T20:27:26.986Z",
-  "activeUser": "wildhorse_spirit",
-  "mostRecentTrophyEarned": {
-    "name": "Scavenger",
-    "earnedDateTime": "2026-10-25T16:15:30.000Z"
-  }
+    { "name": "We Always Had Faith In You", "type": "Platinum", "description": "Obtain all the Trophies." },
+    { "name": "The Spark", "type": "Bronze / Silver", "description": "Complete the game intro by liberating Dutch’s island (Solo Campaign only)." },
+    { "name": "You Are Wrath", "type": "Bronze / Silver", "description": "Be deemed the Sin of Wrath (Solo Campaign only)." },
+    { "name": "Special Delivery", "type": "Bronze / Silver", "description": "Ensure a baby's safe passage into this world (Solo Campaign only)." },
+    { "name": "Only You", "type": "Bronze / Silver", "description": "Successfully complete the First Trial (Solo Campaign only)." },
+    { "name": "Walk The Path", "type": "Bronze / Silver", "description": "Discover the Bliss (Solo Campaign only)." },
+    { "name": "Together Forever", "type": "Bronze / Silver", "description": "Get to the End (Solo Campaign only)." },
+    { "name": "Saving Deputy Hudson", "type": "Bronze / Silver", "description": "Save Deputy Hudson (Solo Campaign only)." },
+    { "name": "Blissful", "type": "Bronze / Silver", "description": "Save the Marshal from the Bliss (Solo Campaign only)." },
+    { "name": "Saving Sheriff Whitehorse", "type": "Bronze / Silver", "description": "Save Sheriff Whitehorse (Solo Campaign only)." },
+    { "name": "Saving Deputy Pratt", "type": "Bronze / Silver", "description": "Save Deputy Pratt (Solo Campaign only)." },
+    { "name": "Science Fact", "type": "Bronze / Silver", "description": "Put aside skepticism and help Larry (Solo Campaign only)." },
+    { "name": "Ain't No Wallflower", "type": "Bronze / Silver", "description": "Speak to 50 citizens of Hope County (Solo Campaign only)." },
+    { "name": "Been There, Done That", "type": "Bronze / Silver", "description": "Complete all Hunting & Fishing Challenges (Campaign only)." },
+    { "name": "Liberator", "type": "Bronze / Silver", "description": "Liberate 5 locations from the Project at Eden's Gate (Campaign only)." },
+    { "name": "Scavenger", "type": "Bronze / Silver", "description": "Follow the clues to the end of 3 treasure hunts (Solo Campaign only)." },
+    { "name": "What Now?", "type": "Bronze / Silver", "description": "Complete 3 Side Missions in Hope County (Solo Campaign only)." },
+    { "name": "The Greatest SOB That Ever Lived", "type": "Bronze / Silver", "description": "Execute a Clutch Nixon stunt in each region (Solo Campaign only)." },
+    { "name": "Pack Rat", "type": "Bronze / Silver", "description": "Grab 1 of each collectible item (Solo Campaign only)." },
+    { "name": "A Wing And A Prayer", "type": "Bronze / Silver", "description": "Fly Nick's plane (Solo Campaign only)." },
+    { "name": "Troublemaker", "type": "Bronze / Silver", "description": "Destroy cult property in every region (Solo Campaign only)." },
+    { "name": "Sewer Rat", "type": "Bronze / Silver", "description": "Destroy a cult water treatment pump (Solo Campaign only)." },
+    { "name": "Peachy Keen", "type": "Bronze / Silver", "description": "Bait Peaches into going back home (Solo Campaign only)." },
+    { "name": "Kicking the Hornet's Nest", "type": "Bronze / Silver", "description": "Trigger the wrath of a Herald (Solo Campaign only)." },
+    { "name": "The Hurk Locker", "type": "Bronze / Silver", "description": "Destroy 15 vehicles together with Hurk (Campaign only)." },
+    { "name": "Hope County Master Angler", "type": "Bronze / Silver", "description": "Acquire all 4 Fishing Rods (Campaign only)." },
+    { "name": "Locked and Loaded", "type": "Bronze / Silver", "description": "Buy all attachments for one weapon (Campaign only)." },
+    { "name": "Ghost Kill", "type": "Bronze / Silver", "description": "Headshot kill with bow or rifle on any cultist over 150m away (Campaign only)." },
+    { "name": "Extra Crafty", "type": "Bronze / Silver", "description": "Craft 25 recipes (Campaign only)." },
+    { "name": "Fashion First", "type": "Bronze / Silver", "description": "Purchase $1000 in clothing (Campaign only)." },
+    { "name": "Big Spender", "type": "Bronze / Silver", "description": "Spend $50000 in Vehicle Shops (Campaign only)." },
+    { "name": "Stocked Garage", "type": "Bronze / Silver", "description": "Buy 3 vehicles to populate your garage (Campaign only)." },
+    { "name": "Ace Killer", "type": "Bronze / Silver", "description": "Destroy 10 planes while piloting any aerial vehicle (Campaign only)." },
+    { "name": "Squash and Run", "type": "Bronze / Silver", "description": "Run over and kill 20 enemies (Campaign only)." },
+    { "name": "Fertilizing the Land", "type": "Bronze / Silver", "description": "Obliterate 5 enemies using a tractor (Campaign only)." },
+    { "name": "Death From Above", "type": "Bronze / Silver", "description": "Drop a bomb from a plane and destroy/disable 4 vehicles at once (Campaign only)." },
+    { "name": "Opportunity Knocks", "type": "Bronze / Silver", "description": "Distract 15 enemies using rocks or cans (Campaign only)." },
+    { "name": "Road Gunner", "type": "Bronze / Silver", "description": "Kill 25 enemies while driving or leaning out of a vehicle (Campaign only)." },
+    { "name": "Fish Market", "type": "Bronze / Silver", "description": "Sell 20 fish for cash (Campaign only)." },
+    { "name": "Where's the Beef?", "type": "Bronze / Silver", "description": "Tenderize a bull to death with bare hands (Campaign only)." },
+    { "name": "Ignoble Beasts", "type": "Bronze / Silver", "description": "Kill a bison using only melee weapons (Campaign only)." },
+    { "name": "Hitting it Off", "type": "Bronze / Silver", "description": "Play 3 quests with a friend (Campaign only)." },
+    { "name": "Like A Bird", "type": "Bronze / Silver", "description": "Travel more than 5000m using a wingsuit (Campaign only)." },
+    { "name": "Close and Personal", "type": "Bronze / Silver", "description": "Perform 25 close combat Takedown Kills (Campaign only)." },
+    { "name": "Explosive Surprise", "type": "Bronze / Silver", "description": "Kill 5 enemies with sabotaged vehicles (Campaign only)." },
+    { "name": "Survivalist", "type": "Bronze / Silver", "description": "Purchase half of all perks available (Campaign only)." },
+    { "name": "ARCADE Player", "type": "Arcade", "description": "Reach level 20 in the Arcade (Arcade only)." },
+    { "name": "ARCADE Hero", "type": "Arcade", "description": "Play the 'Arcade Hero' mode 5 times (Arcade only)." },
+    { "name": "ARCADE Hunter", "type": "Arcade", "description": "Kill 100 enemies in Arcade Multiplayer maps (Arcade only)." },
+    { "name": "ARCADE Enthusiast", "type": "Arcade", "description": "Successfully complete 10 featured Arcade maps in Solo or Co-op (Arcade only)." },
+    { "name": "ARCADE Competitor", "type": "Arcade", "description": "Win 10 featured maps in Multiplayer (Arcade only)." },
+    { "name": "Infamous", "type": "DLC / New Game+", "description": "Complete New Game+ on Infamous difficulty." },
+    { "name": "DLC Vietnam: Welcome to Nam", "type": "DLC Vietnam", "description": "Get back your gear at the helicopter crash site." },
+    { "name": "DLC Vietnam: Leave no one behind", "type": "DLC Vietnam", "description": "Free the 3 US prisoners of war (Host only)." },
+    { "name": "DLC Vietnam: Make them count", "type": "DLC Vietnam", "description": "Kill a total of 25 enemies with airstrikes (Host only)." },
+    { "name": "DLC Vietnam: Silent Death", "type": "DLC Vietnam", "description": "Perform 25 stealth kills while you have the 4 survival instinct tokens." },
+    { "name": "DLC Vietnam: Wendell's Story", "type": "DLC Vietnam", "description": "Complete the game (Host only)." },
+    { "name": "DLC Vietnam: Roguelike", "type": "DLC Vietnam", "description": "Complete the game in Survivor Mode (Host only)." },
+    { "name": "DLC Vietnam: 80s Hero", "type": "DLC Vietnam", "description": "Complete the game in Action Movie Mode (Host only)." },
+    { "name": "DLC Mars: Welcome to Mars", "type": "DLC Mars", "description": "Reboot the Terminal on top of the Control Center Antenna." },
+    { "name": "DLC Mars: Bug Squasher", "type": "DLC Mars", "description": "Perform 10 takedowns on Arachnids using the Power Glove." },
+    { "name": "DLC Mars: Mars Second Amendment", "type": "DLC Mars", "description": "Buy 12 weapons." },
+    { "name": "DLC Mars: Slimy Death", "type": "DLC Mars", "description": "Hit 10 Arachnids with Crabmones." },
+    { "name": "DLC Mars: Nick's Story", "type": "DLC Mars", "description": "Complete the game (Host Only)." },
+    { "name": "DLC Mars: The Queen is Dead!", "type": "DLC Mars", "description": "Kill all the Queens (Host Only)." },
+    { "name": "DLC Mars: Martian Journal", "type": "DLC Mars", "description": "Collect all of Larry's notes (Host Only)." },
+    { "name": "DLC Zombies: FertiliZer", "type": "DLC Zombies", "description": "Kill 10 Gougers or Hot Heads with the tractor in Fields of Terror." },
+    { "name": "DLC Zombies: Early ExZit Denied", "type": "DLC Zombies", "description": "Try to escape the bridge early in Burned Bridges." },
+    { "name": "DLC Zombies: Blood Zragon", "type": "DLC Zombies", "description": "Kill the Blood Dragon in Killer Climate." },
+    { "name": "DLC Zombies: Killer BeeZ", "type": "DLC Zombies", "description": "Destroy all the Zom-bee nests in Laboratory of the Dead." },
+    { "name": "DLC Zombies: ReZolution", "type": "DLC Zombies", "description": "Complete all 7 movie pitches." },
+    { "name": "DLC Zombies: DeceaZed to ExZist", "type": "DLC Zombies", "description": "Kill 5000 total Gougers, Hot Heads, or Behemoths in any mode." },
+    { "name": "DLC Zombies: Gold MedaliZt", "type": "DLC Zombies", "description": "Get a gold medal in all 7 movie pitches in Score Attack." }
+  ]
 }
